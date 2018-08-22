@@ -1,0 +1,387 @@
+[
+  
+    {
+      "title"    : "Hello World Of Jekyll",
+      "category" : "",
+      "tags"     : "Genel and Yazılım",
+      "url"      : "/hello-world-of-jekyll/",
+      "date"     : "2018-07-27 21:43:01 +0300"
+    } ,
+  
+    {
+      "title"    : "Quantum Computation Language",
+      "category" : "",
+      "tags"     : "Kuantum, Yazılım, grover-algoritması, kuantum-bilgisayar-programlama, Kuantum-Bilgisayarlar, kuantum-hesaplama-dili, kuantum-programlama-dili, kuantum-simülasyon, qcl, quantum-computing, quantum-computing-language, quantum-programming-language, and quantum-programming-language-for-windows",
+      "url"      : "/quantum-computation-language/",
+      "date"     : "2017-05-17 04:08:21 +0300"
+    } ,
+  
+    {
+      "title"    : "Angular Uygulamasının GitHub Page&#39;de Yayınlanması",
+      "category" : "",
+      "tags"     : "angular-cli, angular-cli-ghpages, angular-cli-nedir, angular-github-deploy, Angular-github-hosting, angular-github-pages, angular-github-yükleme, angular-video-anlatım, cli-nedir, and GitHub",
+      "url"      : "/angular-uygulamasinin-github-pagede-yayinlanmasi/",
+      "date"     : "2017-03-24 01:06:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Özgünlük Nedir? Kriterleri Nelerdir?",
+      "category" : "",
+      "tags"     : "akademik-çalışma-hedefleri, akademik-özgünlük, araştırma-yazarlığı-özgünlüğü, çalışmalardaki-özgünlük, özgün-değer, özgün-değer-kriterleri, özgün-değer-nedir, özgünlük-kriterleri-nelerdir, özgünlük-nedir, özgünlüğün-kapsamı, fikir-özgünlüğü, Proje-Yazım, and projelerde-özgün-değer",
+      "url"      : "/ozgunluk-nedir-kriterleri-nelerdir/",
+      "date"     : "2017-03-08 22:41:00 +0300"
+    } ,
+  
+    {
+      "title"    : "TypeScript Nedir?",
+      "category" : "",
+      "tags"     : "ecmascript nedir, neden typescript, neden typescript kullanmalıyız, tsc nedir, TypeScript, typescript amacı nedir, typescript avantajları, typescript özellikleri, typescript derleyicisi nedir, typescript language service nedir, typescript nedir, and typescript vs javascript",
+      "url"      : "/typescript-nedir/",
+      "date"     : "2017-02-25 16:21:00 +0300"
+    } ,
+  
+    {
+      "title"    : "WordPress Zararlı Kod Tespiti",
+      "category" : "",
+      "tags"     : "nulled tema nedir, Theme Authenticity Checker, waordpress backdoor, WordPress, wordpress antivirus, wordpress exploit scanner, wordpress malware plugin, wordpress malware tespiti, wordpress security, wordpress virüs eklentileri, and wordpress virüs tespiti",
+      "url"      : "/wordpress-zararli-kod-tespiti/",
+      "date"     : "2017-02-14 01:05:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Java Lambda Nedir?",
+      "category" : "",
+      "tags"     : "expression, Java, java 8 lambda expression, java 8 lambda nedir, lambda, lambda kullanımı, and lambda nedir",
+      "url"      : "/java-lambda-nedir/",
+      "date"     : "2017-02-08 19:36:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Üniversiteliler İçin indir.com Mobil Uygulama Yarışması Başladı!",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/",
+      "date"     : "2016-02-16 20:17:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Arduino ile Azure Mobile Services Bağlantısı IoT",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/arduino-ile-azure-mobile-services-baglantisi-iot/",
+      "date"     : "2016-01-31 21:37:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft Azure Mobile Services Nasıl Oluşturulur?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/azure-mobile-services-nasil-olusturulur/",
+      "date"     : "2016-01-24 16:47:00 +0300"
+    } ,
+  
+    {
+      "title"    : "e-Health Sensor Platform Arduino Kütüphane Hatası",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/e-health-sensor-platform-arduino-kutuphane-hatasi/",
+      "date"     : "2016-01-22 01:04:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft Azure Mobile Services Nedir?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/azure-mobile-services-nedir/",
+      "date"     : "2016-01-02 16:31:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Android Geliştirici Günleri 2015",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/android-gelistirici-gunleri-2015/",
+      "date"     : "2015-04-12 00:32:00 +0300"
+    } ,
+  
+    {
+      "title"    : "MSP olarak ilk etkinliğim",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/msp-olarak-ilk-etkinligim/",
+      "date"     : "2015-03-13 23:36:00 +0300"
+    } ,
+  
+    {
+      "title"    : "indir.com Mobil Uygulama Yarışması 2015",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/indir-com-mobil-uygulama-yarismasi-2015/",
+      "date"     : "2015-03-06 12:25:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Transcendance - Film &amp; Yapay Zeka İncelemesi",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/transcendance/",
+      "date"     : "2015-02-26 00:49:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Hayallere bir adım daha yaklaşmak!",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-student-partner-2015/",
+      "date"     : "2015-02-25 18:58:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Kuantum Bilgisayar Nedir?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/kuantum-bilgisayar-nedir/",
+      "date"     : "2015-02-15 23:05:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Windows Universal Apps Nedir ?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/windows-universal-apps-nedir/",
+      "date"     : "2015-02-11 21:26:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft Turkey Student Coaching Program Görüşmesi",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-turkey-student-coaching-program-gorusmesi/",
+      "date"     : "2015-02-08 14:58:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Webcam&#39;den Çizgi İzleyen Robot",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/webcam-den-cizgi-izleyen-robot/",
+      "date"     : "2015-01-01 15:57:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Logo renk tahmin oyunu LogoGO",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/logo-renk-tahmin-oyunu-logogo/",
+      "date"     : "2015-01-01 14:21:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft Turkey Student Coaching Program",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-turkey-student-coaching-program/",
+      "date"     : "2014-12-16 22:08:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 10.gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-10-gun/",
+      "date"     : "2014-08-15 21:02:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 9.Gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-9-gun/",
+      "date"     : "2014-08-14 19:20:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 8.gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-8-gun/",
+      "date"     : "2014-08-13 20:34:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 7.Gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-7-gun/",
+      "date"     : "2014-08-12 22:16:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 6.Gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-6-gun/",
+      "date"     : "2014-08-11 23:06:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 5.Gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-5-gun/",
+      "date"     : "2014-08-09 16:47:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 4.Gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-ta-4-gun/",
+      "date"     : "2014-08-07 20:17:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 3.Gün",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/3-gun-2/",
+      "date"     : "2014-08-06 23:11:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 2.Gün Yoğun-ertesi..",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2-gun-yogun-ertesi/",
+      "date"     : "2014-08-05 22:02:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft &#39;ta 1.Gün - Bu yaz bir harika olacak dostum :)",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/1-gun-bu-yaz-bir-harika-olacak-dostum/",
+      "date"     : "2014-08-04 23:41:00 +0300"
+    } ,
+  
+    {
+      "title"    : "WordPress Mail Gönderme (SMTP) Ayarı",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/wordpress-mail-gonderme-smtp-ayari/",
+      "date"     : "2014-07-30 02:30:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft Azure Bulut Hizmeti",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-azure-bulut-hizmeti/",
+      "date"     : "2014-07-17 16:22:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Blend Ders-4 - Blend ile Animasyonlu Buton",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/blend-ders-4-blend-ile-animasyonlu-buton/",
+      "date"     : "2014-07-16 16:25:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft Azure Web Site Hizmeti",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-azure-web-site-servisi/",
+      "date"     : "2014-07-15 13:17:00 +0300"
+    } ,
+  
+    {
+      "title"    : "TFS-2 - Team Foundation Server Nedir? Ne işe yarar?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/tfs-2-team-foundation-server-nedir-ne-ise-yarar/",
+      "date"     : "2014-07-13 17:37:00 +0300"
+    } ,
+  
+    {
+      "title"    : "TFS-1 - ALM - Application Lifecycle Management Nedir ?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/alm-application-lifecycle-management-nedir/",
+      "date"     : "2014-07-12 18:28:00 +0300"
+    } ,
+  
+    {
+      "title"    : "İlk Windows Phone Oyunum TrollAvi",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/ilk-windows-phone-oyunum-trollavi/",
+      "date"     : "2014-05-25 17:15:00 +0300"
+    } ,
+  
+    {
+      "title"    : "dig Komutu nedir? Ne işe yarar?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/dig-komutu-nedir-ne-ise-yarar/",
+      "date"     : "2014-05-10 19:24:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Windows Phone WCF Kullanımı",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/windows-phone-wcf-kullanimi/",
+      "date"     : "2014-04-23 23:30:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Windows &#39;ta dig komutu kullanımı",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/windows-ta-dig-komutu-kullanimi/",
+      "date"     : "2014-04-02 18:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Microsoft SQL Server &#39;ı Manual Olarak Silmek",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/microsoft-sql-server-i-manual-olarak-silmek/",
+      "date"     : "2014-03-30 17:43:00 +0300"
+    } ,
+  
+    {
+      "title"    : "MSSQL Server Microsoft .NET Framework hatası",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/yukleme-esnasinda-microsoft-net-framework-hatasi/",
+      "date"     : "2014-03-27 23:32:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Blend Ders-3 - Blend 4 ile Metro Stil Arayüz Tasarımı",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/blend-ders-3-blend-4-ile-metro-stil-arayuz-tasarimi/",
+      "date"     : "2014-03-07 19:18:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Blend Ders-2 - Blend 4 Çalışma Ortamı",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/blend-ders-2-blend-4-calisma-ortami-2/",
+      "date"     : "2014-02-21 20:53:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Blend Ders-1 - Blend nedir? Ne işe yarar?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/ders-1-blend-nedir-ne-ise-yarar/",
+      "date"     : "2014-02-17 22:25:00 +0300"
+    } 
+  
+]
