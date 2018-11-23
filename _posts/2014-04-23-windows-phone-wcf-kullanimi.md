@@ -215,7 +215,7 @@ listbox1.ItemsSource = e.Result;
 
 <span style="color:#000000;"><em>Additional information: The remote server returned ad error: Not found.</em>
 <p style="text-align:center;">
-    <img src="/images/wcf9wcferrornotfound.jpg"/>
+    <img src="/images/wcf9wcferror.jpg"/>
 </p>
 <br><br>
 
