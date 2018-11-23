@@ -1,4 +1,10 @@
 <div class="c-categories" style="display: none;">
+    <br>
+    <blockquote class="c-categories__message" style="text-align:center;">
+        Ne yazık ki GitHub, kategorileme özelliğini desteklemiyor.
+        Sanırım bu aşamada kullanabileceğin en iyi yöntem yukarıdaki arama özelliği olacaktır.
+      </blockquote>
+      <br>
   <ul class="c-categories__list u-lists-reset">
     {% capture cats %} {% for cat in site.categories %} {{ cat | first }} {% endfor %} {% endcapture %} {% assign sortedCats
     = cats | split: ' ' | sort %} {% for category in sortedCats %}
