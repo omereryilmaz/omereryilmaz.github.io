@@ -11,28 +11,36 @@ tags: [akademik-çalışma-hedefleri, akademik-özgünlük, araştırma-yazarlı
 <p style="text-align:center;">"Adem ne kadar şanslıydı, iyi bir şey söylediğinde kendinden önce kimsenin söylemediğini biliyordu."
 -Mark Twain</p>
 </blockquote>
-&nbsp;
+<br>
 
+<p style="text-align:justify;">
 Özgünlük, akademik çalışmalarda önemli rol oynamaktadır; zaten bilimin temel amacı da daha önce kimsenin söylemediği şeyi söylemek veya yeni bir şey keşfetmektir. Psikolojide kreatif, hayalci veya özgün kişilik ve onun tanımlanması daha erken olmuştur. Bilim tarihçileri ise yenilikçilere veya yenikliklere katkıda bulunanları tanımlamak için “dâhi” ya da daha alçak gönüllü olarak “farklı düşünen” ifadelerini kullanmışlardır. Sosyologlar da yenilikçiliğe yol açan toplumsal faktörlere odaklanmışlardır. Araştırmacılar, bilim insanlarının özgünlüğü nasıl değerlendirdiği konusunu çoğu zaman görmezden gelmiştir. Bütün bunlarla birlikte akademik gözden geçirme sürecinde özgünlüğün nasıl tanımlanacağı akademik değerlendirmede çok büyük bir soru işaretidir. Bu soru genellikle çalışmanın özü aracılığıyla cevaplanabilir. Sorulan sorular, odaklanılan konu, sunulan teori, araştırma tasarımı ve verinin kendisi, özgünlük hakkındaki argümanlara sahip olan öğelerdir. Bu öğeler sayesinde çalışmanın özgünlüğü hakkında fikir edinilebilir[1].
+</p>
+<br>
 <h4>Akademik Çalışmalardaki Özgünlük</h4>
 İki ana başlıkta incelenebilir:
-<ul>
+<ul style="text-align:justify;">
  	<li><strong>Çalışma fikrinin özgünlüğü</strong>: Araştırmacı, analiz için aynı çerçeveyi kullanarak başka bir yerde başka bir araştırma yapılmadığını ispatlamak zorundadır. Daha önceki çalışmaların ne yaptıklarını ve neyi yapmadığını analiz ederek kendi çalışmasında bunu gidermelidir. Yani önceki çalışmadaki bu boşluk kendi çalışmamızdaki özgünlüğü göstermektedir. Araştırmacının bu yaparken farklı dillerden mümkün olduğunca çok literatür taraması yapması gerekmektedir.</li>
 </ul>
 <ul>
  	<li><strong>Araştırma yazarlığı özgünlüğü: </strong>Bunun anlamı da diğer araştırma raporlarının sadece belli bir miktarının benzer olmasına izin verilmesidir. Farklı kurum ve yayıncılar için bu oran %20 ile %25 arasında bir değerdir. Yayıncıların çoğu bunu “Turnitin” gibi çevrimiçi intihal kontrolü yapan yazılımlar ile kontrol etmektedirler [2].</li>
 </ul>
-&nbsp;
+<br>
+
 <h4>Çalışmalardaki Özgünlüğün Sağlanması ve Geliştirilmesi</h4>
-Cryer (1997) özgünlüğün yeniden değerlendirilmesi ve geliştirilmesi için aşağıdaki üç önemli süreci önermiştir:
-<ul>
+<p style="text-align:justify;">
+	Cryer (1997) özgünlüğün yeniden değerlendirilmesi ve geliştirilmesi için aşağıdaki üç önemli süreci önermiştir:
+</p>
+<ul style="text-align:justify;">
  	<li>Özgünlüğün ne anlama geldiğini, nasıl yorumlanabileceğini ve kendini nasıl gösterilebileceğini anlamak</li>
  	<li>Özgünlüğü kolaylaştırmak için yan düşünceler ve yaratıcı beceriler edinmek ve kullanmak</li>
  	<li>Bu becerilerin etkin bir şekilde gelişmesi için kuluçka dönemini oluşturmak</li>
 </ul>
+<p style="text-align:justify;">
 Özetle, çalışmalarda özgünlüğü kolaylaştırmanın yolları olduğunu ancak zaman ve çaba gerektirdiğini öne sürmüştür.
+</p>
+<br>
 
-&nbsp;
 <h4>Akademik seviyelerde çalışmaların hedefleri:</h4>
 <table border="1">
 <tbody>
@@ -58,63 +66,82 @@ Cryer (1997) özgünlüğün yeniden değerlendirilmesi ve geliştirilmesi için
 </tr>
 </tbody>
 </table>
-&nbsp;
-<h3 style="text-align:center;">ÖZGÜNLÜĞÜN KAPSAMI</h3>
+<br>
+
+<h3 >Özgünlüğün Kapsamı</h3>
+<p style="text-align:justify;">
 Özgünlüğün kapsamının değerlendirmenin en iyi yollarından biri, dünyada hâlâ keşfedilmeyen bir şeylerin olduğunu bilmektir. Aslında çalışmalar daha önce keşfi yapılmamış vahşi doğaya yapılan araştırmalara benzetilebilir. Bu benzetmede kaşif, keşif gezilerinin nasıl bir başarıya ulaşacağı hakkında belirli bir görüşe sahip olabilir ancak bunların çoğunun hayata geçirilemeyeceğini ve bu nedenle alternatiflere açık olması gerektiğini bilmelidir.
+</p>
+<br>
 
-&nbsp;
 <h4>Araçlar, teknikler ve prosedürde özgünlük:</h4>
+<p style="text-align:justify;">
 Araştırmacı literatürü araştırır, uzmanlarla görüşür ve temel bilgileri edinmek ve uygun araştırma metodolojisi geliştirmek için eğitime katılır. Bu kısım işlemler, araçlar, teknikler ve muhtemelen dahil edilecek kişiler ilgili kararlar içermektedir. Yeni ve test edilmemiş yollar kullanılırsa veya belirli amaca yönelik yeni prosedürler, araçlar ve teknikler geliştirilirse özgünlük iddiası artmış olacaktır.
+</p>
+<br>
 
-&nbsp;
 <h4>Bilinmeyeni keşfetmekteki özgünlük:</h4>
+<p style="text-align:justify;">
 Araştırmacının daha önce keşfedilmemiş veya araştırılmamış bir  konudaki çalışması bu alana girmektedir. Bu türdeki bir araştırma çalışmasındaki özgünlük daha açıktır. Ama bir çok çalışma alanında özgünlük kriterleri farklılık gösterebilmektedir.
+</p>
+<br>
 
-&nbsp;
 <h4>Beklenmeyen durumlardaki özgünlük:</h4>
+<p style="text-align:justify;">
 Araştırma çalışmasının belli bir aşamasında hiç keşfedilmemiş yeni yollar veya yöntemler ortaya çıkabilir. Bu yöntemler mutlaka özgündür ve onların son derece önemli olduğu ortaya çıkabilir. Öte yandan bu tarz yöntemler zaman veya çaba sarf etmeden de çıkması olasıdır. Araştırmacı bu yeni yöntem ve yollara sonucunda bir yere varılmayacak olsa bile özgünlüğü bakımından yönelebilmektedir.
+</p>
+<br>
 
-&nbsp;
 <h4>Verilerde özgünlük:</h4>
+<p style="text-align:justify;">
 Araştırmacı çalışması sırasında özgünlük kaygısıyla işleme koymadığı çok miktarda veri olabilmektedir. Bu yöntem özgünlük konusunda olası bir yol olmasına rağmen bazen çok da avantajlı olmayabilmektedir. Çünkü dahil ettiği verilerin de önemsiz olma ihtimali söz konusudur. Araştırmacı böyle bir ihtimali göz önünde bulundurarak veriler konusunda daha dikkatli olması gerekmektedir.
+</p>
+<br>
 
-&nbsp;
 <h4>Yöntemde veya kullanım alanında özgünlük</h4>
+<p style="text-align:justify;">
 Araştırma çalışmalarında özgünlük, mutlaka onun yeni veya bilinmeyen bir şey olması gerekmemektedir. Bilinen veya daha önceden yayınlanmış veriler, yeni koşullarda test edildiğinde ortaya özgün durumlar çıkabilmektedir.  Bu durumlarla özgün ve anlamlı bir şeyler ortaya çıkarmak kabul edilebilirdir. Ancak çoğu zaman özgünlüğe giden bu yol araştırmacılar tarafından gözden kaçırılmaktadır.
+<p>
+<br>
 
-&nbsp;
+
 <h4>Yan üründe özgünlük</h4>
+<p style="text-align:justify;">
 Araştırma çalışması sırasında beklenmedik durumlar oluşabilir. Bu durumlar finansman kaynağının geri çekilmesi, ekipmanların çalışmaması gibi ciddi ve öngörülemeyen engeller şeklinde sıralanabilir. Bu tarz engeller karşısında araştırmacı biraz kreatif düşünerek bu durumdan kurtulabilir. Bu durumla gelen aksilik sonucudan herhangi bir ekip parçasının geliştirilmesi sonucu yan ürünler oluşabilir. Bunlara odaklanılabilir ve daha da geliştirilebilir. Ama tabiki araştırma çalışması da eserin yeni doğasını yansıtacak şekilde yeniden formüle edilmelidir.
+</p>
+<br>
 
-&nbsp;
+
 <h4>Yayınlanma potansiyeli olarak özgünlük</h4>
-Özgünlüğü düşünmeyi teşvik etmenin faydalı bir yolu hakemli bir dergide yayınlama potansiyeli kavramıdır. Bu kavram araştırmacının çalışmasındaki özgünlüğü daha anlamlı olarak görmesini sağlamaktadır. Eser veya çalışma yayınlanmaya layık görülmüş olsa bile araştırmacı tarafından yayınlanmak zorunlu değildir ama özellikle doktora düzeyinde bir veya bir kaç tane yayınlanmış dergi makalesi üretebilmelidir. Hakemli bir dergide yayınlanmak üzere kabul edilmiş bir çalışma, kişi için önemli bir artıdır.
+<p style="text-align:justify;">
+Özgünlüğü düşünmeyi teşvik etmenin faydalı bir yolu hakemli bir dergide yayınlama potansiyeli kavramıdır. Bu kavram araştırmacının çalışmasındaki özgünlüğü, daha anlamlı olarak görmesini sağlamaktadır. Eser veya çalışma yayınlanmaya layık görülmüş olsa bile araştırmacı tarafından yayınlanmak zorunlu değildir ama özellikle doktora düzeyinde bir veya bir kaç tane yayınlanmış dergi makalesi üretebilmelidir. Hakemli bir dergide yayınlanmak üzere kabul edilmiş bir çalışma, kişi için önemli bir artıdır.
+</p>
+<br>
 
-&nbsp;
-<h3>ÖZGÜNLÜK KRİTERLERİ</h3>
+<h3>Özgünlük Kriterleri</h3>
 <ul>
- 	<li>Büyük miktardaki yeni verinin ilk kez yazılı olarak sunulması</li>
- 	<li>Mevcut olan eserin ayrıntılarına inilmesi</li>
- 	<li>Yeni bir ürünün oluşturulması veya mevcut ürünün geliştirilmesi</li>
- 	<li>Mevcut bir teorinin farklı olarak yorumlanması</li>
- 	<li>Daha önce yapılmamış deneysel çalışmalar</li>
- 	<li>Bir sorunu çözebilmek için farklı bir metodolojik yaklaşımın kullanılması</li>
- 	<li>Bilgiyi yeni ve farklı şekilde sentezleme</li>
- 	<li>Mevcut veya bilinen bilgiler kullanılarak yeni bir yorum getirme</li>
- 	<li>Başka şartlarda araştırmayı tekrarlama, örneğin farklı bir ülkede</li>
- 	<li>Mevcut fikirleri yeni çalışma alanlarında uygulama</li>
- 	<li>Yeni bir araştırma aracının veye tekniğin geliştirilmesi</li>
- 	<li>Farklı bir yaklaşım benimsemek, örneğin farklı akademik alanlardaki bakış açısı</li>
- 	<li>Araştırmaya dayalı bir çalışma belgesinin geliştirilmesi</li>
- 	<li>Bilgiye daha önce yapılmamış bir şekilde ekleme yapma</li>
- 	<li>Daha önce araştırma yapılmamış bir alan yada konu üzerinde araştırma yapma</li>
- 	<li>Önceden incelenmiş bir konuda eleştirel bir analiz yapma [4]</li>
+ 	<li>Büyük miktardaki yeni verinin ilk kez yazılı olarak sunulması.</li>
+ 	<li>Mevcut olan eserin ayrıntılarına inilmesi.</li>
+ 	<li>Yeni bir ürünün oluşturulması veya mevcut ürünün geliştirilmesi.</li>
+ 	<li>Mevcut bir teorinin farklı olarak yorumlanması.</li>
+ 	<li>Daha önce yapılmamış deneysel çalışmalar.</li>
+ 	<li>Bir sorunu çözebilmek için farklı bir metodolojik yaklaşımın kullanılması.</li>
+ 	<li>Bilgiyi yeni ve farklı şekilde sentezleme.</li>
+ 	<li>Mevcut veya bilinen bilgiler kullanılarak yeni bir yorum getirme.</li>
+ 	<li>Başka şartlarda araştırmayı tekrarlama. Örneğin farklı bir ülkede.</li>
+ 	<li>Mevcut fikirleri yeni çalışma alanlarında uygulama.</li>
+ 	<li>Yeni bir araştırma aracının veye tekniğin geliştirilmesi.</li>
+ 	<li>Farklı bir yaklaşım benimsemek. Örneğin farklı akademik alanlardaki bakış açısı.</li>
+ 	<li>Araştırmaya dayalı bir çalışma belgesinin geliştirilmesi.</li>
+ 	<li>Bilgiye daha önce yapılmamış bir şekilde ekleme yapma.</li>
+ 	<li>Daha önce araştırma yapılmamış bir alan yada konu üzerinde araştırma yapma.</li>
+ 	<li>Önceden incelenmiş bir konuda eleştirel bir analiz yapma [4].</li>
 </ul>
-&nbsp;
-
+<br>
+<p style="text-align:justify;">
 Çalışmalar yukarıdaki kriterlere göre değerlendirilip özgünlük hakkında karar verilebilir. Bütün bu kriterlere rağmen hala çalışmanın özgünlüğüyle ilgili soru işaretleri varsa tez danışmanıyla görüşülebilir. Ayrıca aynı meslekten veya sizi daha iyi tanıyan insanların tecrübelerinden yararlanılabilir.
-
-&nbsp;
+</p>
+<br><br>
 
 
 <strong>Kaynakça:</strong>
