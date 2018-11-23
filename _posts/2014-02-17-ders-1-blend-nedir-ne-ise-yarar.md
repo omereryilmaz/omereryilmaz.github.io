@@ -10,9 +10,15 @@ categories: [Blend, WPF, XAML]
 <p style="text-align:justify;"><span style="color:#000000;">    Uygulamalarımızı yaparken kullanıcıların etkileşim içinde bulundukları arayüzün tasarımı da uygulamamızın işlevi kadar önemlidir. Çünkü biz bile ilk uygulamayı açtığımızda kolay kullanılabilir ve göze hitap etmesine de dikkat ederiz. Bu şekilde kişisel arayüz tasarımları yapmak için imdadımıza Blend yetişir. Blend sayesinde formları ve bileşenleri istediğimiz gibi tasarlayarak klasik form monotonluğundan kurtulmuş oluruz.</span></p>
 &nbsp;
 <p style="text-align:justify;"><span style="color:#000000;">    Blend, <strong>Microsoft Expression</strong> ailesinden  olup <strong>Silverlight</strong> ve <strong>Windows Presentation Foundation</strong> (WPF)  uygulamarı geliştirme ve tasarım ortamıdır.</span></p>
-<p style="text-align:justify;"><img class="size-medium wp-image-46 aligncenter" src="/images/wpfsilver-300x255.jpg" alt="wpfsilver" width="300" height="255" />
+
+<p style="text-align:center;"><img src="/images/wpfsilver.jpg" /></p>
+
 <span style="color:#000000;">   Bu yazıyı okurken konuyla ilgili hevesinizi arttırmak ve Blend ile neler yapabiliriz görebilmeniz açısından Blend ile yaptığım ilk uygulamamın görselini paylaşıyorum.</span></p>
-<img class="size-medium wp-image-43 aligncenter" src="/images/afrezgiris-300x196.jpg" alt="afrezgiris" width="300" height="196" /><img class="size-medium wp-image-44 aligncenter" src="/images/afrezgiris2-300x228.jpg" alt="afrezgiris2" width="300" height="228" />
+
+<p style="text-align:center;"><img src="/images/afrezgiris.jpg" /></p>
+
+<p style="text-align:center;"><img src="/images/afrezgiris2.jpg"/></p>
+
 <p style="text-align:justify;"><span style="color:#000000;">  Blend 'in en güzel yanlarından biri Visual Studio ile paralel olarak çalışabiliyor olmamız. Mesela tasarımızı yaptığımız esnada Visual Studio 'ya geçip o tasarımla ilgili koda müdahale edebiliriz.</span></p>
 <p style="text-align:justify;"><span style="color:#000000;">   Blend ile tasarım yaparken; tasarımla ilgili  koda (XAML) neredeyse hiç müdahale etmeden işlemlerimizi gerçekleştirebiliriz. </span></p>
 <p style="text-align:justify;"><span style="color:#000000;">   Microsoft Expression Studio 4  bu <a href="http://www.microsoft.com/en-us/download/details.aspx?id=5915">linkten</a> temin edebilirsiniz.
