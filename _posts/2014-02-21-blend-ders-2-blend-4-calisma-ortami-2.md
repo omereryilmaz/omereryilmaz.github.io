@@ -12,9 +12,10 @@ categories: [Blend, WPF, XAML]
 
 <p><span style="color:#000000; text-align:justify;">Microsoft Expression Blend 4 programımızı çalıştırıyoruz. Karşımıza şöyle bir ekran çıkacak ;</span></p>
 
+<p style="text-align:center;">
 <a href="/images/ders2_1.jpg"><img class="size-medium wp-image-56 aligncenter" src="/images/ders2_1.jpg" alt="ders2_1" width="251" height="300" /></a>
+</p>
 
-&nbsp;
 <p style="text-align:justify;"><span style="color:#000000;">Bu giriş penceresinden bahsedecek olursak, görüldüğü üzere üç kısımlı tab menüden oluşmaktadır. Bu menüden <strong>Projects</strong> kısmında <strong>New Project</strong> ile <strong>Yeni Proje</strong> veya <strong>Open Project</strong> ile kayıtlı herhangi bir proje açılır. <strong>Help</strong> menüsünden program ile ilgili yardımlara ulaşabilirsiniz. <strong>Samples</strong> kısmında ise bu programla yapılmış çeşitli hazır proje ve oyun örneklerine ulaşabilirsiniz.</span></p>
 <p style="text-align:justify;"><span style="color:#000000;">Biz yeni bir proje yapacağımız için <strong>New Project</strong> 'e tıklıyoruz.</span></p>
 <p style="text-align:center;"><img src="/images/ders2_2.jpg" alt="ders2_2" width="452" height="387" /></p>
