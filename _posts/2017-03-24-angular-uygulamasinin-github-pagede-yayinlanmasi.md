@@ -98,5 +98,5 @@ Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bun
 <strong>Kaynakça:</strong>
 <ul>
  	<li>[1] https://en.wikipedia.org/wiki/Command-line_interface</li>
- 	<li>[2] https://www.npmjs.com/package/angular-cliL</li> 	
+ 	<li>[2] https://www.npmjs.com/package/angular-cli</li> 	
 </ul>
