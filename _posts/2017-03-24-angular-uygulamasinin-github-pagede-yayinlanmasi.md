@@ -54,7 +54,7 @@ Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bun
 
 <h2>Projenin GitHub’a yüklenmesi</h2>
 <p style="text-align:center;">
-    <img src="/images/angular-github-gizli.png"/>
+    <img src="/images/angular_github_gizli.png"/>
 </p>
 <br>
 
@@ -75,11 +75,11 @@ Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bun
  	<li>Bu işlem sona erdiğinde sayfamız yayınlanmış olacaktır. Sayfamızın linkine ise Github &gt; Settings bölümünden ulaşabiliriz.</li>
 </ol>
 <p style="text-align:center;">
-    <img src="/images/angular-github-settings.png"/>
+    <img src="/images/angular_github_settings.png"/>
 </p>
 <br>
 <p style="text-align:center;">
-    <img src="/images/angular-github-pages.png"/>
+    <img src="/images/angular_github_pages.png"/>
 </p>
 <br>
 <p style="text-align:justify;">
