@@ -37,10 +37,10 @@ Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bun
 
 <br>
 <h2>Projenin GitHub’a uygun hale getirilmesi</h2>
-<ol>
+<ul>
  	<li>“<span style="color:#008080;"><strong>cd angular-ornek</strong></span>” ile projemizin klasörüne gidip, yine console üzerinde “<strong><span style="color:#008080;">code .</span></strong>” komutunu çalıştırıp, projenin visual code’da açılmasını sağlıyoruz.</li>
  	<li>Projemizin github üzerinden yayınlanabilmesi için gh-pages branch’ı oluşturmamız lazım, projemiz bu branch üzerinden yayın yapacak. Bunun için aşağıdaki kodu çalıştırırız;</li>
-</ol>
+</ul>
 <p style="text-align:center;"><strong><span style="color:#008080;">npm i -g angular-cli-ghpages</span></strong></p>
 
 <ol start="3">

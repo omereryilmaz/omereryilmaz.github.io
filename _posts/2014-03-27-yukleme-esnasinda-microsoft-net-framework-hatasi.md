@@ -4,7 +4,7 @@ title: MSSQL Server Microsoft .NET Framework hatası
 date: 2014-03-27 23:32
 image: sqlServer_logo.jpg
 comments: true
-categories: [Exception, MSSQLServer]
+categories: [MSSQLServer]
 ---
 
 

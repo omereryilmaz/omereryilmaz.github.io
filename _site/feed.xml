@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Teknolojik bilgiler içeren kişisel web sayfası.</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello World Of Jekyll</title>
+				<description>&lt;p style=&quot;text-align: justify;&quot;&gt;
+Bu yazımla birlikte Jekyll dünyasına adım atmış bulunmaktayım. Beni veritabanı bağımlılığından, wordpress'in sürekli gelen güncellemelerinden kurtaracak olan bu arkadaş, statik sayfanın hızını sunarken, dinamik sayfanın konforunu aratacak mı bilmiyorum. Kişisel websiteleri için dinamik sayfalara imkan sağlayan wordpress gibi teknolojiler biraz kaynak israfı gibi. Bu teknolojide Github hosting olarak kullanılarak, hosting masraflarından da kurtulmuş oluyoruz.  
+&lt;/p&gt;
+&lt;p&gt;
+Şimdilik ilk kelimelerim bu kadar olsun, sonra güncellerim. Sanırım...
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Aylar sonra gelen g&amp;uuml;ncelleme (Y&amp;uuml;zeysel deneyimlerim) (2018, NOV 24);&lt;/h4&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Wordpress'den Jekyll'e ge&amp;ccedil;tiğimden beri i&amp;ccedil;inde olduğum yoğunluktan dolayı bu yazı hari&amp;ccedil; hen&amp;uuml;z yeni bir blog yazısı yazmış değilim ama bu Jekyll'e ge&amp;ccedil;iş d&amp;ouml;neminde karşılaştığım bazı şeyleri kısaca yazmaya &amp;ccedil;alışacağım.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Wordpress'den &amp;ccedil;evrilen makaleleri tek tek tekrar d&amp;uuml;zenlemek gerekiyor. Resim kaynak yolları, Wordpress'de eklenti kullarak oluşturulan tablo veya kodlar v.s.&amp;nbsp;&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Yazılarınızdaki en ufak d&amp;uuml;zenlemenizde (&amp;Ouml;rn. nokta koymayı unuttuğunuzda) tekrar build edip tekrar github'a push etmeniz gerekiyor. Build edilmeyen değişiklikler ge&amp;ccedil;ersiz sayılıyor.&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Wordpress veya Blogger gibi teknolojilerde alışılmış yazı yazıp anında yayınlama veya d&amp;uuml;zenleme konforu yerine frontend developer tarzına bırakıyor. Basit bir html edit&amp;ouml;r işinizi kolaylaştırabilir. (&amp;ouml;rn. &lt;a href=&quot;https://htmled.it/editoru/ &quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;htmled.it&lt;/a&gt;)&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Frontend demişken, Jekyll saf haldeyken (eklentisiz) Bootstrap'ı ne yazıkki desteklemiyor. Desteklemesi i&amp;ccedil;in ekstra baya ayar yapılması gerekiyor. Hen&amp;uuml;z o işlere girmedim. Belki basit bir yolu da vardır, bulamadım.&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Jekyll, eklentiyle (benim kullandığım temada mevcuttu) blog yazılarınızı kategorilemeye imkan sağlıyor ama ne yazık ki GitHub bunu desteklemiyor. Destekleyen &amp;uuml;cretli hosting firmaları var(mış).&amp;nbsp;&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Jekyll'e ge&amp;ccedil;tiğinizde yazı linklerinizin aynı olmasına dikkat etmeniz, Google başta olmak &amp;uuml;zere diğer arama motorlarındaki yerinizi koruyacaktır.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Yazılarınızda kullandığınız resimleri isimlendirirken dikkat etmenizde fayda var. Yazılarınız çoğaldıkça resim isimlerinizin çakışma ihtimali daha da artacaktır. Benim önerim her yazının resimleri için ayrı klasör oluşturmanız (/images/yazinizin_ismi). Ayrıca resim isimlendirmede kullanılan büyük ve küçük harfler github'a push ettiğinizde başınıza bela olabiliyor. Bu sorun için de resim isimlendirmelerinde sadece küçük harf kullanmanız bu sorunun önüne geçecektir.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Fri, 27 Jul 2018 21:43:01 +0300</pubDate>
+				<link>http://localhost:4000/hello-world-of-jekyll/</link>
+				<guid isPermaLink="true">http://localhost:4000/hello-world-of-jekyll/</guid>
+			</item>
+		
+			<item>
+				<title>Quantum Computation Language</title>
+				<description>&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#333333;&quot;&gt;QCL (Quantum Computation Language) Nedir?&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle2&quot; style=&quot;color:#000000;&quot;&gt;QCL (Kuantum Hesaplama Dili),  kuantum bilgisayarlar için mimariden bağımsız yüksek seviyeli bir programlama dilidir. Kuantum algoritmalarının eksiksiz uygulanmasını ve simülasyonunu sağlar[1].&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;img class=&quot;aligncenter wp-image-917 size-full&quot; src=&quot;/images/qcl-mimarisi.png&quot; alt=&quot;&quot; width=&quot;760&quot; height=&quot;414&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; Şekil 1.&lt;/strong&gt; QCL’nin Hibrit Mimarisi [2].&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;QCL dili C++ ile yazılmış yorumlayıcı program üzerinden kullanılabilmektedir. Kuantum arkaplanını taklit etmek için sayısal simülasyon kütüphanesini (libqc) kullanmaktadır. Bu program açık kaynak olarak geliştirilmiştir ve &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;http://tph.tuwien.ac.at/~oemer/qcl.html &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;adresinden temin edinilebilir. En son sürümü 0.6.4 versiyon numarasıyla 2014 yılında yayınlanmıştır.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#333333;&quot;&gt;Yorumlayıcının Çalıştırılması (Windows İçin):&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot; style=&quot;color:#000000;&quot;&gt;Dil Linux’a uyumlu çıkarıldığı için Windows’da çalışması bazı özel ayarların yapılması gerekmektedir. Bunun için öncelikle Cygwin aracının indirilmesi (https://cygwin.com) ve kurulum sırasında da aşağıda belirtilen paketlerin seçilip indirilmesi gerekmektedir[3].&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;&lt;strong&gt;Yükleme esnasında seçilip indirilmesi istenen paketler:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Devel altındaki..&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;bison&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;flex&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;gcc-g++&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;libreadline-devel&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;make&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;
+Graphics altındaki..&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;libplotter-devel&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Libs altındaki..&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;libncurses-devel
+&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;libX11-devel&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;libXt-devel
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;Web altındaki..&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;wget&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;İndirme ve yükleme işlemi tamamlandıktan sonra Cygwin programı yönetici modda açılıp, aşağıda belirtilen komutlar çalıştırılır. (Bu komutlar o andaki mevcut QCL sürümlerine göre değişiklik gösterebilir.)&lt;/span&gt; Aşağıdaki komutlar,  &lt;span class=&quot;fontstyle0&quot;&gt;QCL kaynak kodları bilgisayara indirir ve sıkıştırılmış halde olan dosyayı indirildiği dizine çıkarır.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;$ wget http://tph.tuwien.ac.at/~oemer/tgz/qcl-0.6.4.tgz
+$ tar xvzf qcl-0.6.4.tgz&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Daha sonra  i&lt;span class=&quot;fontstyle0&quot;&gt;ndirilen QCL kaynak kodu aşağıdaki komutlar kullanılarak derlenir.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;$ cd qcl-0.6.4
+$ make&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;QCL yorumlayıcısını/simülatörünü çalıştırmak içinde aşağıdaki komut kullanılır.&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;$ ./qcl&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;QCL çalıştığında komut satırında aşağıdakine benzer bir çıktının elde edileceği görülecektir.&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;QCL Quantum Computation Language (64 qubits, seed 1494298832)
+[0/64] 1 |0&amp;gt;
+qcl&amp;gt;&lt;/pre&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h6&gt;&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#333333;&quot;&gt;QCL ‘deki Bazı Önemli Noktalar&lt;/span&gt;
+&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Veri Tipleri ve Değişkenler&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-veritipi.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-890&quot; src=&quot;/images/qcl-veritipi.png&quot; alt=&quot;&quot; width=&quot;491&quot; height=&quot;166&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Tablo 1:&lt;/strong&gt; Klasik veri tipleri&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span class=&quot;fontstyle3&quot;&gt;
+&lt;/span&gt;&lt;strong&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Örnek: &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span class=&quot;fontstyle3&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Bir değişkenin tanımlanması.&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;qcl&amp;gt; int a; //degiskenin tanimlanmasi
+qcl&amp;gt; a=17; //degiskene deger atanmasi
+qcl&amp;gt; print a; //degiskenin ekrana basilmasi&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt; Operatörler &lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-op.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-889&quot; src=&quot;/images/qcl-op.png&quot; alt=&quot;&quot; width=&quot;449&quot; height=&quot;473&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; Tablo 2:&lt;/strong&gt; QCL operatörler &lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; &lt;span class=&quot;fontstyle0&quot;&gt;Fonksiyonlar&lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-func.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-888&quot; src=&quot;/images/qcl-func.png&quot; alt=&quot;&quot; width=&quot;643&quot; height=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; Tablo 3:&lt;/strong&gt; QCL Aritmatik fonksiyonlar &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; &lt;span class=&quot;fontstyle0&quot;&gt;Örnek: &lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;fontstyle2&quot;&gt;Bir sayının logaritmasının hesaplanması ( log&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;2 &lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;32 = 5 )&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;qcl&amp;gt; print log(32,2);
+: 5&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Diğer Fonksiyonlar&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-other-func.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-892&quot; src=&quot;/images/qcl-other-func.png&quot; alt=&quot;&quot; width=&quot;780&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; Tablo 4:&lt;/strong&gt; QCL diğer fonksiyonlar &lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ 	&lt;li style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Girdi (Input)&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;Konsoldan girdi değerleri “input” komutuyla alınır.
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;qcl&amp;gt; int sayi;
+qcl&amp;gt; input &quot;Bir sayi giriniz : &quot;,sayi;
+? Bir sayi giriniz : 35&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; &lt;span class=&quot;fontstyle0&quot;&gt;Çıktı (Output)&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle2&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Çıktılar ekrana “print” komutuyla basılır. Virgülle ayrılmış ifade veya değişkenlerin listesini konsol ekranına yazdırır.&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;qcl&amp;gt; int i=3; real x=pi; complex z=(0,1); boolean b;
+qcl&amp;gt; print i,x,z,b;
+: 3 3.14159 (0,1) false&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;strong&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt; Koşullu İfadeler (If - else)&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle2&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Koşullu ifadeler klasik programlama dillerinde olduğu gibi “if - else” komutlarıyla&lt;/span&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;gerçekleştirilir.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;fontstyle2&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Örnek:&lt;/span&gt;&lt;/strong&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;qcl&amp;gt; int a=1; int b=2;
+if (a==b) {print &quot;a esittir b ye.&quot;;} else {print &quot;a esit degildir b ye.&quot;;}
+: a esit degildir b ye.&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;strong&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt; Döngüler&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle1&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Döngüler “for” komutuyla oluşturulur. For içerisinde integer bir sayaç tanımlanır ve bu sayaç süresince ilgili bloğun tekrar tekrar çalıştırılması sağlanır.&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;qcl&amp;gt; int i;
+qcl&amp;gt; for i=10 to 0 step -2 {print &quot;sayi : &quot;,i;}
+: sayi : 10
+: sayi : 8
+: sayi : 6
+: sayi : 4
+: sayi : 2
+: sayi : 0&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt; &lt;span class=&quot;fontstyle0&quot;&gt;&lt;strong&gt;Koşullu Döngüler&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;Döngüler koşul sağlandığı müddetçe devam ettirilir. Bu durum “until” veya “while” komutuyla sağlanır. “until” de önce ilgili blok çalıştırılır sonra koşul kontrol ettirilir, “while” da ise önce koşul kontrol edilir sonra blok çalıştırılır.
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Örnek:&lt;/span&gt;&lt;/strong&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;qcl&amp;gt; {print &quot;i degeri : &quot;,i,&quot; oldu.&quot;; i=i-1;}until i==0;
+: i degeri : 5 oldu.
+: i degeri : 4 oldu.
+: i degeri : 3 oldu.
+: i degeri : 2 oldu.
+: i degeri : 1 oldu.&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;veya&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;while i&amp;gt;0 {print &quot;i degeri : &quot;,i,&quot; oldu.&quot;; i=i-1;};
+: i degeri : 5 oldu.
+: i degeri : 4 oldu.
+: i degeri : 3 oldu.
+: i degeri : 2 oldu.
+: i degeri : 1 oldu.&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;Kuantum Depolama ve Kayıtçılar (Registers)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle2&quot; style=&quot;color:#000000;&quot;&gt;Kuantum bilgisayarlarda olduğu gibi QCL’de de en küçük depolama birimi &lt;strong&gt;qubit&lt;/strong&gt;’tir. QCL’de qubit formatında değişken tanımlanması klasik programlamadaki pointer’lar gibi bellekten alan tahsisiyle gerçekleştirilmektedir. Simülasyon ortamı olarak 32 veya 64 qubitlik alan tahsisi etmemize imkan sağlamaktadır. Bu değişken tanımı ve alan tahsisi işlemi için “&lt;strong&gt;qureg&lt;/strong&gt;” komutu kullanılmaktadır. “&lt;strong&gt;dump&lt;/strong&gt;” komutu ise değişkenimizin bra-ket notasyonunda ekrana basılmasını sağlar. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-bloch-kuresi.png&quot;&gt;&lt;img class=&quot;aligncenter wp-image-895&quot; src=&quot;/images/qcl-bloch-kuresi.png&quot; alt=&quot;&quot; width=&quot;337&quot; height=&quot;295&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-1-qubit.png&quot;&gt;&lt;img class=&quot;aligncenter wp-image-896&quot; src=&quot;/images/qcl-1-qubit.png&quot; alt=&quot;&quot; width=&quot;276&quot; height=&quot;39&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Şekil 2.&lt;/strong&gt; Bloch küresi üzerinde bir qubit'in durumu&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;qcl&amp;gt; qureg x[1]; // 1 qubitlik x isminde alan ayir
+qcl&amp;gt; dump; // x degiskenini braket notasyonunda ekrana bas.
+: STATE: 1 / 64 qubits allocated, 63 / 64 qubits free
+1 |0&amp;gt;&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt; &lt;span class=&quot;fontstyle0&quot;&gt;Kapılar&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span class=&quot;fontstyle1&quot; style=&quot;color:#000000;&quot;&gt;Kuantum bilgisayarlar kapılar tersinebilir (reversible) özelliklidir. Yani bir girdi için aldığımız sonuca, aynı işlemi uyguladığımızda başlangıçtaki girdi değerini elde edebilir. Örneğin, ket 0 ifadesine bir Not kapısı uyguladık diyelim; Not (|0&amp;gt;) = |1&amp;gt; elde ederiz. Daha sonra elde ettiğimiz sonuç olan ket 1’e tekra Not kapısı uygularsak Not(|1&amp;gt;) = |0&amp;gt; ket 0’ı yani başlangıçtaki durumu elde etmiş oluruz.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle1&quot;&gt;
+&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;strong&gt;Bazı önemli kapılar&lt;/strong&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot; style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Pauli Kapıları:&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;X, Y ve Z Pauli kapıları, Bloch küresinde(Şekil 2) sırasıyla x,y ve z eksenleri etrafında döndürmelere &lt;span class=&quot;fontstyle1&quot;&gt;karşılık gelmektedir. Matrissel gösterim şekilleri aşağıdaki gibidir.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;/images/qcl-pauli-gates.png&quot;&gt;&lt;img class=&quot;aligncenter wp-image-897&quot; src=&quot;/images/qcl-pauli-gates.png&quot; alt=&quot;&quot; width=&quot;239&quot; height=&quot;114&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Şekil 3&lt;/strong&gt;. Pauli Kapılarının matrissel gösterimi&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;qcl&amp;gt; qureg a[1];
+qcl&amp;gt; dump;
+: STATE: 1 / 64 qubits allocated, 63 / 64 qubits free
+1 |0&amp;gt;
+qcl&amp;gt; Not(a);
+[1/64] 1 |1&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle1&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Tersinebilir (reversible) özelliği&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true&quot;&gt;qcl&amp;gt; Not(a);
+[1/64] 1 |0&amp;gt;&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Hadamard Kapısı:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;fontstyle2&quot; style=&quot;color:#000000;&quot;&gt;Bu kapı qubitleri süperpozisyon durumuna getirmektedir. Aşağıda gösterildiği gibi H matrisi ile ifade edilmektedir. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;a href=&quot;/images/qcl-hadamard-gate.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-898&quot; src=&quot;/images/qcl-hadamard-gate.png&quot; alt=&quot;&quot; width=&quot;219&quot; height=&quot;80&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Şekil 4.&lt;/strong&gt; Hadamard kapısının matrissel ifadesi&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;a href=&quot;/images/qcl-hadamard-one-qubit.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-899&quot; src=&quot;/images/qcl-hadamard-one-qubit.png&quot; alt=&quot;&quot; width=&quot;207&quot; height=&quot;83&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Şekil 5.&lt;/strong&gt; Hadamard kapısının Ket 0 ve Ket 1'e etkisi&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;qcl&amp;gt; qureg a[1]; // 1 qubitlik degisken tanimla
+qcl&amp;gt; dump; // bra-ket notasyonunda goster
+: STATE: 1 / 64 qubits allocated, 63 / 64 qubits free
+1 |0&amp;gt;
+qcl&amp;gt; H(a); // a degiskenine Hadamard uygula
+[1/64] 0.70711 |0&amp;gt; + 0.70711 |1&amp;gt;&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Mevcut Kütüphane ve Algoritmaların Çalıştırılması&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;QCL ile birlikte birkaç tane kütüphane ve hazır yazılmış algoritmalar gelmektedir. Bu kütüphaneler QCL'nin bulunduğu dizinde lib klasörü altında bulunmaktadır (Benim bilgisayarımda bulunduğu yer C:qcllib). Buradaki kütüphaneleri kodumuza dahil edip kullanabilmek için aşağıdaki komutları uygulamamız gerekmektedir.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Örnek:&lt;/strong&gt; Mevcut Grover arama algoritmasının çalıştırılması.&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;theme:dark-terminal toolbar:1 lang:default decode:true &quot;&gt;omer@OMR ~
+$ cd qcl-0.6.4 //qcl nin bulundugu dizine git
+
+omer@OMR ~/qcl-0.6.4
+$ ./qcl //qcl yi calistir
+QCL Quantum Computation Language (64 qubits, seed 1494971969)
+[0/64] 1 |0&amp;gt;
+qcl&amp;gt; include &quot;grover.qcl&quot;; //grover isimli kutuphaneyi dahil et
+qcl&amp;gt; grover(50); //grover kutuphanesinde bulunan grover() fonk. calistir
+: 6 qubits, using 4 iterations
+: measured 50&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kaynakça:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] Bernhard Omer. Mar 27 2014. http://tph.tuwien.ac.at/~oemer/qcl.html&lt;/li&gt;
+ 	&lt;li&gt;[2] Bernhard Omer. Jan 20 2000. Quantum Programming in QCL&lt;/li&gt;
+ 	&lt;li&gt;[3] Brian Pursley. Dec 20 2015. https://blog.cinlogic.com/2015/12/20/running-qcl-quantum-computationlanguage-on-windows/&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Wed, 17 May 2017 04:08:21 +0300</pubDate>
+				<link>http://localhost:4000/quantum-computation-language/</link>
+				<guid isPermaLink="true">http://localhost:4000/quantum-computation-language/</guid>
+			</item>
+		
+			<item>
+				<title>Angular Uygulamasının GitHub Page'de Yayınlanması</title>
+				<description>&lt;p style=&quot;text-align:center;&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b5HbOyRKw8Q&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Angular CLI&lt;/h1&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Angular CLI, Angular uygulamalar için oluşturulmuş ember-cli temeline dayanan bir CLI'dır (&lt;em&gt;Command Line Interface CLI, Command Line User-Interface olarak da bilinir. Kullanıcının veya istemcinin ardışık olarak komutlar göndererek etkileşim kurmasını sağlar.&lt;/em&gt;). Angular uygulamalarını başlangıç durumununa getiren (initialize), iskelet yapısınının oluşturulmasını sağlayan (scaffold) ve bakım işlemlerinin yapılmasını (maintain) kolaylaştıran bir araçtır. Bilindiği üzere bir Angular uygulamasını ayağa kaldırmak biraz zahmetli bir iştir. Bu zahmetli işi bir kaç komut satırıyla bizim yerimize yapıp uygulamanın ayağa kaldırılmasını sağlar.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Angular CLI ve uygulamanın bağımlılıkları (dependencies) için Node 4 veya daha üst sürümüyle birlikte NPM 3 veya daha üst sürümünün bilgisayarınızda kurulu olması gerekmektedir.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bunu Github üzerinde bir web sayfası olarak yayınlamaya çalışacağız.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Angular CLI ile Angular Uygulamasının Oluşturulması&lt;/h2&gt;
+&lt;ol&gt;
+ 	&lt;li&gt;Comand Prompt’la hangi klasöre projemizi oluşturacaksak cd komutuyla o klasöre gidiyoruz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;cd C:\AngularOrnekler&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol start=&quot;2&quot;&gt;
+ 	&lt;li&gt;“&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;npm install -g angular-cli&lt;/span&gt;&lt;/strong&gt;” Angular-Cli ‘ı indiriyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“&lt;span style=&quot;color:#008080;&quot;&gt;&lt;strong&gt;ng new angular-ornek&lt;/strong&gt;&lt;/span&gt;” komutuyla ilgili klasöre projemizi oluşturuyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;cd angular-ornek&lt;/span&gt;&lt;/strong&gt;” komutuyla projemizin bulunduğu klasöre gidiyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;ng serve&lt;/span&gt;&lt;/strong&gt;” komutuyla projemizi test etmek için çalıştırıyoruz.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;Projenin GitHub’a uygun hale getirilmesi&lt;/h2&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;“&lt;span style=&quot;color:#008080;&quot;&gt;&lt;strong&gt;cd angular-ornek&lt;/strong&gt;&lt;/span&gt;” ile projemizin klasörüne gidip, yine console üzerinde “&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;code .&lt;/span&gt;&lt;/strong&gt;” komutunu çalıştırıp, projenin visual code’da açılmasını sağlıyoruz.&lt;/li&gt;
+ 	&lt;li&gt;Projemizin github üzerinden yayınlanabilmesi için gh-pages branch’ı oluşturmamız lazım, projemiz bu branch üzerinden yayın yapacak. Bunun için aşağıdaki kodu çalıştırırız;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;npm i -g angular-cli-ghpages&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol start=&quot;3&quot;&gt;
+ 	&lt;li&gt;Package.json içerisine şu satırı ekliyoruz;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;“scripts”: { &lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;“deploy”: “ng build -sm -ec -bh /repo ismi/ &amp;amp; ngh –no-silent”&lt;/span&gt;&lt;/strong&gt;,…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOT :&lt;/strong&gt; 3.maddedeki repo ismini daha önceden github sayfanızda oluşturduğunuz repository ismi olacak.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Projenin GitHub’a yüklenmesi&lt;/h2&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/angular_github_gizli.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+ 	&lt;li&gt;Öncelikle yukarıdaki resimdeki gösterilen “&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt; .git&lt;/span&gt; &lt;/strong&gt;“ dosyasını siliyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“&lt;strong&gt; &lt;span style=&quot;color:#008080;&quot;&gt;git init&lt;/span&gt; &lt;/strong&gt;” komutuyla git işlemini başlatıyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“ &lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;git add .&lt;/span&gt;&lt;/strong&gt; “ komutuyla yeni veya modifiye edilmiş dosyaları göndermek için hazırlıyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“ &lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;git commit -m &quot;My first commit&quot;&lt;/span&gt;&lt;/strong&gt; “ ilk commit’imizi oluşturuyoruz.&lt;/li&gt;
+ 	&lt;li&gt;&quot; &lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;git remote add origin https://githubrepoadresi.git&lt;/span&gt;&lt;/strong&gt; &quot; komutunu çalıştırıp github bağlantısını oluşturuyoruz.&lt;/li&gt;
+ 	&lt;li&gt;“ &lt;span style=&quot;color:#008080;&quot;&gt;&lt;strong&gt;git remote&lt;/strong&gt;&lt;/span&gt; “ yazıp var olan bağlantıların listesini görebiliriz.&lt;/li&gt;
+ 	&lt;li&gt;&quot; &lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;git push -u origin master&lt;/span&gt;&lt;/strong&gt; &quot; komutuyla projemizin tüm dosyalarını( -u ) github a gönderiyoruz.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;Angular Sayfasının GitHub’a Deploy Edilmesi&lt;/h2&gt;
+&lt;ol&gt;
+ 	&lt;li&gt;“ &lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt;npm run deploy&lt;/span&gt;&lt;/strong&gt; “ komutuyla deploy işlemini başlatıyoruz.&lt;/li&gt;
+ 	&lt;li&gt;Bu işlem sona erdiğinde sayfamız yayınlanmış olacaktır. Sayfamızın linkine ise Github &amp;gt; Settings bölümünden ulaşabiliriz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/angular_github_settings.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/angular_github_pages.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+  &lt;strong&gt;Not: &lt;/strong&gt;Uygulamamızı deploy ettikten sonra herhangi bir güncelleme yaptıysak; bu güncellemenin sayfamızda gerçekleşmesi için öncelikle yaptığımız değişikliği commit etmemiz ve “&lt;strong&gt;&lt;span style=&quot;color:#008080;&quot;&gt; npm run deploy&lt;/span&gt;&lt;/strong&gt; ” komutunu tekrardan çalıştırarak deploy işlemini tekrarlamamız gerekmektedir (Yapılan değişiklikler birkaç dakika sonra sayfaya yansıyacaktır).
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kaynak Kodlar : &lt;/strong&gt;
+&lt;a href=&quot;https://github.com/omreryilmaz/angular-ornek&quot;&gt;&lt;strong&gt;https://github.com/omreryilmaz/angular-ornek&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Demo : &lt;/strong&gt;&lt;a href=&quot;https://omreryilmaz.github.io/angular-ornek/&quot;&gt;&lt;strong&gt;https://omreryilmaz.github.io/angular-ornek/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kaynakça:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] https://en.wikipedia.org/wiki/Command-line_interface&lt;/li&gt;
+ 	&lt;li&gt;[2] https://www.npmjs.com/package/angular-cli&lt;/li&gt; 	
+&lt;/ul&gt;
+</description>
+				<pubDate>Fri, 24 Mar 2017 01:06:00 +0300</pubDate>
+				<link>http://localhost:4000/angular-uygulamasinin-github-pagede-yayinlanmasi/</link>
+				<guid isPermaLink="true">http://localhost:4000/angular-uygulamasinin-github-pagede-yayinlanmasi/</guid>
+			</item>
+		
+			<item>
+				<title>Özgünlük Nedir? Kriterleri Nelerdir?</title>
+				<description>&lt;blockquote&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&quot;Adem ne kadar şanslıydı, iyi bir şey söylediğinde kendinden önce kimsenin söylemediğini biliyordu.&quot;
+-Mark Twain&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Özgünlük, akademik çalışmalarda önemli rol oynamaktadır; zaten bilimin temel amacı da daha önce kimsenin söylemediği şeyi söylemek veya yeni bir şey keşfetmektir. Psikolojide kreatif, hayalci veya özgün kişilik ve onun tanımlanması daha erken olmuştur. Bilim tarihçileri ise yenilikçilere veya yenikliklere katkıda bulunanları tanımlamak için “dâhi” ya da daha alçak gönüllü olarak “farklı düşünen” ifadelerini kullanmışlardır. Sosyologlar da yenilikçiliğe yol açan toplumsal faktörlere odaklanmışlardır. Araştırmacılar, bilim insanlarının özgünlüğü nasıl değerlendirdiği konusunu çoğu zaman görmezden gelmiştir. Bütün bunlarla birlikte akademik gözden geçirme sürecinde özgünlüğün nasıl tanımlanacağı akademik değerlendirmede çok büyük bir soru işaretidir. Bu soru genellikle çalışmanın özü aracılığıyla cevaplanabilir. Sorulan sorular, odaklanılan konu, sunulan teori, araştırma tasarımı ve verinin kendisi, özgünlük hakkındaki argümanlara sahip olan öğelerdir. Bu öğeler sayesinde çalışmanın özgünlüğü hakkında fikir edinilebilir[1].
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Akademik Çalışmalardaki Özgünlük&lt;/h4&gt;
+&lt;p&gt;İki ana başlıkta incelenebilir:&lt;/p&gt;
+&lt;ul style=&quot;text-align:justify;&quot;&gt;
+ 	&lt;li&gt;&lt;strong&gt;Çalışma fikrinin özgünlüğü&lt;/strong&gt;: Araştırmacı, analiz için aynı çerçeveyi kullanarak başka bir yerde başka bir araştırma yapılmadığını ispatlamak zorundadır. Daha önceki çalışmaların ne yaptıklarını ve neyi yapmadığını analiz ederek kendi çalışmasında bunu gidermelidir. Yani önceki çalışmadaki bu boşluk kendi çalışmamızdaki özgünlüğü göstermektedir. Araştırmacının bu yaparken farklı dillerden mümkün olduğunca çok literatür taraması yapması gerekmektedir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;strong&gt;Araştırma yazarlığı özgünlüğü: &lt;/strong&gt;Bunun anlamı da diğer araştırma raporlarının sadece belli bir miktarının benzer olmasına izin verilmesidir. Farklı kurum ve yayıncılar için bu oran %20 ile %25 arasında bir değerdir. Yayıncıların çoğu bunu “Turnitin” gibi çevrimiçi intihal kontrolü yapan yazılımlar ile kontrol etmektedirler [2].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Çalışmalardaki Özgünlüğün Sağlanması ve Geliştirilmesi&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+	Cryer (1997) özgünlüğün yeniden değerlendirilmesi ve geliştirilmesi için aşağıdaki üç önemli süreci önermiştir:
+&lt;/p&gt;
+&lt;ul style=&quot;text-align:justify;&quot;&gt;
+ 	&lt;li&gt;Özgünlüğün ne anlama geldiğini, nasıl yorumlanabileceğini ve kendini nasıl gösterilebileceğini anlamak&lt;/li&gt;
+ 	&lt;li&gt;Özgünlüğü kolaylaştırmak için yan düşünceler ve yaratıcı beceriler edinmek ve kullanmak&lt;/li&gt;
+ 	&lt;li&gt;Bu becerilerin etkin bir şekilde gelişmesi için kuluçka dönemini oluşturmak&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Özetle, çalışmalarda özgünlüğü kolaylaştırmanın yolları olduğunu ancak zaman ve çaba gerektirdiğini öne sürmüştür.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Akademik seviyelerde çalışmaların hedefleri:&lt;/h4&gt;
+&lt;table border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;Lisans Düzeyi&lt;/th&gt;
+&lt;th&gt;Yaklaşım&lt;/th&gt;
+&lt;th&gt;Akademik Hedef&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lisans&lt;/td&gt;
+&lt;td&gt;Yeniden Üretim&lt;/td&gt;
+&lt;td&gt;Sunulan bilgilerin doğru olması (Bir analiz unsuru ile birlikte).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Yüksek Lisans&lt;/td&gt;
+&lt;td&gt;Çözümsel&lt;/td&gt;
+&lt;td&gt;Basit Özgünlük: Materyali yeniden şekillendirmeyi veya bilgiyi başka yollarla düşünmeyi içerebilir.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Doktora&lt;/td&gt;
+&lt;td&gt;Kuramsal&lt;/td&gt;
+&lt;td&gt;Kreatif Özgünlük: Yeni Yaklaşımlar / Yeni Bilgiler&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Özgünlüğün Kapsamı&lt;/h3&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Özgünlüğün kapsamının değerlendirmenin en iyi yollarından biri, dünyada hâlâ keşfedilmeyen bir şeylerin olduğunu bilmektir. Aslında çalışmalar daha önce keşfi yapılmamış vahşi doğaya yapılan araştırmalara benzetilebilir. Bu benzetmede kaşif, keşif gezilerinin nasıl bir başarıya ulaşacağı hakkında belirli bir görüşe sahip olabilir ancak bunların çoğunun hayata geçirilemeyeceğini ve bu nedenle alternatiflere açık olması gerektiğini bilmelidir.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Araçlar, teknikler ve prosedürde özgünlük:&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Araştırmacı literatürü araştırır, uzmanlarla görüşür ve temel bilgileri edinmek ve uygun araştırma metodolojisi geliştirmek için eğitime katılır. Bu kısım işlemler, araçlar, teknikler ve muhtemelen dahil edilecek kişiler ilgili kararlar içermektedir. Yeni ve test edilmemiş yollar kullanılırsa veya belirli amaca yönelik yeni prosedürler, araçlar ve teknikler geliştirilirse özgünlük iddiası artmış olacaktır.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Bilinmeyeni keşfetmekteki özgünlük:&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Araştırmacının daha önce keşfedilmemiş veya araştırılmamış bir  konudaki çalışması bu alana girmektedir. Bu türdeki bir araştırma çalışmasındaki özgünlük daha açıktır. Ama bir çok çalışma alanında özgünlük kriterleri farklılık gösterebilmektedir.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Beklenmeyen durumlardaki özgünlük:&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Araştırma çalışmasının belli bir aşamasında hiç keşfedilmemiş yeni yollar veya yöntemler ortaya çıkabilir. Bu yöntemler mutlaka özgündür ve onların son derece önemli olduğu ortaya çıkabilir. Öte yandan bu tarz yöntemler zaman veya çaba sarf etmeden de çıkması olasıdır. Araştırmacı bu yeni yöntem ve yollara sonucunda bir yere varılmayacak olsa bile özgünlüğü bakımından yönelebilmektedir.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Verilerde özgünlük:&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Araştırmacı çalışması sırasında özgünlük kaygısıyla işleme koymadığı çok miktarda veri olabilmektedir. Bu yöntem özgünlük konusunda olası bir yol olmasına rağmen bazen çok da avantajlı olmayabilmektedir. Çünkü dahil ettiği verilerin de önemsiz olma ihtimali söz konusudur. Araştırmacı böyle bir ihtimali göz önünde bulundurarak veriler konusunda daha dikkatli olması gerekmektedir.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Yöntemde veya kullanım alanında özgünlük&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Araştırma çalışmalarında özgünlük, mutlaka onun yeni veya bilinmeyen bir şey olması gerekmemektedir. Bilinen veya daha önceden yayınlanmış veriler, yeni koşullarda test edildiğinde ortaya özgün durumlar çıkabilmektedir.  Bu durumlarla özgün ve anlamlı bir şeyler ortaya çıkarmak kabul edilebilirdir. Ancak çoğu zaman özgünlüğe giden bu yol araştırmacılar tarafından gözden kaçırılmaktadır.
+&lt;p&gt;
+&lt;br /&gt;
+
+
+&lt;h4&gt;Yan üründe özgünlük&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Araştırma çalışması sırasında beklenmedik durumlar oluşabilir. Bu durumlar finansman kaynağının geri çekilmesi, ekipmanların çalışmaması gibi ciddi ve öngörülemeyen engeller şeklinde sıralanabilir. Bu tarz engeller karşısında araştırmacı biraz kreatif düşünerek bu durumdan kurtulabilir. Bu durumla gelen aksilik sonucudan herhangi bir ekip parçasının geliştirilmesi sonucu yan ürünler oluşabilir. Bunlara odaklanılabilir ve daha da geliştirilebilir. Ama tabiki araştırma çalışması da eserin yeni doğasını yansıtacak şekilde yeniden formüle edilmelidir.
+&lt;/p&gt;
+&lt;br /&gt;
+
+
+&lt;h4&gt;Yayınlanma potansiyeli olarak özgünlük&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Özgünlüğü düşünmeyi teşvik etmenin faydalı bir yolu hakemli bir dergide yayınlama potansiyeli kavramıdır. Bu kavram araştırmacının çalışmasındaki özgünlüğü, daha anlamlı olarak görmesini sağlamaktadır. Eser veya çalışma yayınlanmaya layık görülmüş olsa bile araştırmacı tarafından yayınlanmak zorunlu değildir ama özellikle doktora düzeyinde bir veya bir kaç tane yayınlanmış dergi makalesi üretebilmelidir. Hakemli bir dergide yayınlanmak üzere kabul edilmiş bir çalışma, kişi için önemli bir artıdır.
+&lt;/p&gt;
+&lt;br /&gt;
+
+&lt;h3&gt;Özgünlük Kriterleri&lt;/h3&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;Büyük miktardaki yeni verinin ilk kez yazılı olarak sunulması.&lt;/li&gt;
+ 	&lt;li&gt;Mevcut olan eserin ayrıntılarına inilmesi.&lt;/li&gt;
+ 	&lt;li&gt;Yeni bir ürünün oluşturulması veya mevcut ürünün geliştirilmesi.&lt;/li&gt;
+ 	&lt;li&gt;Mevcut bir teorinin farklı olarak yorumlanması.&lt;/li&gt;
+ 	&lt;li&gt;Daha önce yapılmamış deneysel çalışmalar.&lt;/li&gt;
+ 	&lt;li&gt;Bir sorunu çözebilmek için farklı bir metodolojik yaklaşımın kullanılması.&lt;/li&gt;
+ 	&lt;li&gt;Bilgiyi yeni ve farklı şekilde sentezleme.&lt;/li&gt;
+ 	&lt;li&gt;Mevcut veya bilinen bilgiler kullanılarak yeni bir yorum getirme.&lt;/li&gt;
+ 	&lt;li&gt;Başka şartlarda araştırmayı tekrarlama. Örneğin farklı bir ülkede.&lt;/li&gt;
+ 	&lt;li&gt;Mevcut fikirleri yeni çalışma alanlarında uygulama.&lt;/li&gt;
+ 	&lt;li&gt;Yeni bir araştırma aracının veye tekniğin geliştirilmesi.&lt;/li&gt;
+ 	&lt;li&gt;Farklı bir yaklaşım benimsemek. Örneğin farklı akademik alanlardaki bakış açısı.&lt;/li&gt;
+ 	&lt;li&gt;Araştırmaya dayalı bir çalışma belgesinin geliştirilmesi.&lt;/li&gt;
+ 	&lt;li&gt;Bilgiye daha önce yapılmamış bir şekilde ekleme yapma.&lt;/li&gt;
+ 	&lt;li&gt;Daha önce araştırma yapılmamış bir alan yada konu üzerinde araştırma yapma.&lt;/li&gt;
+ 	&lt;li&gt;Önceden incelenmiş bir konuda eleştirel bir analiz yapma [4].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Çalışmalar yukarıdaki kriterlere göre değerlendirilip özgünlük hakkında karar verilebilir. Bütün bu kriterlere rağmen hala çalışmanın özgünlüğüyle ilgili soru işaretleri varsa tez danışmanıyla görüşülebilir. Ayrıca aynı meslekten veya sizi daha iyi tanıyan insanların tecrübelerinden yararlanılabilir.
+&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+
+&lt;strong&gt;Kaynakça:&lt;/strong&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] Michèle L. ve Ark. (2007). Evaluating Creative Minds: The Assessment of Originality in PeerReview.&lt;/li&gt;
+ 	&lt;li&gt;[2] Muhammad Subhan,https://www.researchgate.net/post/What_is_originality_in_research&lt;/li&gt; 
+	&lt;li&gt;[3] Pat Cryer (2006). The Research Student's Guide to Success.&lt;/li&gt;
+ 	&lt;li&gt;[4] Phillips, E.M. &amp;amp; Pugh, D.S. (1994). How to get a PhD. USA: Open University Press.&lt;/li&gt; 	
+&lt;/ul&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+				<pubDate>Wed, 08 Mar 2017 22:41:00 +0300</pubDate>
+				<link>http://localhost:4000/ozgunluk-nedir-kriterleri-nelerdir/</link>
+				<guid isPermaLink="true">http://localhost:4000/ozgunluk-nedir-kriterleri-nelerdir/</guid>
+			</item>
+		
+			<item>
+				<title>TypeScript Nedir?</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+TypeScript, Microsoft çalışanı Anders Hejlsberg (C# tasarımcısı) tarafından tasarlanan açık kaynaklı programlama dilidir. TypeScript hem dil hem de araçlar kümesidir. TypeScript, JavaScript’in ek özellikler almış hali de denilebilir (Şekil 1). İstemci tarafında (client-side) veya sunucu tarafında (server-side) çalışabilen JavaScript uygulamaları geliştirmek için kullanılabilir.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/typescript_javascript.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;Şekil 1. TypeScript ve JavaScript&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Kavramsal olarak JavaScript’i daha kolay ve güvenli bir şekilde yazmamızı sağlayan “sanal editör” olarak da düşünebiliriz. Büyük ve karmaşık kod yapısına sahip projelerde verimliliği arttırır. Uzun JavaScript satırlarını daha az komutla ifade etmemizi sağlar. Nedeni ise JavaScript’in fonksiyonel olmasına karşın TypeScript’in nesne yönelimli olmasıdır. Bunun yanı sıra TypeScript kodunu anlamak daha kolaydır. Eğer JavaScript biliyorsanız bunu TypeScript’de de kolayca kullanabilirsiniz. Yani var olan JavaScript kodlarınızı TypeScript dosyanızın içersine ekleyip derleyebilirsiniz.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+JavaScript büyük iş veya projeler için kullanıldığında belirli zorluklar ortaya çıkarmaktadır. C#, Java ve C++ gibi statik olarak derlenen diller, geliştiricinin derleme işlemi sırasında hata denetimi gerçekleştirirken, JavaScript ise çalıştırılıncaya kadar bu hata denetimini gerçekleştiremez. Microsoft, TypeScript ile birlikte derleme aşamasında hata denetimi yapılabilen bir JavaScript sunmayı amaçlamıştır.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;TypeScript Özellikleri :&lt;/h3&gt;
+&lt;ul style=&quot;text-align:justify;&quot;&gt;
+ 	&lt;li&gt;Typescript, JavaScript'in temel yapı taşlarını benimser. Dolayısıyla, yalnızca TypeScript'i kullanmak için JavaScript'i öğrenmeniz yeterlidir. Tüm TypeScript kodunun çalıştırılması için JavaScript diline dönüştürülmesi gerekir.&lt;/li&gt;
+ 	&lt;li&gt;TypeScript, diğer JS kütüphenelerini destekler. Derlenmiş TypeScript, herhangi bir JavaScript kodunda tüketilebilir. TypeScript ile oluşan JavaScript kodu mevcut tüm JavaScript frameworkleri, araçları ve kütüphanelerini yeniden kullanabilir.&lt;/li&gt;
+ 	&lt;li&gt;JavaScript, TypeScript’tir. Bunun anlamı .js uzantılı herhangi bir dosya .ts olarak yeniden adlandırabilir ve diğer TypeScript dosyalarıyla derlenebilir.&lt;/li&gt;
+ 	&lt;li&gt;TypeScript portatiftir. TypeScript, tarayıcılar, aygıtlar ve işletim sistemleri arasında taşınabilir. JavaScript’in çalıştığı herhangi bir ortamda çalışabilir. TypeScript’in çalışması için sanal makineye (VM) veya özel bir runtime çalışma ortamına ihtiyacı yoktur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;TypeScript ve ECMAScript&lt;/h3&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+ECMAScript, bir script dili standartıdır. Yayınlanmış 6 sürüm bulunmaktadır. Standartın 6. Versiyonuna “Harmony” kod adı verilmiştir. TypeScript, EcmaScript6 standartına sahiptir. Ayrıca temel dil özellikleri ECMAScript5 standartından yani JavaScript’in resmi şartnamesinden uyarlanmıştır (Şekil 2).
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/typescript1.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	Şekil 2. TypeScript'i oluşturan standartlar ve özellikler
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Neden TypeScript?&lt;/h3&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+TypeScript, CoffeScript ve Dart programlama dilleri gibi diğer muadillerinden üstün olup, JavaScript’in gelişmiş bir türevidir. Bunun yanı sıra CoffeScript ve Dart gibi diller kendi başlarına yeni dillerdir ve kendilerine özgü yürütme ortamlarına ihtiyaç duyarlar.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+TypeScript'in çok popüler hale gelmesinin bir başka nedeni de Google Angular 2’dir. AngularJS’nin yeni sürümü resmi olarak JavaScript yerine tür denetimi (Type Checking) yeteneğinden dolayı TypeScript’i kullanacak şekilde uyarlanmıştır.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;TypeScript’in avantajları:&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;Derleme&lt;/strong&gt;: JavaScript’i test etmek için çalıştırılması gerekir. Bu, bir hatanın olması durumunda tüm kodu kontrol etmek anlamına gelmektedir. Dolayısıyla, kodda hatalar bulmaya çalışmak için saatler harcamanız gerekir. TypeScript transpiler, hata denetimi özelliğini sağlar. Bu, komut dosyasının çalıştırılmadan önce hataları görmemize yardımcı olur.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;Güçlü Statik Tipleme&lt;/strong&gt;: TypeScript, &lt;strong&gt;TLS&lt;/strong&gt; (TypeScript Dil Servisi) aracılığıyla isteğe bağlı bir statik tipleme ve tür önerme sistemi ile birlikte gelir. TLS, herhangi bir tip tanımlanmamış değişkeni aldığı değere göre anlamlandırabilir
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+TypeScript, sınıflar, arayüzler gibi  &lt;strong&gt;Nesneye Dayalı Programlama&lt;/strong&gt; kavramlarını destekler.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;TypeScript Bileşenleri&lt;/h3&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+TypeScript üç bileşene sahiptir (Şekil 3):
+&lt;br /&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;img src=&quot;/images/typescript_cycle.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	Şekil 3. TypeScript'i oluşturan bileşenler
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;Dil:&lt;/strong&gt; Sözdizimi(syntax), anahtar sözcükler (keywords) ve ek açıklamalardan oluşur.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;TypeScript Derleyicisi:&lt;/strong&gt; TypeScript Derleyicisi (tsc), TypeScript’te yazılmış komutları JavaScript karşılığına çevirir.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;TypeScript Dil Servisi:&lt;/strong&gt; Dil servisi, ifade tamamlama, kod formatlama, özetleme, renklendirme gibi tipik editör işlemlerinin gerçekleşmesini sağlar.
+&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Kaynakça:&lt;/strong&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] typescriptlang.org&lt;/li&gt;
+ 	&lt;li&gt;[2] en.wikipedia.org&lt;/li&gt; 	
+	&lt;li&gt;[3] TypeScript Tutorial Book&lt;/li&gt; 
+	&lt;li&gt;[4] Tony de Araujo - TypeScript in Plain Language Book&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;/p&gt;
+</description>
+				<pubDate>Sat, 25 Feb 2017 16:21:00 +0300</pubDate>
+				<link>http://localhost:4000/typescript-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/typescript-nedir/</guid>
+			</item>
+		
+			<item>
+				<title>WordPress Zararlı Kod Tespiti</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+Resmi WordPress temaları ve eklentilerinin yanısıra bu tarz eklenti ve temaları ücretsiz sağlayan bir çok site bulunmaktadır. Çoğu kişi de bilinçsiz bir şekilde ihtiyaçları doğrultusunda harici sitelerden bu tip temaları veya eklentileri kullanabilmektedirler. Peki onlara ne kadar güvenebiliriz? Bu çok büyük bir soru işaretidir. Çoğu tema ve eklentiler kötü niyetli kodlar eklenerek servis edilmektedirler. Bu zararlı kodların tespiti aşamasına geçmeden birkaç terimin üzerinden geçmekte fayda olacağı kanısındayım.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Çoğu hacker’ın veya kötü niyetli kişilerin amacı websitenize malware (kötü amaçlı yazılım veya kod) bulaştırmaktır. Bu kötü amaçlı kodlar şunları içerebilir :
+&lt;/p&gt;
+&lt;ul style=&quot;text-align:justify;&quot;&gt;
+ 	&lt;li&gt;&lt;strong&gt;Pharma hack :&lt;/strong&gt; Bir SEO saldırısı türüdür. Bazı sitelerin sizin siteniz üzerinden trafik kazanmaya çalışmasıdır. Bu sitenizin sansürlenmesine bile neden olabilir.&lt;/li&gt;
+ 	&lt;li&gt;&lt;strong&gt;Backdoor :&lt;/strong&gt; FTP veya WordPress yönetici panelinizi istedikleri zaman erişmelerini sağlayan bir çeşit açık bir arka kapı bırakır.&lt;/li&gt;
+ 	&lt;li&gt;&lt;strong&gt;Kullanıcının zararlı dosya indirmesini sağlamak :&lt;/strong&gt; Bu hackleme yönteminde websitenizi ziyaret eden kullanıcıları yanıltarak  zararlı kodlar içeren dosyaları bilgisayarlarına indirmelerini sağlar.&lt;/li&gt;
+ 	&lt;li&gt;&lt;strong&gt;Dosya ve veritabanı enjeksiyonları :&lt;/strong&gt; Dosyalarınıza veya veritabanınıza, bilgisayar korsanlarının bir takım farklı şeyler yapmasını sağlayan kodu ekler.&lt;/li&gt;
+ 	&lt;li&gt;&lt;strong&gt;Kötü amaçlı yönlendirmeler :&lt;/strong&gt; Ziyaretçileri veya kullanıcıları zararlı bir sayfaya yönlendirir.&lt;/li&gt;
+ 	&lt;li&gt;&lt;strong&gt;Kimlik avı :&lt;/strong&gt; Kullanıcı adlarını, şifreleri, e-posta adreslerini ve diğer hassas bilgileri elde etmek için kullanılır [1].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;Nulled Tema veya Eklenti Nedir?&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Basitçe kırılmış veya hacklenmiş temalara verilen genel bir addır. Bu tür temaları servis edenler çoğunlukla gelir sağlamak için reklamlar veya backlinkler ekleyebilmektedir. Bunlar da çoğu zaman site sahibi böyle bir şeyin farkında olmadığından elde ettiği ücretsiz ürünün kendisi için bir nimet olarak düşünür. Buradan da anlaşılacağı üzere nulled tema ve eklentilerde çoğu zaman beklenenin dışında reklamlar, backlinkler ve sitenizin performansını kötü etkileyecek kodlar bulunmaktadır [2].
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;Bu uyarıyı yapmakta fayda görüyorum:
+
+&lt;strong&gt;Asla nulled WordPress tema ve eklentilerine güvenmeyin!&lt;/strong&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;Kötü Amaçlı Kodların Tespiti&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bir şekilde tema veya eklentiyi bilgisayarınıza indirmişseniz olası trojan veya solucan tespiti için mutlaka öncesinde antivirüs programınızla taratınız. Eğer bir virüs programı kullanmıyorsanız aşağıdaki alternatif çözümleri de deneyebilirsiniz. Çünkü çoğu zaman bazı uygulamaların göremediği zararlı kodları bazıları tespit edebiliyor, bunun için alternatifleri de denemekte fayda var.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;VirusTotal&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/virustotal1.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 1. Virustotal.com
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Virustotal.com adresi bu iş için pratik bir yöntemdir. Online olarak sitenizde yüklü olan tema ve eklentilerdeki zararlı kodların tespitinin yanı sıra sitenize henüz yüklememiş olduğunuz .zip uzantılı tema veya eklentinizde de zararlı kod tespitine yardımcı olur. Bilgisayarınıza indirdiğiniz dosyaları taratmak istiyorsanız “File” bölümünden, sitenizi taratmak istiyorsanız da “URL” bölümünden bu işleminizi kolayca gerçekleştirebilirsiniz. Şekil 2’de herhangi bir zararlı yazılımın tespit edilmediği sonuç görülmektedir.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/virustotal2.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 2. Virustotal tarama 
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Şekil 3’de ise zararlı temayla gelen eklentide zararlı bir kod tespit edilmiş.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/virustotal3.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 3. Virustotal tarama sonucu
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;Eklentilerle de zararlı kod tespiti yapılabilmektedir.&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;strong&gt;1.Sucuri Security&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/sucurisecu.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 4. Sucuri Security yönetim paneli
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Sucuri en bilindik güvenlik ve zararlı kod tespiti yapabilen WordPress eklentilerinden bir tanesidir. Websitenize yüklenen dosyalarınızı oluşruturulan karaliste doğrultusunda izlemenizi, güvenlikle ilgili bildirimler almanızı sağlayan çeşitli özellikleri bulunmaktadır.  Ücretsiz olarak &lt;a href=&quot;https://sitecheck.sucuri.net&quot;&gt;https://sitecheck.sucuri.net&lt;/a&gt; adresinden de web sitenizi taratabilirsiniz. Ayrıca eklentide belirli bir ücret karşılığında websitenizi daha güvenli hale getirmek için güvenlik duvarı seçeneği de sunmaktadır.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Eklentiyi bu adresten temin edebilirsiniz [&lt;strong&gt;&lt;a href=&quot;https://wordpress.org/plugins/sucuri-scanner/&quot;&gt;Sucuri Security Eklentisi&lt;/a&gt;&lt;/strong&gt;].
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;2.Exploit Scanner&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Exploit Scanner web sitenizin dosyalarını ve veritabanı tarayabilir, zararlı kod tespiti yapabilir. Websitenizi hacker saldırılarına karşı koruyamaz veya süpheli dosyaları silemez. Zararlı kod varlığından şüpheli bir dosya tespit edildiğinde bunun onarımını veya imhasını elle yapmalısınız.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Eklentiyi bu adresten temin edebilirsiniz [&lt;strong&gt;&lt;a href=&quot;https://wordpress.org/plugins/exploit-scanner/&quot;&gt;Exploit Scanner Eklentisi&lt;/a&gt;&lt;/strong&gt;].
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/exploitscanner.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 5. Exploit Scanner yönetim paneli
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Eklentinizi kurup, etkinleştirdikten sonra “Run the Scan” butonuna basıp tarama işlemini başlatabilirsiniz.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;3.AntiVirus&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+AntiVirus websitenizin tema dosyalarında tarama yaparak kötü amaçlı kodları tespit edebilen ücretsiz bir WordPress eklentisidir. Ayrıca herhangi bir kötü amaçlı kodun tespitinde e-posta yoluyla bilgilendirilme yoluna da gidebilme seçeneği sunmaktadır.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Eklenti yalnızca geçerli temayı taramaktadır. Yüklü diğer temalarda tarama işlemi gerçekleştirmez. Zaten güncellenmemiş eski temaları barındırmanız güvenlik açıklarına sebep olabileceğinden kaldırmanız önerilmektedir.
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Eklentiyi bu adresten temin edebilirsiniz [&lt;a href=&quot;https://wordpress.org/plugins/antivirus/&quot;&gt;&lt;strong&gt;AntiVirus Eklentisi&lt;/strong&gt;&lt;/a&gt;].
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/antivirus.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 6. AntiVirus yönetim paneli
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Şekil 6’da görüldüğü üzere temamızı manuel olarak da otomatik olarak da taramamıza imkan sağlamaktadır. Temamızın günlük olarak taranmasını istiyorsak ilgili kutucuğu işaretleyip mail adresimizi yazdıktan sonra “Değişiklikleri Kaydet” butonuna tıklamalıyız.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;4.TAC (Theme Authenticity Checker)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Ücretsiz temalarda backlink ekleme çok yaygın bir tekniktir. Theme Authenticity Checker (Tema Özgünlük Denetleyicisi) eklentisi sayesinde bu kodları kolaylıkla bulabilirsiniz.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Eklentiyi bu adresten temin edebilirsiniz [&lt;strong&gt;&lt;a href=&quot;https://wordpress.org/plugins-wp/tac/&quot;&gt;TAC Eklentisi&lt;/a&gt;&lt;/strong&gt;].
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/tac1.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 7. TAC yönetim paneli
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Şekil 7’de görüldüğü üzere yüklü TAC eklentimiz “Görünüm” menüsü altına gelmektedir. Buradan eklentimize tıklayarak mevcut temalarınızda özgünlük taraması işlemini gerçekleştirebilirsiniz.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/tac2.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    Şekil 8. TAC tarama sonuçları
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Şekil 8’de görüldüğü üzere tarama işlemi tamamlanmış ve temaların bir tanesinde link tespit edilmiş.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;4.Kendiniz&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Aslında antimalware ve benzeri eklentilerin sayısı oldukça fazladır. Ama asıl önemli olan kriter güvenliğin kendi elinizde olmasıdır. Siz hata yapmadığınız müddetçe saldırıya maruz kalmanız çok nadirdir. Güvenmediğiniz kaynaklardan tema ve eklentileri yüklemeyerek, WordPress sürümünüzü güncel tutarak websitenizin güvenliğini bir nebzede olsa sağlamış olursunuz.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class=&quot;&quot;&gt;&lt;strong&gt;Kaynakça :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[1] https://www.elegantthemes.com/blog/tips-tricks/how-to-scan-your-wordpress-website-for-hidden-malware&lt;/p&gt;
+
+&lt;p&gt;[2] http://wordpress.stackexchange.com/questions/232041/what-are-nulled-themes&lt;/p&gt;
+</description>
+				<pubDate>Tue, 14 Feb 2017 01:05:00 +0300</pubDate>
+				<link>http://localhost:4000/wordpress-zararli-kod-tespiti/</link>
+				<guid isPermaLink="true">http://localhost:4000/wordpress-zararli-kod-tespiti/</guid>
+			</item>
+		
+			<item>
+				<title>Java Lambda Nedir?</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+Java, nesne-yönelimli programlamanın (object-oriented programming)  yazılım geliştirme için temel paradigma olduğu 1990’lı yıllarda nesne-yönelimli  bir programlama dili olarak tasarlanmıştır. Nesne-yönelimli programlamadan çok önce Lisp ve Scheme gibi fonksiyonel programlama dilleri olmasına rağmen akademik çevreler dışında pek rağbet görmemiştir. Son zamanlarda da fonksiyonel programlama önem kazanmıştır çünkü eşzamanlı ve olay güdümlü programlama için bu yöntem çok uygundur. Ama bu, nesne-yönelimli programlamanın kötü olduğu anlamına gelmemektedir. Aksine nesne-yönelimli programlamayla fonksiyonel programlamanın harmanlanması bu konuya daha da işlevsellik kazandırmaktadır. Örneğin programlama dilinin işlevsel ifadeler için uygun bir söz dizimi (syntax) varsa koleksiyon kütüphaneleri güçlü API’ler sunabilir. Java 8 ile gelen temel değişiklik fonksiyonel programlama yapılarının nesne-yönelimli yapının köklerine eklenmesidir [1].&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Lambda ifadeleri de Java 8 ile birlikte gelen en büyük yenilik olarak görülmüştür. Ana amacı fonksiyonel programlamayı kolaylaştırarak kod geliştirmeyi veya yazmayı daha sade ve basit hale getirmeyi sağlamaktır [2]. Bir lambda ifadesi anonim bir fonksiyonun kısa bir şekilde gösterimi de diyebiliriz. Bir isme sahip değildir ancak parametre listesine, bir gövdeye ve bir dönüş tipine ayrıca da fırlatılabilecek istisnaların (exceptions) bir listesine sahiptir. Bu tanımı biraz daha anlaşılabilir olması adına açacak olursak;
+&lt;/p&gt;
+&lt;ul style=&quot;text-align:justify;&quot;&gt;
+ 	&lt;li&gt;Anonimdir dedik çünkü bir metodun normalde sahip olacağı gibi belirgin bir isme sahip değildir.&lt;/li&gt;
+ 	&lt;li&gt;Fonksiyondur dedik çünkü bir lambda belirli bir sınıfla bir metod gibi ilişkili değildir. Ancak bir metod gibi parametre listesi, bir gövdesi, bir dönüş tipi ve muhtemel fırlatılabilecek istisna listesine sahiptir.&lt;/li&gt;
+ 	&lt;li&gt;Bir lambda ifadesi bir metodda argüman olarak geçirilebilir veya bir değişkende depolanabilir.&lt;/li&gt;
+ 	&lt;li&gt;Yazımı kısadır, anonim sınıflar gibi basmakalıp uzun bir yazımı yoktur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Sonuç olarak kodumuzun daha net ve esnek olmasını sağlar. Örneğin lambda ifadesi kullanarak daha kısa bir şekilde özel bir Comparator nesnesi oluşturabilirsiniz [3].
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Önce :&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;Comparator&amp;lt;Elma&amp;gt; agirlikOlarak = new Comparator&amp;lt;Elma&amp;gt;() {
+public int compare(Elma e1, Elma e2){
+return e1.getAgirlik().compareTo(e2.getAgirlik());
+}
+};&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sonra (lambda ifadesiyle):&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;Comparator&amp;lt;Elma&amp;gt; agirlikOlarak =
+(Elma e1, Elma a2) -&amp;gt; e1.getAgirlik().compareTo(e2.getAgirlik());&lt;/pre&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yukarıdaki kodların her ikisinde de Elma sınıfından üretilen nesnenin ağırlıkları karşılaştırılmaktadır. Görüldüğü üzere lambda ifadesi kullanılarak kod daha anlaşılır ve kısa hale getirilmiştir.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/Lambda_ifadesi.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;strong&gt;Şekil 1.&lt;/strong&gt; Bir lambda ifadesi parametrelereden, bir ok şeklinden ve bir gövdeden oluşmaktadır.
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul style=&quot;text-align:justify;&quot;&gt;
+ 	&lt;li&gt;Parametre listeleri : Buradaki iki “Elma”nın parametreleri, bir Comporator karşılaştırma metodu ile karşılaştırılır.&lt;/li&gt;
+ 	&lt;li&gt;Lambda operatörü : Parametre listesini lambda’nın gövdesinden ayırır.&lt;/li&gt;
+ 	&lt;li&gt;Lambda gövdesi : İki “Elma”nın ağırlıkları burada karşılaştırılır. Karşılaştırma sonucu da lambda’nın dönüş değeri olarak düşünülür.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bu şekildeki lambda syntax’ı Java tasarımcıları tarafından, C# ve Scala gibi benzer özellikleri taşıyan dillerde başarılı olduğu için seçilmiştir. Yukarıda da anlatıldığı üzere temel syntax;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Parametreler) -&amp;gt; ifade&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Veya&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Parametreler) -&amp;gt; { ifadeler; }&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lambda örnekleri :&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/java_lamdha_ornek.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kaynakça:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764&lt;/li&gt;
+ 	&lt;li&gt;[2] https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm&lt;/li&gt;
+ 	&lt;li&gt;[3] Java 8 in Action&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Wed, 08 Feb 2017 19:36:00 +0300</pubDate>
+				<link>http://localhost:4000/java-lambda-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/java-lambda-nedir/</guid>
+			</item>
+		
+			<item>
+				<title>Üniversiteliler İçin indir.com Mobil Uygulama Yarışması Başladı!</title>
+				<description>&lt;p&gt;&lt;a href=&quot;http://www.indir.com/&quot;&gt;indir.com&lt;/a&gt;&lt;span style=&quot;color:#000000;&quot;&gt;, geçtiğimiz yıllarda düzenlediği büyük ilgi gören “indir.com Mobil Uygulama Yarışması”na ek olarak bu yıl sadece Üniversitelilerin katılabileceği “Üniversiteliler İçin indir.com Mobil Uygulama yarışması” düzenliyor.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;1 Ocak 2016 tarihi itibariyle katılım süreci başlayan yarışmaya, bireysel veya en fazla 3 kişilik ekipten oluşan tüm öğrenciler, özgün ve 2016 yılı içerisinde uygulama marketlerde yayınlanmış olan uygulamaları ile katılabiliyorlar.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Katılımcıların kendi geliştirdikleri özgün uygulamaları daha geniş kitlelere tanıtma ve hayata geçirme imkanı&lt;/span&gt; &lt;span style=&quot;color:#000000;&quot;&gt;bulacağı yarışmada finale kalarak ilk 3’e giren yarışmacılar birbirinden değerli ödüllerin sahibi olacaklar.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;&lt;em&gt;İşte Kesinleşen O Ödüller!&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Kesinleşen ödüller aşağıdaki gibidir. Diğer ödüllerin neler olacağı ise ilerleyen günlerde indir.com tarafından duyurulacaktır.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Birinci;&lt;/strong&gt; 1 hafta Silikon Vadisi tatili (San Francisco), bukalemun.com’dan 5000 TL değerinde ASO hizmeti, indir.com’dan 5.000TL değerinde reklam.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;İkinci;&lt;/strong&gt; Antalya’da 1 hafta tatil, indir.com’dan 2.500TL değerinde uygulamanın tanıtımı…&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Üçüncü;&lt;/strong&gt; Antalya’da 3 gün tatil, indir.com’dan 1.000TL değerinde uygulamanın tanıtımı…&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Üniversiteliler için özel ödül;&lt;/strong&gt; yarışmanın birincisine verilecek olan değerli ödüllere ek olarak sadece “Üniversiteliler İçin indir.com Mobil Uygulama Yarışması” kazananına Silikon Vadisi tatilindeki ihtiyaçlarını karşılamak amacıyla &lt;strong&gt;5000 TL nakit para ödülü&lt;/strong&gt; verilecek.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Katılım Süreci!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Sadece Üniversitelilerin katılabileceği yarışma, 1 Ocak 2016 tarihi itibariyle başladı. Son başvuru tarihi ise; 30 Ağustos 2016. Bu tarihe kadar bireysel veya en fazla 3 kişilik ekiplerden oluşan tüm öğrenciler başvurabilirler.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Başvuru süreci tamamlandıktan sonra yarışmaya katılmaya hak kazanan uygulamalar, indir.com tarafından tanıtılacak ve 5 Eylül 2016 tarihinde “Halk Oylaması”na sunulacak. Halk oylaması sonucunda en çok oyu alarak ilk 10’a giren uygulamalar, 10 Eylül 2016 tarihinde kendi alanlarında uzman, birbirinden değerli jüri üyelerinin değerlendirilmesine sunulacak. Jüri değerlendirmesi sonucunda ilk 3’e girerek kazanan uygulamalar belli olacak. Kazanan uygulamalar, “Mobil Etkinlik” kapsamında düzenlenecek olan “Ödül Töreni”nde açıklanacak.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Ödül Töreni!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Sadece Üniversitelilerin katılımına açık olan “Üniversiteliler İçin indir.com Mobil Uygulama Yarışması” ödül töreni; yarışmayı kazanan öğrencinin öğrenim gördüğü Üniversitede düzenlenecek olan “Mobil Etkinlik” kapsamında yapılacak. Üstelik bu etkinliğe tüm öğrenciler davetli olacak.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Yani; kazanan öğrenci Pamukkale Üniversitesinde eğitim görüyorsa ödül töreni, Denizli’de Pamukkale Üniversitesinde, indir.com tarafından gerçekleştirilecek olan “Mobil Etkinlik” kapsamında yapılacaktır.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;&lt;em&gt;Üniversiteliler için indir.com Mobil Uygulama Yarışması 2016 Takvimi&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Yarışma Başlangıcı:&lt;/strong&gt; 1 Ocak 2016&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Son Başvuru: &lt;/strong&gt;30 Ağustos 2016&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Halk Oylaması: &lt;/strong&gt;5 Eylül 2016&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Jüri Değerlendirmesi: &lt;/strong&gt;10 Eylül 2016&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Mobil Etkinlik:&lt;/strong&gt; Ekim Ayında&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Detaylı bilgi için;&lt;/span&gt; &lt;a href=&quot;http://www.indir.com/yarismauni/&quot;&gt;Üniversiteliler için indir.com Mobil Uygulama Yarışması şartları ve katılım formu&lt;/a&gt;&lt;span style=&quot;color:#000000;&quot;&gt;’na tıklatınız.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+				<pubDate>Tue, 16 Feb 2016 20:17:00 +0300</pubDate>
+				<link>http://localhost:4000/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</link>
+				<guid isPermaLink="true">http://localhost:4000/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</guid>
+			</item>
+		
+			<item>
+				<title>Arduino ile Azure Mobile Services Bağlantısı IoT</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu yazımda, Arduino ile aldığımız verileri bulut ortamına aktarmayı göstermeye çalışacağım. Yani bu yazıyla birlikte IoT konusuna da girmiş olacağız.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;IoT (Internet of Things = Nesnelerin İnterneti) adından da anlaşılacağı üzere fiziksel ağ üzerindeki nesnelerin; cihazlar, araçlar ve binalarda bulunan elektronik gömülü sistemler sayesinde birbiriyle bağlantı kurması ve veri alışverişi yapması olayıdır. 1970’lerden itibaren kurulan ATM’ler ilk IoT cihazları kabul edilmektedir. Günümüzde de bu tarz cihazların sayısı artmaya devam etmektedir. Cisco firmasının öngörüsüne göre 2020 yılında tüm dünyadaki IOT cihazlarının sayısı 50milyar’a ulaşması beklenmektedir[&lt;a href=&quot;http://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html&quot; target=&quot;_blank&quot;&gt;1&lt;/a&gt;]. Bunun anlamı bir kaç yıl içerisinde IoT teknolojisi hayatımızın her alanına girmesi demektir. Örneğin internete bağlı buzdolabımızdaki yumurtanın bittiğinin tespit edilmesi ve otomatik olarak marketten yumurta siparişinin edilmesi, sağlık alanında kritik hastaların takibi ve olası kriz öncesi mühahale yapılarak yaşam kalitesinin arttırılması, araçlarımızdaki arızanın büyük boyutlara ulaşmadan tespiti gibi sınırı olmayan bir alan olarak görebiliriz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+  &lt;embed width=&quot;520&quot; height=&quot;345&quot; src=&quot;http://players.brightcove.net/2097119709001/NJOvFZMYl_default/index.html?videoId=4609490745001&quot; frameborder=&quot;0&quot; /&gt;
+ 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Internet of Things Video&lt;span style=&quot;color:#808080;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#008080;&quot;&gt;&lt;a style=&quot;color:#008080;&quot; href=&quot;http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand&quot; target=&quot;_blank&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Biz de bu yazımızda yapacağımız basit bir örnekle IoT dünyasına ufak bir adım atmış olacağız. Örneğimde Arduino Uno R3 ve internet bağlantısını gerçekleştirmek için de Ethernet Shield kullanacağım.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Arduino Uno hakkında kısa bir bilgi verecek olursak, üzerinde ATMEL firması tarafından geliştirilen Atmega328 mikrodenetleyicisi bulunmaktadır. Arduino üzerindeki programı yürüten asıl mikrodenetleyici budur. Program belleği 32KB olup, veri belleği ise 2KB’dır. Kart üzerinde bulunan diğer entegre ise Atmega16u2 ise USB bağlantısı için kullanılmaktadır. Ayrıca 14 adet dijital giriş/çıkış pini, 6 adet de analog giriş/çıkış pini bulunmaktadır.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Ethernet Shield ve kütüphanesi hakkında şu linkten ayrıntılı bilgiye ulaşabilirsiniz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; &lt;a href=&quot;https://www.arduino.cc/en/reference/ethernet&quot; target=&quot;_blank&quot;&gt;https://www.arduino.cc/en/reference/ethernet&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Kodumuzu yazacağımız ortam ise Arduino için Java dilinde hazırlanmıştır. Kodlamada kullanılan kütüphaneler ise C ve C++ dillerinde yazılmıştır. Bu IDE’yi &lt;span style=&quot;color:#008080;&quot;&gt;&lt;a style=&quot;color:#008080;&quot; href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;https://www.arduino.cc/en/Main/Software&lt;/a&gt; &lt;/span&gt;adresinden indirip, bilgisayarınıza kurabilirsiniz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Örneğimizdeki senaryo, oda ısısının ve neminin belli aralıklarla okunması ve bulut ortamına aktarılması olacak. Oda sıcaklığını ölçmek için DHT11 sensörünü, verilerimizi bulut ortamında barındırma işlemini ise &lt;a href=&quot;/azure-mobile-services-nedir/&quot; target=&quot;_blank&quot;&gt;Azure Mobile Services&lt;/a&gt;’i kullanacağım.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Eğer&lt;/span&gt; &lt;a href=&quot;/azure-mobile-services-nedir/&quot; target=&quot;_blank&quot;&gt;Azure Mobil Services&lt;/a&gt; &lt;span style=&quot;color:#000000;&quot;&gt;'in oluşturulması hakkında bilgi sahibi değilseniz;&lt;/span&gt; &lt;a href=&quot;/azure-mobile-services-nasil-olusturulur/&quot; target=&quot;_blank&quot;&gt;Azure Mobil Services Nasıl Oluşturulur?&lt;/a&gt;&lt;span style=&quot;color:#000000;&quot;&gt; yazımı okuyabilirsiniz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt; &lt;strong&gt;1. Devrenin Kurulması:&lt;/strong&gt;&lt;/span&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; Malzemeler:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Arduino UNO R3&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Ethernet Shield&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;DHT11 ısı ve nem sensörü&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;1 adet 10K direnç&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;5 adet kablo (Tasarımınıza göre sayı değişebilir.)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;DHT11 ısı ve nem sensörü:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/dht11.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Devre prototipi:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/dht11-arduino_bb.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;DHT11’in kullanım klavuzunda bellirttiği şekilde devreye bağlantısını gerçekleştiriyoruz. DHT11’in ikinici bacağını yani veri bacağını Arduino’nun 2 numaralı dijital girişine bağlıyoruz. &lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;(Şekildeki devreyi Fritzing programıyla oluşturdum. Fritzing programını&lt;/span&gt; &lt;a href=&quot;http://fritzing.org/download/&quot;&gt;http://fritzing.org/download/&lt;/a&gt; &lt;span style=&quot;color:#000000;&quot;&gt;bu adresten ücretsiz olarak temin edebilirsiniz.)&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;2. &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Kodun yazılması ve Arduino’ya yüklenmesi:&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Öncelikle DHT11’in kütüphanesini indirip, C:Program Files (x86)Arduinolibraries ‘deki kütüphane klasörümüze kopyalıyoruz. Daha sonra bu kütüphanemizi include komutuyla kodumuza dahil ediyoruz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;a href=&quot;/images/dht11.rar&quot; target=&quot;_blank&quot;&gt;DHT11 Kütüphanesini İndir.&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Sensördeki değerleri serial monitor’de görüntülemek için aşağıdaki kodu Arduino’ya yükleyelim.&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;lang:c decode:true&quot;&gt;// omereryilmaz.com Arduino ile Azure Baglantisi
+
+#include &amp;lt;dht11.h&amp;gt; // DHT11 kütüphanesini dahil ediyoruz.
+#define dataPIN 2 // dataPIN olarak Dijital 2'yi belirliyoruz.
+
+dht11 DHT11;
+
+void setup()
+{
+  Serial.begin(9600); // Seri iletişimi başlatıyoruz.
+}
+
+void loop()
+{
+  Serial.println(&quot;n&quot;);
+  // Sensörün okunup okunmadığını konrol ediyoruz.
+  // kontrol 0 ise sorunsuz okunuyor demektir.
+  int kontrol = DHT11.read(dataPIN);
+
+  if(kontrol==0){
+  // Sensörden gelen verileri serial monitörde yazdırıyoruz.
+  Serial.print(&quot;Nem (%): &quot;);
+  Serial.println((float)DHT11.humidity, dataPIN);
+
+  Serial.print(&quot;Sicaklik (Celcius): &quot;);
+  Serial.println((float)DHT11.temperature, dataPIN);
+  }
+  else{
+    Serial.print(&quot;Sensor Okunmuyor.&quot;);
+    }
+  // 2 saniye bekliyoruz.
+  delay(2000);
+
+}
+&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Serial monitor’ü açmak için kırmızı işaretli yeri tıklamamız yeterli;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/arduino-azure1.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Serial Monitor;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/arduino-azure2.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Eğer adımları doğru şekilde yaptıysak yukarıdaki şekildekine benzer ekran çıktısı almamız gerekiyor. Buradaki önemli noktalardan biri seri iletişimi başlattığımız değer, serial monitordeki baud değeriyle aynı olması gerekiyor.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Baud:&lt;/strong&gt; Seri haberleşmede iletişim hızının ifade edildiği bir değerdir.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; &lt;strong&gt;Baud rate:&lt;/strong&gt; Uzak iletişim ve elektronikte kullanılan saniyedeki atım oranını gösteren birimdir.&lt;/span&gt; [&lt;a href=&quot;https://tr.wikipedia.org/wiki/Baud&quot; target=&quot;_blank&quot;&gt;3&lt;/a&gt;]
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu aşamadan sonra artık verilerimizi bulut ortamına aktarabiliriz. Bunun için öncelikler Azure hesabımıza giriş yapıp bir Mobile Service oluşturmamız gerekmektedir. Bu işlemi önceki yazımızda göstermiştik.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Mobile Servisimiz ile alakalı şuan için bize lazım olan bilgiler;&lt;/span&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;server:&lt;/strong&gt; Mobile Service URL&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;table_name:&lt;/strong&gt; Mobil Service’de oluşturduğumuz tablo ismi&lt;/span&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;app_key:&lt;/strong&gt; Manage Keys’deki Application Keys&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/arduino-azure3.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/arduino-azure4.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Resimlerdeki gibi Arduino’ya Ethernet Shield’i ilave edip, daha önceki devre prototipiyle aynı olacak şekildeki bağlantılarımızı güncelliyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Devremizi tamamladıktan sonra Arduino’yu bilgisayara bağlayıp aşağıdaki kodu yükleyelim. Kodu yükledikten sonra internet bağlantısını gerçekleştirip uygulamamızı çalışmasını serial monitorden veya Azure &amp;gt; Mobil Services &amp;gt; “Mobil Servisimizin İsmi” &amp;gt; Data kısmından gelen verilerimizi görebiliriz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Senaryomuz şu şekilde gerçekleşecek; İlk önce belirlediğimiz mac adresine göre Ethernet Shield başlatılacak, Arduino DHT11 sensöründen aldığı değerleri Ethernet Shield aracılığıyla ilgili adresteki mobil servisimize gönderecek. Ben uygulamanın basitliği açısından her 5 saniyede verinin gönderilmesini istedim. Tabiki bu tarz birşey veritabanını gereksiz bir şekilde şişmesine neden olacaktır. Bunu önlemek için sadece değerlerin değiştiği zamanlar verinin gönderilmesi sağlanabilir. Bu şekilde gereksiz aynı verinin gönderilmesi engellenmiş olurdu veya daha farklı senaryolar da düşünebilirsiniz orası sizin algoritmanıza kalmış.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;pre class=&quot;lang:c decode:true &quot;&gt;// omereryilmaz.com Arduino ile Azure Baglantisi
+
+#include &amp;lt;SPI.h&amp;gt;
+#include &amp;lt;Ethernet.h&amp;gt;
+#include &amp;lt;dht11.h&amp;gt; // DHT11 kütüphanesini dahil ediyoruz.
+#define dataPIN 2 // dataPIN olarak Dijital 2'yi belirliyoruz.
+dht11 DHT11;
+
+// Ethernet shield MAC adresi tanimliyoruz.
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+
+// Azure Mobile Service adresi
+const char *server = &quot;omerarduino.azure-mobile.net&quot;;
+
+// Azure Mobile Service tablo ismi
+const char *table_name = &quot;omerev&quot;;
+
+// Azure Mobile Service Application Key
+// Dashboard kisminda alt tarafta 'Manage Keys'
+const char *app_key = &quot;UYgmWZxxxxxxxxxxxxxxxxxx&quot;;
+
+char* jsonKodu = &quot;&quot;;
+
+
+EthernetClient client;
+
+char buffer[64];
+
+void send_request(int sicaklik, int nem)
+{
+
+
+  if (client.connect(server, 80)) {
+    Serial.println(&quot;-----------------------&quot;);
+    Serial.print(&quot;Sicaklik (Celcius): &quot;);
+    Serial.println(sicaklik);
+    Serial.print(&quot;Nem (%): &quot;);
+    Serial.println(nem);
+    Serial.println(&quot;-----------------------&quot;);
+    // POST URI
+    //tirnak icindeki %s yerine table_name i yaz, buffer degiskenine at
+    sprintf(buffer, &quot;POST /tables/%s HTTP/1.1&quot;, table_name);
+    //bufferdaki post islemini baslat
+    client.println(buffer);
+
+    // Host basligini tanimla
+    sprintf(buffer, &quot;Host: %s&quot;, server);
+    client.println(buffer);
+
+    // Azure Mobile Services application key
+    sprintf(buffer, &quot;X-ZUMO-APPLICATION: %s&quot;, app_key);
+    client.println(buffer);
+
+
+    //verinin json olarak gonderilecegini belirtiyoruz
+    client.println(&quot;Content-Type: application/json&quot;);
+
+    jsonKodu = &quot;{&quot;sensor_tipi&quot;:&quot;Oda_isi_nem&quot; ,&quot;sicaklik&quot;: %d,&quot;nem&quot;: %d}&quot;;
+    // POST edilecek veriler
+    sprintf(buffer, jsonKodu, sicaklik, nem);
+
+    // Icerik uzunlugu
+    client.print(&quot;Content-Length: &quot;);
+    client.println(strlen(buffer));
+
+    // Basliklarin sonu
+    client.println();
+
+    // Istek govdesi
+    client.println(buffer);
+
+  } else {
+    Serial.println(&quot;Baglanti Hatasi! :(&quot;);
+  }
+}
+
+/*
+** Yanit bekleniyor
+*/
+
+void wait_response()
+{
+  while (!client.available()) {
+    if (!client.connected()) {
+      return;
+    }
+  }
+}
+
+/*
+** Yanit okunuyor ve yigina ekleniyor
+*/
+
+void read_response()
+{
+  bool print = true;
+
+  while (client.available()) {
+    char c = client.read();
+    // Sadece ilk satir basina kadar yazdir
+    if (c == 'n')
+      print = false;
+    if (print)
+      Serial.print(c);
+  }
+   Serial.println(&quot;&quot;); //bosluk
+}
+
+/*
+** Baglantiyi kapat
+*/
+
+void end_request()
+{
+  client.stop();
+}
+
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println(&quot;Seri iletisim baslatildi.&quot;);
+  while (!Serial) {
+    ; // serial port baglantsi icin bekle
+    Serial.println(&quot;Seri iletisim hata.&quot;);
+  }
+
+  Serial.println(&quot;Ethernet ayarlari yapiliyor..&quot;);
+
+  if (Ethernet.begin(mac) == 0) {
+    delay(100);
+    Serial.println(&quot;Ethernet Hatasi&quot;);
+    for (;;) ; //sonsuz dongu prog kitle
+  }
+  //ethernet shield'in başlatılması (initialize) icin bekletiliyor
+  delay(1000);
+  Serial.println(&quot;Ethernet ayarlari yapildi.&quot;);
+
+}
+
+void loop() {
+
+  int kontrol = DHT11.read(dataPIN);
+
+  if(kontrol==0){
+    int sicak = (int)DHT11.temperature;
+    int ne = (int)DHT11.humidity;
+    send_request(sicak,ne);
+    wait_response();
+    read_response();
+    end_request();
+  }
+  else{
+    Serial.print(&quot;Sensor Okunmuyor.&quot;);
+    }
+
+  delay(5000); //5 saniye bekletiyoruz.
+}&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Kodumuzdaki önemli noktalardan bahsedecek olursak;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bir önceki koda ilave olarak kulladığımız kütüphaneler; SPI ve Ethernet.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu kodu ethernet shield’e mac adresi atamak için kullanıyoruz. Bazı ethernet shield’lerde bu adres üzerinde yazılı olarak gelmesine karşılık bazılarında gelmiyor. Bu yüzden mac standartlarına uygun kendi belirlediğimiz bir adresi de atayabiliriz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; jsonKodu = &quot;{&quot;sensor_tipi&quot;:&quot;Oda_isi_nem&quot; ,&quot;sicaklik&quot;: %d,&quot;nem&quot;: %d}&quot;;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; Bu kodda ise verilerimizi Json formatında gönderiyoruz. “kolon_ismi1:veri1, kolon_ismi2:veri2” şeklindeki tanımlama mevcuttur. İki noktadan önceki kısım kolon adımnı sonraki kısım isi o kolona aktarılacak veriyi temsil etmektedir.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Eğer adımları başarılı bir şekilde gerçekleştirdiysek;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; Serial Monitor;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/arduino-azure6.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/arduino-azure7.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Yukarıdaki resimde görüldüğü gibi verilerimizi bulut ortamına aktarmış olduk.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Kaynakça:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] http://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html&lt;/li&gt;
+ 	&lt;li&gt;[2] http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand&lt;/li&gt;
+ 	&lt;li&gt;[3] https://tr.wikipedia.org/wiki/Baud&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Sun, 31 Jan 2016 21:37:00 +0300</pubDate>
+				<link>http://localhost:4000/arduino-ile-azure-mobile-services-baglantisi-iot/</link>
+				<guid isPermaLink="true">http://localhost:4000/arduino-ile-azure-mobile-services-baglantisi-iot/</guid>
+			</item>
+		
+			<item>
+				<title>Microsoft Azure Mobile Services Nasıl Oluşturulur?</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+	&lt;span style=&quot;color:#000000;&quot;&gt;
+		Bir önceki yazımızda &lt;a style=&quot;color:#000000;&quot; href=&quot;/azure-mobile-services-nedir/&quot; target=&quot;_blank&quot;&gt;Azure Mobil Service (Mobil Hizmet)&lt;/a&gt;’in ne olduğuna değinmiştik. Bu yazımızda ise Mobil Hizmet’in oluşturulması ve kullanılmasını göreceğiz.
+	&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+	&lt;span style=&quot;color:#000000;&quot;&gt;
+		Öncelikle bu yazıdaki örneği uygulamak için Microsoft Azure hesabınız olması gerekmektedir. Burada Mobile Service oluşturup daha sonra da bu servis için oluşturulmuş örneğini de Visual Studio ile incelemeye çalışacağız.
+	&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+	&lt;span style=&quot;color:#000000;&quot;&gt;Eğer bir Azure hesabınız varsa &lt;a style=&quot;color:#000000;&quot; href=&quot;https://manage.windowsazure.com&quot;&gt;https://manage.windowsazure.com&lt;/a&gt; adresinden girip işleme başlıyoruz.
+	&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Karşınıza şekildeki gibi bir ekran çıkacak;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices1.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Yeni Azure portalını kullanmak istiyorsak; &lt;a style=&quot;color:#000000;&quot; href=&quot;https://portal.azure.com&quot;&gt;https://portal.azure.com&lt;/a&gt; adresini kullanabiliriz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices2.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Her iki portal da şuan için kullanılabilir. Hizmetin başlatılmasına kadar ki kısımda ikisini de paralel olarak göstermeye çalışacağım ama daha sonraki aşamalarda bana daha kullanışlı geldiği için eski portal üzerinden devam edeceğim.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Yeni bir Mobile Service oluşturmak için aşağıdaki adımları takip ediyoruz;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Sol taraftaki menüden MOBILE SERVICES’i seçip alt kısımdaki toolbar’dan NEW butonuna tıklıyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices3.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Yeni portalda ise; +Yeni &amp;gt; Web + Mobil &amp;gt; Mobile App  adımlarını takip ederek aynı işlemleri gerçekleştirebiliriz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices4.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Açılan popup menüden CREATE’e tıklıyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices5.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu kısımda Mobile Service’imiz için detayları belirleyeceğiz. Ben URL kısmını “omerornek” olarak isimlendirdim. Database olarak da siz 20MB FREE olanını kullanabilirsiniz. Ben onu başka bir örneğimde kullandığım için burada çıkmamış. O yüzden başka yeni bir veritabanı oluşturacağım. Region olarak bize en yakın bölge North Europe’ı seçiyorum. Backend olarak da arka planda JavaScript ‘le çalışacağımı bildiriyorum.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices6.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu adımda veritabanımızın nerede barınacağını belirliyoruz. İstersek yeni bir server oluşturup onda barındırabiliriz. Benim daha önce oluşturğum server olduğu için veritabanım o server üzerinde barındıracağımı belirtip OK butonuna tıklıyoruz ve servisimiz oluşturulmaya başlıyor.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices7.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Oluşturduğumuz Mobil Servis’in durumu hazır olarak güncelenene kadar bekliyoruz. Bazen bu güncellemede sorun olabiliyor o yüzden çok uzun sürdüyse sayfamızı yenilemekte fayda var.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices8.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Mobile Service ‘imiz kullanıma hazır.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices9.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Ekranda görüldüğü üzere üst kısımda servisimizi kullanırken veya uygulumamızı inşa edereken kullanabileceğimiz özellikler (Dashboard, Data, v.s.), aşağı kısımdaki toolbar’da ise seçilen özelliğin eylemleri gerçekleştirebileceğimiz butonlar bulunmaktadır.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Manage Keys:&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices10.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Microsoft Azure Mobile Services, API’ye erişimi sınırlandırmak için application key ve master key olmak üzere iki tane anahtar koda sahiptir. Tablolar ve API’ler sadece bu anahtar kodlara sahip uygulamaların isteklerine cevap verir. Ancak bu kodlar şifrelenmemiş olduğundan güvenli olarak görülmez. Bu yüzden bu servislere erişmeden önce kullanıcıların kimlik doğrulamasından geçmesi önemli bir konudur.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Master Key, yönetici erişimi için kullanılır ve bu key dağıtılan uygulamalarda kullanılmamalıdır.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Herhangi bir sorunda veya güvenlik endişesinde “regenerate” butonuna tıklayarak yeni bir key oluşturabiliriz. Ancak bu değişiklik bu servise erişen  diğer uygulamaların servise erişimini engelleyecektir. Bu yüzden çok gerekli olmadıkça değiştirilmemelidir. Değiştirildiği taktirde de uygulamalarımızdaki anahtar kodları güncellememiz gerekmektedir.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt; Mobil Service’imiz ve onunla ilgili depolama birimlerinin anlık kullanım durumlarını izleyebileceğimiz kısımdır.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Özelliklerden bazılarını kısaca açıkladıkdan sonra şimdide Microsoft’un Mobile Service örneklerinden birini indirip, onun üzerinden bir uygulama üzerinden bu hizmetin nasıl kullanabilineceğini anlamaya çalışalım.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Hangi platformdaki örnek uygulamayla çalışacakcaksak onu seçiyoruz. Windows &amp;gt; Create a new windows or windows phone app ‘a tıklıyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices11.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Uygulamamız için gerekli işlemler resimde gösterilmektedir. Uygulamızı yazımızın başında belirttiğimiz gibi Visual Studio ile açıp, çalıştıracağız. Bu yüzden eğer Visual Studio yoksa ilk adım olarak onu yüklemeliyiz. Daha sonra da uygulamızdaki verilerin kaydedileceği TodoItem Tablosunu oluşturmak için &lt;strong&gt;CREATE&lt;/strong&gt; &lt;strong&gt;TODOITEM TABLE&lt;/strong&gt; butonuna tıklıyoruz. En son olarak da uygulamamızın hangi programlama dilinde olacağını belirledikten sonra &lt;strong&gt;DOWNLOAD&lt;/strong&gt; butonuna tıklayıp bizim için özel hazırlanmış örnek uygulamızı indiriyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices12.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;İndirdiğimiz uygulama dosyasındaki Solution’a tıklayıp Visual Studio ile açıyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices13.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Uygulamamızı Visual Studio ile açtıktan sonra Solution’da sağ tıklayıp Build ediyoruz. Eğer uygulamamız için gerekli olan eksik veya yüklenmemiş Nuget paketleri varsa bu şekilde tespit edilip yüklenmesini sağlıyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices14.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Solution’dan Windows uygulamasını seçip, çalıştırıyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices15.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices16.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Şimdi de ilk kaydımızı oluşturup, Azure’daki değişiklikleri kontrol edelim.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices17.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Azure &amp;gt; Mobil Servisimizin İsmi &amp;gt; Data &amp;gt; Tablomuzun İsmi&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices18.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu şekilde Mobile Service’imizin güzel bir şekilde çalıştığını görmüş olduk.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Mobil Servisin birkaç özelliğini görmek adına indirdiğimiz örneğin kaynak kodların bir kısmını inceleyecek olursak;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Örneğimizdeki App.xaml.cs ‘e baktığımızda oluşturulan MobileServiceClient nesnesindeki anahtarın, Azure’da oluşturduğumuz Mobil Servisimizin Manage Key’deki Application Key ile aynı olduğunu görebiliriz. Zaten daha öncede bu örneğim bizim için özel oluşturulduğunu söylemiştik.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Datamodel &amp;gt; TodoItem.cs ‘e bakacak olursak;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices19.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Buradaki TodoItem sınıfı mobil servisimiz tarafından kullanılan veritabanındaki tabloyu, içerisindeki property’ler ise kolonlarımızı temsil etmektedir. JsonProperty olarak nitelendirilen kısımdaki isimler birebir veritabanımızdaki tablo kolonlarının ismidir. Bunlar temsil edildikleri sınıf property isimleri ile aynı olmayabilir ve Azure Mobile Service’in temsil edildiği Entity kesinlikle bir Id ‘ye sahip olmalıdır. Eğer Id olmaz ise çalışmayacaktır.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu aşamada Azure Mobile Service’in mucize diye nitenlendirilebilecek bir özelliğine değinmeye çalışacağım. Yukarıda bahsettiğim TodoItem sınıfına yeni bir alan ekleyeceğim.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices20.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Kırmızı dikdörtgen ile belirtilmiş alanı ekledim. Daha sonra da veri eklenmesi sırasında varsayılan değer göndermesi için MainPage’deki InsertTodoItem fonksiyonuna&lt;/span&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;todoItem.YeniAlan = &quot;yeni alan denemesi&quot;;&lt;/strong&gt;&lt;/span&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;kodunu ekliyoruz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices21.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Yaptığımız işlem tamamen veritabanımızdan bağımsız ve veritabanı tasarımına uymayan bir işlemdir. Dolayısıyla uygulamamızın çalıştırıldığında hata vermesi bekleyebiliriz.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Uygulamamızı çalıştırdığımızda ise hata vermeden çalıştığını görebiliriz.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices22.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices23.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Kırmızıyla belirtilen kısımda görüldüğü gibi yeni bir kolon oluşturmuş.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Bu özellik sayesinde uygulama geliştirme işlemi inanılmaz şekilde kolaylaştırılmış oluyor. Çünkü görüldüğü üzere kodumuzdaki herhangi bir değişiklikte daha alt katmanda bulunan veritabanımız hatasız uyum sağlamış ve bizim yerimize arkaplandaki bu ayarlamaları yapmış oluyor. Biz kendi uygulamamızla uğraşırken Microsoft Azure bu işlemleri bizim yerimize yaparak hem zamandan tasarruf etmemizi hem de sadece uygulamamıza yoğunlaşmamızı sağlıyor.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Aslında bu durum pratikte çok kullanışlı olsa da uygulamamızın ileri aşamalarında veri kirliliğine neden olabileceğine de değinmekte fayda var. Örneğin uygulamamızı geliştirip market ortamına koyduğumuz da bu özelliğin başımıza dert açmasını önlemek için;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;
+    &lt;img src=&quot;/images/mobilservices24.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+&lt;span style=&quot;color:#000000;&quot;&gt;Mobile Service’imizin Configure kısmına gelip, “&lt;strong&gt;ENABLE DYNAMIC SCHEMA&lt;/strong&gt;” özelliğini “&lt;strong&gt;OFF&lt;/strong&gt;” konumuna getirmeliyiz.&lt;/span&gt;
+&lt;/p&gt;
+</description>
+				<pubDate>Sun, 24 Jan 2016 16:47:00 +0300</pubDate>
+				<link>http://localhost:4000/azure-mobile-services-nasil-olusturulur/</link>
+				<guid isPermaLink="true">http://localhost:4000/azure-mobile-services-nasil-olusturulur/</guid>
+			</item>
+		
+	</channel>
+</rss>

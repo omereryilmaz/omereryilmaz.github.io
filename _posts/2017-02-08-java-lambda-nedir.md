@@ -5,7 +5,7 @@ date: 2017-02-08 19:36
 image: java-lambda-nedir.jpg
 comments: true
 categories: [Java]
-tags: [expression, Java, java 8 lambda expression, java 8 lambda nedir, lambda, lambda kullanımı, lambda nedir]
+tags: [expression, Java, java-8-lambda-expression, java-8-lambda nedir, lambda, lambda-kullanımı, lambda-nedir]
 ---
 <p style="text-align:justify;">
 Java, nesne-yönelimli programlamanın (object-oriented programming)  yazılım geliştirme için temel paradigma olduğu 1990’lı yıllarda nesne-yönelimli  bir programlama dili olarak tasarlanmıştır. Nesne-yönelimli programlamadan çok önce Lisp ve Scheme gibi fonksiyonel programlama dilleri olmasına rağmen akademik çevreler dışında pek rağbet görmemiştir. Son zamanlarda da fonksiyonel programlama önem kazanmıştır çünkü eşzamanlı ve olay güdümlü programlama için bu yöntem çok uygundur. Ama bu, nesne-yönelimli programlamanın kötü olduğu anlamına gelmemektedir. Aksine nesne-yönelimli programlamayla fonksiyonel programlamanın harmanlanması bu konuya daha da işlevsellik kazandırmaktadır. Örneğin programlama dilinin işlevsel ifadeler için uygun bir söz dizimi (syntax) varsa koleksiyon kütüphaneleri güçlü API’ler sunabilir. Java 8 ile gelen temel değişiklik fonksiyonel programlama yapılarının nesne-yönelimli yapının köklerine eklenmesidir [1].</p>

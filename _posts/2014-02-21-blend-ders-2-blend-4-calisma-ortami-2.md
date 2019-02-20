@@ -4,7 +4,7 @@ title: Blend Ders-2 - Blend 4 Çalışma Ortamı
 date: 2014-02-21 20:53
 image: ders2_1.jpg
 comments: true
-categories: [Blend, WPF, XAML]
+categories: [Blend, WPF]
 ---
 <span style="color:#000000;text-align:justify;">Bu yazımızda Blend çalışma ortamını kısaca tanımaya çalışacağız.  Photoshop, Flash gibi programlara aşina olanların fazla zorlanmayacağı bir tasarıma sahiptir. Bu tür programların hiç birini kullanmamış olanların bile kolayca adapte olabileceğini düşünüyorum. </span>
 

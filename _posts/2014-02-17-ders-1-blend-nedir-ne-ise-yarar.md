@@ -4,7 +4,7 @@ title: Blend Ders-1 - Blend nedir? Ne işe yarar?
 image: Blend4.jpg
 date: 2014-02-17 22:25
 comments: true
-categories: [Blend, WPF, XAML]
+categories: [Blend, WPF]
 ---
 
 <p style="text-align:justify;"><span style="color:#000000;">    Uygulamalarımızı yaparken kullanıcıların etkileşim içinde bulundukları arayüzün tasarımı da uygulamamızın işlevi kadar önemlidir. Çünkü biz bile ilk uygulamayı açtığımızda kolay kullanılabilir ve göze hitap etmesine de dikkat ederiz. Bu şekilde kişisel arayüz tasarımları yapmak için imdadımıza Blend yetişir. Blend sayesinde formları ve bileşenleri istediğimiz gibi tasarlayarak klasik form monotonluğundan kurtulmuş oluruz.</span></p>

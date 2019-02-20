@@ -4,7 +4,7 @@ title: Quantum Computation Language
 image: qcl-image.jpg
 date: 2017-05-17 01:08:21 +00:00
 tags: [Kuantum, Yazılım, grover-algoritması, kuantum-bilgisayar-programlama, Kuantum-Bilgisayarlar, kuantum-hesaplama-dili, kuantum-programlama-dili, kuantum-simülasyon, qcl, quantum-computing, quantum-computing-language, quantum-programming-language, quantum-programming-language-for-windows]
-categories: KuantumBilgisayarlar
+categories: [KuantumBilgisayarlar]
 ---
 
 

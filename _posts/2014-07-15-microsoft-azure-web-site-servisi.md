@@ -4,7 +4,7 @@ title: Microsoft Azure Web Site Hizmeti
 date: 2014-07-15 13:17
 image: azureweb0.jpg
 comments: true
-categories: [MicrosoftAzure, WebSite]
+categories: [MicrosoftAzure]
 ---
 <a href="/images/azureweb0.jpg"><img class="size-full wp-image-250 aligncenter" src="/images/azureweb0.jpg" alt="azureweb0" width="300" height="300" /></a>
 

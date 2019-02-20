@@ -4,7 +4,7 @@ title: Microsoft Azure Bulut Hizmeti
 date: 2014-07-17 16:22
 image: cloud_baslik.jpg
 comments: true
-categories: [MicrosoftAzure, Cloud]
+categories: [MicrosoftAzure]
 ---
 <a href="/images/cloud_baslik.jpg"><img class="size-full wp-image-279 aligncenter" src="/images/cloud_baslik.jpg" alt="cloud_baslik" width="300" height="300" /></a>
 <p style="text-align:justify;"><span style="color:#000000;">Microsoft Azure Bulut Hizmetleri çok katmanlı uygulamalar oluşturmaya, oluşturduğumuz bu uygulamaları kullanıma sunmaya ve yönetmeye imkan sağlayan bir teknolojidir. Bunun yanı sıra uygulamalarımız için çoklu roller de oluşturulabilir. Bahsettiğimiz bu bulut hizmeti uygulamalarını .NET, Node.js, PHP, Java, Python ve Ruby dilleri dahil olmak üzere hemen hemen tüm popüler dilleri kullanılarak geliştirilebiliriz. Ayrıca uygulamamıza Windows Azure Mobile Services ve Media Services gibi servisleri de entegre edebiliriz.</span></p>

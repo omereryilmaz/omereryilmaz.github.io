@@ -4,7 +4,7 @@ title: Windows 'ta dig komutu kullanımı
 date: 2014-04-02 18:00
 image: dig0windows.jpg
 comments: true
-categories: [Windows, Network, CommandLine]
+categories: [Windows, Network]
 ---
 <span style="color:#000000;"><a href="/images/dig0windows.jpg"><span style="color:#000000;"><img class="size-full wp-image-134 aligncenter" alt="dig0windows" src="/images/dig0windows.jpg" width="300" height="300" /></span></a></span>
 

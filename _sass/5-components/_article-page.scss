@@ -134,6 +134,30 @@
   }
 }
 
+#table-omer {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-omer td, #table-omer th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table-omer tr:nth-child(even){background-color: #f2f2f2;}
+
+#table-omer tr:hover {background-color: #ddd;}
+
+#table-omer th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #55acee;
+  color: white;
+}
+
+
+
 @media only screen and (max-width: 1200px) {
   .c-recent-post {
     .c-recent__item {

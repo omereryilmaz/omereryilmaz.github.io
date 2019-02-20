@@ -4,7 +4,7 @@ title: Blend Ders-4 - Blend ile Animasyonlu Buton
 date: 2014-07-16 16:25
 image: blendbutonbaslik.jpg
 comments: true
-categories: [Blend, WPF, XAML]
+categories: [Blend, WPF]
 ---
 <p style="text-align:center;"><a href="/images/blendbutonbaslik.jpg" target="_blank"><img class="size-full wp-image-263 aligncenter" src="/images/blendbutonbaslik.jpg" alt="blendbutonbaslik" width="300" height="300" /></a></p>
 

@@ -4,7 +4,7 @@ title: dig Komutu nedir? Ne işe yarar?
 date: 2014-05-10 19:24
 image: dig001.jpg
 comments: true
-categories: [Windows, Network, CommandLine]
+categories: [Windows, Network]
 ---
 <a href="/images/dig001.jpg"><img class="size-full wp-image-196 aligncenter" src="/images/dig001.jpg" alt="dig001" width="250" height="250" /></a>
 

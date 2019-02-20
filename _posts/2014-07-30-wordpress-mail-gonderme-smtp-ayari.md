@@ -4,7 +4,7 @@ title: WordPress Mail Gönderme (SMTP) Ayarı
 date: 2014-07-30 02:30
 image: mail_wp.jpg
 comments: true
-categories: [SMTP, WordPress]
+categories: [WordPress]
 ---
 <span style="color:#000000;">Bir çok sunucuda çeşitli güvenlik sorunları veya farklı sebebler yüzünden mail gönderimi engellenmiş olabiliyor. Bu yüzden ne admin parola sıfırlaması gönderilebiliyor ne de iletişim bölümünden ziyaretçilerimizin bizle olan iletişimi sağlanabiliyor. </span>
 <p style="text-align:justify;"><span style="color:#000000;"><a href="/images/mail0.png"><span style="color:#000000;"><img class="size-full wp-image-289 aligncenter" src="/images/mail0.png" alt="mail0" width="463" height="105" /></span></a></span></p>

@@ -4,7 +4,7 @@ title: Blend Ders-3 - Blend 4 ile Metro Stil Arayüz Tasarımı
 date: 2014-03-07 19:18
 image: metrologo.jpg
 comments: true
-categories: [Blend, WPF, XAML]
+categories: [Blend, WPF]
 ---
 <p style="text-align:justify;"><span style="color:#000000;">Bu yazımızda etkili bir tasarım için uyulması gereken metotlara değindikten sonra basit metro arayüz tasarımı yapmaya çalışacağız.</span></p>
 
