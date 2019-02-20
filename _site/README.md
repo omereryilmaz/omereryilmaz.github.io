@@ -38,11 +38,11 @@
 <h2>Tema</h2>
 <ul>
 	<li><a href="https://github.com/artemsheludko/flexton">Flexton</a>.</li>
-<ul>
+</ul>
 
 <h2>Son Düzenlemeler</h2>
 <ul>
 	<li>Kategori bölümü eklentisiz olarak Github üzerinde çalışır duruma getirildi. </li>
 	<li>Feed.xml eklendi. </li>
-<ul>
+</ul>
 
