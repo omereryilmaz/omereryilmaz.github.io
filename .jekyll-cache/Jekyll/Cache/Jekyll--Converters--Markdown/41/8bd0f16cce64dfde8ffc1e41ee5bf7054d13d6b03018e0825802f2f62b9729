@@ -1,0 +1,13 @@
+I"�<p style="text-align:justify;">
+<span style="color:#000000;">Bu yazımda, Arduino ile aldığımız verileri bulut ortamına aktarmayı göstermeye çalışacağım. Yani bu yazıyla birlikte IoT konusuna da girmiş olacağız.</span>
+</p>
+<p style="text-align:justify;">
+<span style="color:#000000;">IoT (Internet of Things = Nesnelerin İnterneti) adından da anlaşılacağı üzere fiziksel ağ üzerindeki nesnelerin; cihazlar, araçlar ve binalarda bulunan elektronik gömülü sistemler sayesinde birbiriyle bağlantı kurması ve veri alışverişi yapması olayıdır. 1970’lerden itibaren kurulan ATM’ler ilk IoT cihazları kabul edilmektedir. Günümüzde de bu tarz cihazların sayısı artmaya devam etmektedir. Cisco firmasının öngörüsüne göre 2020 yılında tüm dünyadaki IOT cihazlarının sayısı 50milyar’a ulaşması beklenmektedir[<a href="http://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html" target="_blank">1</a>]. Bunun anlamı bir kaç yıl içerisinde IoT teknolojisi hayatımızın her alanına girmesi demektir. Örneğin internete bağlı buzdolabımızdaki yumurtanın bittiğinin tespit edilmesi ve otomatik olarak marketten yumurta siparişinin edilmesi, sağlık alanında kritik hastaların takibi ve olası kriz öncesi mühahale yapılarak yaşam kalitesinin arttırılması, araçlarımızdaki arızanın büyük boyutlara ulaşmadan tespiti gibi sınırı olmayan bir alan olarak görebiliriz.</span>
+</p>
+<p style="text-align:center;">
+  <embed width="520" height="345" src="http://players.brightcove.net/2097119709001/NJOvFZMYl_default/index.html?videoId=4609490745001" frameborder="0" />
+ 
+</p>
+<p style="text-align:center;">
+<span style="color:#000000;">Internet of Things Video<span style="color:#808080;">[</span><span style="color:#008080;"><a style="color:#008080;" href="http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand" target="_blank">2</a></span><span style="color:#808080;">]</span></span></p>
+:ET

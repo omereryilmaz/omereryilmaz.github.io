@@ -1,0 +1,9 @@
+I"j<p style="text-align:justify;">
+TypeScript, Microsoft çalışanı Anders Hejlsberg (C# tasarımcısı) tarafından tasarlanan açık kaynaklı programlama dilidir. TypeScript hem dil hem de araçlar kümesidir. TypeScript, JavaScript’in ek özellikler almış hali de denilebilir (Şekil 1). İstemci tarafında (client-side) veya sunucu tarafında (server-side) çalışabilen JavaScript uygulamaları geliştirmek için kullanılabilir.
+</p>
+<p style="text-align:center;">
+    <img src="/images/typescript_javascript.png" />
+</p>
+<p style="text-align:center;">Şekil 1. TypeScript ve JavaScript</p>
+<p><br /></p>
+:ET

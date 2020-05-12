@@ -1,0 +1,7 @@
+I"w<p style="text-align:justify;">Team Foundation Server, Microsoft ‘un düzenli proje geliştirmek için ürettiği bir ürün ailesidir. Bir önceki yazımızda TFS ‘nin bir <a href="/alm-application-lifecycle-management-nedir/">ALM (Application Lifecycle Management)</a> aracı olduğunu söylemiştik ama TFS ‘nin sadece kaynak kodu kontrol eden bir mekanizma olarak düşünülmemelidir. Dolayısıyla burada işin içerisine metodojiler, süreçler, ekipler ve seçilen sürece göre iş kalemleri girmektedir.</p>
+<p><br /></p>
+<p style="text-align:center;">
+    <img src="/images/tfs_diagram.png" />
+</p>
+<p><br /></p>
+:ET
