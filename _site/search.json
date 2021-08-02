@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "SOLID Prensipleri",
+      "category" : "",
+      "tags"     : "solid-principles, solid-principles-in-csharp solid-prensipleri-nelerdir, csharp-ile-solid-prensipleri, single-responsibility-principle, open-closed-principle, liskovs-substitution-principle, interface-segregation-principle, and dependency-inversion-principle",
+      "url"      : "/SOLID-prensipleri/",
+      "date"     : "2021-08-02 20:22:00 +0300"
+    } ,
+  
+    {
       "title"    : "Hello World Of Jekyll",
       "category" : "",
       "tags"     : "Genel and Yazılım",

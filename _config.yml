@@ -6,14 +6,14 @@ url: "http://omereryilmaz.com" # the base hostname & protocol for your site, e.g
 # Author
 author-name:    Ömer Eryılmaz
 author-image:   omer-eryilmaz.jpg
-author-job:     MSc Computer Engineer & Software Developer
+author-job:     MSc Computer Engineer & Software Development Engineer
 author-email:   omer-eryilmaz@hotmail.com # Add your email for contant form.
 author-twitter: omreryilmaz # Add your twitter account
 about-author:   I am a Computer Engineer focusing on Software Development. Always hungry to keep learning new technologies.
 
 # Social settings
 social-twitter:   omreryilmaz
-social-facebook:  omreryilmaz
+social-facebook:
 social-github:    omereryilmaz
 social-pinterest: 
 social-instagram: omereryilmaz_

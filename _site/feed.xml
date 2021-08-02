@@ -7,6 +7,34 @@
 		<atom:link href="http://omereryilmaz.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>SOLID Prensipleri</title>
+				<description>&lt;p&gt;SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object Oriented Programming&lt;/code&gt; - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Robert C. Martin&lt;/code&gt; tarafından derlenmiştir.&lt;/p&gt;
+
+&lt;p&gt;Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanılabilir. Dolayısıyla; anlaşılabilir, bakımı kolay ve esnek bir kod yerine, SOLID prensipleriyle daha kötü ve karmaşık kodlar elde edebilmek mümkündür. Bu nedenle, dikkatli bir şekilde düşünmek ve bu ilkeleri yalnızca gerektiğinde uygulamak; temiz bir kod yazmanın temel prensibidir.&lt;/p&gt;
+
+&lt;h4 id=&quot;solid-kısaltmasını-oluşturan-prensipler&quot;&gt;SOLID kısaltmasını oluşturan prensipler:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;https://github.com/omereryilmaz/solid-principles/tree/main/single-responsibility#readme&quot;&gt;Single Responsibility Principle&lt;/a&gt; (SRP)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt;&lt;/strong&gt; - Open / Closed Principle (OCP)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;&lt;/strong&gt; - Liskov Substitution Principle (LSP)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;&lt;/strong&gt; - Interface Segregation Principle (ISP)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt;&lt;/strong&gt; - Dependency Inversion Principle (DIP)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code-maze.com/solid-principles/&quot;&gt;Code Maze&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/&quot;&gt;C-Sharp Corner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp&quot;&gt;DotNet Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 02 Aug 2021 20:22:00 +0300</pubDate>
+				<link>http://omereryilmaz.com/SOLID-prensipleri/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/SOLID-prensipleri/</guid>
+			</item>
+		
+			<item>
 				<title>Hello World Of Jekyll</title>
 				<description>&lt;p style=&quot;text-align: justify;&quot;&gt;
 Bu yazımla birlikte Jekyll dünyasına adım atmış bulunmaktayım. Beni veritabanı bağımlılığından, wordpress&apos;in sürekli gelen güncellemelerinden kurtaracak olan bu arkadaş, statik sayfanın hızını sunarken, dinamik sayfanın konforunu aratacak mı bilmiyorum. Kişisel websiteleri için dinamik sayfalara imkan sağlayan wordpress gibi teknolojiler biraz kaynak israfı gibi. Bu teknolojide Github hosting olarak kullanılarak, hosting masraflarından da kurtulmuş oluyoruz.  
@@ -1416,278 +1444,6 @@ void loop() {
 				<pubDate>Sun, 31 Jan 2016 21:37:00 +0300</pubDate>
 				<link>http://omereryilmaz.com/arduino-ile-azure-mobile-services-baglantisi-iot/</link>
 				<guid isPermaLink="true">http://omereryilmaz.com/arduino-ile-azure-mobile-services-baglantisi-iot/</guid>
-			</item>
-		
-			<item>
-				<title>Microsoft Azure Mobile Services Nasıl Oluşturulur?</title>
-				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
-	&lt;span style=&quot;color:#000000;&quot;&gt;
-		Bir önceki yazımızda &lt;a style=&quot;color:#000000;&quot; href=&quot;/azure-mobile-services-nedir/&quot; target=&quot;_blank&quot;&gt;Azure Mobil Service (Mobil Hizmet)&lt;/a&gt;’in ne olduğuna değinmiştik. Bu yazımızda ise Mobil Hizmet’in oluşturulması ve kullanılmasını göreceğiz.
-	&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-	&lt;span style=&quot;color:#000000;&quot;&gt;
-		Öncelikle bu yazıdaki örneği uygulamak için Microsoft Azure hesabınız olması gerekmektedir. Burada Mobile Service oluşturup daha sonra da bu servis için oluşturulmuş örneğini de Visual Studio ile incelemeye çalışacağız.
-	&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-	&lt;span style=&quot;color:#000000;&quot;&gt;Eğer bir Azure hesabınız varsa &lt;a style=&quot;color:#000000;&quot; href=&quot;https://manage.windowsazure.com&quot;&gt;https://manage.windowsazure.com&lt;/a&gt; adresinden girip işleme başlıyoruz.
-	&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Karşınıza şekildeki gibi bir ekran çıkacak;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices1.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Yeni Azure portalını kullanmak istiyorsak; &lt;a style=&quot;color:#000000;&quot; href=&quot;https://portal.azure.com&quot;&gt;https://portal.azure.com&lt;/a&gt; adresini kullanabiliriz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices2.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Her iki portal da şuan için kullanılabilir. Hizmetin başlatılmasına kadar ki kısımda ikisini de paralel olarak göstermeye çalışacağım ama daha sonraki aşamalarda bana daha kullanışlı geldiği için eski portal üzerinden devam edeceğim.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Yeni bir Mobile Service oluşturmak için aşağıdaki adımları takip ediyoruz;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Sol taraftaki menüden MOBILE SERVICES’i seçip alt kısımdaki toolbar’dan NEW butonuna tıklıyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices3.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Yeni portalda ise; +Yeni &amp;gt; Web + Mobil &amp;gt; Mobile App  adımlarını takip ederek aynı işlemleri gerçekleştirebiliriz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices4.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Açılan popup menüden CREATE’e tıklıyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices5.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu kısımda Mobile Service’imiz için detayları belirleyeceğiz. Ben URL kısmını “omerornek” olarak isimlendirdim. Database olarak da siz 20MB FREE olanını kullanabilirsiniz. Ben onu başka bir örneğimde kullandığım için burada çıkmamış. O yüzden başka yeni bir veritabanı oluşturacağım. Region olarak bize en yakın bölge North Europe’ı seçiyorum. Backend olarak da arka planda JavaScript ‘le çalışacağımı bildiriyorum.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices6.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu adımda veritabanımızın nerede barınacağını belirliyoruz. İstersek yeni bir server oluşturup onda barındırabiliriz. Benim daha önce oluşturğum server olduğu için veritabanım o server üzerinde barındıracağımı belirtip OK butonuna tıklıyoruz ve servisimiz oluşturulmaya başlıyor.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices7.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Oluşturduğumuz Mobil Servis’in durumu hazır olarak güncelenene kadar bekliyoruz. Bazen bu güncellemede sorun olabiliyor o yüzden çok uzun sürdüyse sayfamızı yenilemekte fayda var.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices8.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Mobile Service ‘imiz kullanıma hazır.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices9.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Ekranda görüldüğü üzere üst kısımda servisimizi kullanırken veya uygulumamızı inşa edereken kullanabileceğimiz özellikler (Dashboard, Data, v.s.), aşağı kısımdaki toolbar’da ise seçilen özelliğin eylemleri gerçekleştirebileceğimiz butonlar bulunmaktadır.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Manage Keys:&lt;/span&gt;&lt;/strong&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices10.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Microsoft Azure Mobile Services, API’ye erişimi sınırlandırmak için application key ve master key olmak üzere iki tane anahtar koda sahiptir. Tablolar ve API’ler sadece bu anahtar kodlara sahip uygulamaların isteklerine cevap verir. Ancak bu kodlar şifrelenmemiş olduğundan güvenli olarak görülmez. Bu yüzden bu servislere erişmeden önce kullanıcıların kimlik doğrulamasından geçmesi önemli bir konudur.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Master Key, yönetici erişimi için kullanılır ve bu key dağıtılan uygulamalarda kullanılmamalıdır.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Herhangi bir sorunda veya güvenlik endişesinde “regenerate” butonuna tıklayarak yeni bir key oluşturabiliriz. Ancak bu değişiklik bu servise erişen  diğer uygulamaların servise erişimini engelleyecektir. Bu yüzden çok gerekli olmadıkça değiştirilmemelidir. Değiştirildiği taktirde de uygulamalarımızdaki anahtar kodları güncellememiz gerekmektedir.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; Mobil Service’imiz ve onunla ilgili depolama birimlerinin anlık kullanım durumlarını izleyebileceğimiz kısımdır.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Özelliklerden bazılarını kısaca açıkladıkdan sonra şimdide Microsoft’un Mobile Service örneklerinden birini indirip, onun üzerinden bir uygulama üzerinden bu hizmetin nasıl kullanabilineceğini anlamaya çalışalım.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Hangi platformdaki örnek uygulamayla çalışacakcaksak onu seçiyoruz. Windows &amp;gt; Create a new windows or windows phone app ‘a tıklıyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices11.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Uygulamamız için gerekli işlemler resimde gösterilmektedir. Uygulamızı yazımızın başında belirttiğimiz gibi Visual Studio ile açıp, çalıştıracağız. Bu yüzden eğer Visual Studio yoksa ilk adım olarak onu yüklemeliyiz. Daha sonra da uygulamızdaki verilerin kaydedileceği TodoItem Tablosunu oluşturmak için &lt;strong&gt;CREATE&lt;/strong&gt; &lt;strong&gt;TODOITEM TABLE&lt;/strong&gt; butonuna tıklıyoruz. En son olarak da uygulamamızın hangi programlama dilinde olacağını belirledikten sonra &lt;strong&gt;DOWNLOAD&lt;/strong&gt; butonuna tıklayıp bizim için özel hazırlanmış örnek uygulamızı indiriyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices12.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;İndirdiğimiz uygulama dosyasındaki Solution’a tıklayıp Visual Studio ile açıyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices13.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Uygulamamızı Visual Studio ile açtıktan sonra Solution’da sağ tıklayıp Build ediyoruz. Eğer uygulamamız için gerekli olan eksik veya yüklenmemiş Nuget paketleri varsa bu şekilde tespit edilip yüklenmesini sağlıyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices14.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Solution’dan Windows uygulamasını seçip, çalıştırıyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices15.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices16.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Şimdi de ilk kaydımızı oluşturup, Azure’daki değişiklikleri kontrol edelim.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices17.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Azure &amp;gt; Mobil Servisimizin İsmi &amp;gt; Data &amp;gt; Tablomuzun İsmi&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices18.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu şekilde Mobile Service’imizin güzel bir şekilde çalıştığını görmüş olduk.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Mobil Servisin birkaç özelliğini görmek adına indirdiğimiz örneğin kaynak kodların bir kısmını inceleyecek olursak;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Örneğimizdeki App.xaml.cs ‘e baktığımızda oluşturulan MobileServiceClient nesnesindeki anahtarın, Azure’da oluşturduğumuz Mobil Servisimizin Manage Key’deki Application Key ile aynı olduğunu görebiliriz. Zaten daha öncede bu örneğim bizim için özel oluşturulduğunu söylemiştik.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Datamodel &amp;gt; TodoItem.cs ‘e bakacak olursak;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices19.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Buradaki TodoItem sınıfı mobil servisimiz tarafından kullanılan veritabanındaki tabloyu, içerisindeki property’ler ise kolonlarımızı temsil etmektedir. JsonProperty olarak nitelendirilen kısımdaki isimler birebir veritabanımızdaki tablo kolonlarının ismidir. Bunlar temsil edildikleri sınıf property isimleri ile aynı olmayabilir ve Azure Mobile Service’in temsil edildiği Entity kesinlikle bir Id ‘ye sahip olmalıdır. Eğer Id olmaz ise çalışmayacaktır.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu aşamada Azure Mobile Service’in mucize diye nitenlendirilebilecek bir özelliğine değinmeye çalışacağım. Yukarıda bahsettiğim TodoItem sınıfına yeni bir alan ekleyeceğim.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices20.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Kırmızı dikdörtgen ile belirtilmiş alanı ekledim. Daha sonra da veri eklenmesi sırasında varsayılan değer göndermesi için MainPage’deki InsertTodoItem fonksiyonuna&lt;/span&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;todoItem.YeniAlan = &quot;yeni alan denemesi&quot;;&lt;/strong&gt;&lt;/span&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;kodunu ekliyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices21.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Yaptığımız işlem tamamen veritabanımızdan bağımsız ve veritabanı tasarımına uymayan bir işlemdir. Dolayısıyla uygulamamızın çalıştırıldığında hata vermesi bekleyebiliriz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Uygulamamızı çalıştırdığımızda ise hata vermeden çalıştığını görebiliriz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices22.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices23.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Kırmızıyla belirtilen kısımda görüldüğü gibi yeni bir kolon oluşturmuş.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu özellik sayesinde uygulama geliştirme işlemi inanılmaz şekilde kolaylaştırılmış oluyor. Çünkü görüldüğü üzere kodumuzdaki herhangi bir değişiklikte daha alt katmanda bulunan veritabanımız hatasız uyum sağlamış ve bizim yerimize arkaplandaki bu ayarlamaları yapmış oluyor. Biz kendi uygulamamızla uğraşırken Microsoft Azure bu işlemleri bizim yerimize yaparak hem zamandan tasarruf etmemizi hem de sadece uygulamamıza yoğunlaşmamızı sağlıyor.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Aslında bu durum pratikte çok kullanışlı olsa da uygulamamızın ileri aşamalarında veri kirliliğine neden olabileceğine de değinmekte fayda var. Örneğin uygulamamızı geliştirip market ortamına koyduğumuz da bu özelliğin başımıza dert açmasını önlemek için;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/mobilservices24.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Mobile Service’imizin Configure kısmına gelip, “&lt;strong&gt;ENABLE DYNAMIC SCHEMA&lt;/strong&gt;” özelliğini “&lt;strong&gt;OFF&lt;/strong&gt;” konumuna getirmeliyiz.&lt;/span&gt;
-&lt;/p&gt;
-</description>
-				<pubDate>Sun, 24 Jan 2016 16:47:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/azure-mobile-services-nasil-olusturulur/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/azure-mobile-services-nasil-olusturulur/</guid>
 			</item>
 		
 	</channel>
