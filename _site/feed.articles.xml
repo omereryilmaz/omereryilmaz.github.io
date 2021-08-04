@@ -8,6 +8,109 @@
 		
 			
 			<item>
+				<title>Çürüyen Yazılım Tasarımı (Rotting Design)</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+Jack Reeves 1992 yılında yaynladığı bir makalede, yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
+
+Yazılım büyüdükçe; tasarım, karmaşık hale gelme eğilimdindedir. Böyle bir durumun sonucunda; karmaşık, bakımı zor, modüllerin birbirine sıkı sıkıya bağlı, basit değişikliklerin bile gerçekleştirilmesinin çok zor olacağı bir kod yapısı ortaya çıkar.  Bu, yazılım tasarım sisteminin ve haliyle yazılım projesinin çürümesi anlamına gelmektedir.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;yazılım-tasarımı-neden-çürür&quot;&gt;Yazılım Tasarımı Neden Çürür?&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Değişikliklere kolayca uyum sağlanamayan geliştirme ortamlarında; gereksinimler ilk tasarımın ön görmediği şekillerde değiştiğinde, yazılım sisteminin tasarımında bozulmalara neden olmaktadır. Çoğu zaman bu tarz değişikliklerinin veya eklemelerin hızlı bir şekilde yapılması istenildiğinde sistemin orijinal tasarımının bozulması önemsenmez. Ancak asıl yapıyı ihlal eden bu tarz değişiklikler devam ettikçe kod yapısını işin içinden çıkılmaz hale getirir. 
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;tasarım-kokuları-design-smells&quot;&gt;Tasarım Kokuları (Design Smells)&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Robert ve ark. [2006] göre, zayıf bir şekilde tasarlanmış yazılımların yedi çürüme belirtisi bulunmaktadır. Bu belirtilerden herhangi biri ortaya çıktığında yazılımın çürüdüğü veya çürümeye başladığı anlaşılabilmektedir.
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Katılık (Rigidity)&lt;/li&gt;
+  &lt;li&gt;Kırılganlık (Fragility)&lt;/li&gt;
+  &lt;li&gt;Hareketsizlik (Immobility)&lt;/li&gt;
+  &lt;li&gt;Akışmazlık (Viscosity)&lt;/li&gt;
+  &lt;li&gt;Gereksiz karmaşıklık (Needless complexity)&lt;/li&gt;
+  &lt;li&gt;Gereksiz tekrar (Needless repetition)&lt;/li&gt;
+  &lt;li&gt;Bulanıklık (Opacity)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;katılık-rigidity&quot;&gt;Katılık (Rigidity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yazılımın, basit yollarla bile değiştirilmesinin zor olma eğilimi göstermesidir. Yapılacak bir değişiklik, bağımlı modüllerde de değişiklikler yapılmasına neden oluyorsa, bu yazılım tasarımının katı olduğunu belirtir. Tasarım; değiştirilmesi gereken ne kadar modül veya bağımlı bileşen varsa o kadar katı olduğu anlamına gelmektedir.
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;kırılganlık-fragility&quot;&gt;Kırılganlık (Fragility)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yazılımın, bir yerinde değişiklik yapıldığında buna tepki olarak birçok yerinde kırılma eğilimi göstermesidir. Genelde bu özelliğe sahip yazılımlarda sorunlar çözüldükçe daha fazla sorunlar çıkar. Sonuç olarak bir değişikliğin bile kolay bir şekilde tasarımı bozan durumlar, tasarımın kırılganlığına işaret etmektedir.
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;hareketsizlik-immobility&quot;&gt;Hareketsizlik (Immobility)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yazılımda, diğer sistemlerde faydalı olabilecek modüller içerdiğinde hareketsizlik eğilimi gösterir. Bu bileşenleri orjinal yerinden ayırmak risklidir ve çok çaba gerektirir. Modüllerin arasındaki ilişki derecesine de `coupling` adı verilmektedir. 
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;akışmazlık-viscosity&quot;&gt;Akışmazlık (Viscosity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Akışmazlık belirtisi iki formda ortaya çıkmaktadır: ortamın ve yazılımın akışmazlığı. Ortamın akışmazlığı, geliştirme yapılan ortamın yavaş ve verimsiz olduğu durumlarda ortaya çıkar. Bu gibi durumların ortaya çıkması, çoğunlukla alınan görevin bir an önce yapılabilmesi için yazılım orijinal tasarımı gözardı edilmesiyle olur. Yazılımın akışmazlığında ise geliştiriciler tasarımı koyuyan zor yöntemler yerine kendilerine daha kolay yöntemleri tercih edebilmektedirler. Bu şekilde de yazılım tasarımının orijinal felsefesi gözardı edilmiş olur. Her iki durumda da akışmazlık olan bir proje, yazılım tasarımın korunmasının zor olduğu bir projedir. Sonuç olarak tasarımı korurken geliştirmeyi kolaylaştıracak; sistemler ve proje ortamları oluşturmak gerekmektedir.
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;gereksiz-karmaşıklık-needless-complexity&quot;&gt;Gereksiz Karmaşıklık (Needless Complexity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bir tasarım; hali hazırda kullanışlı olmayan öğeler içerdiğinde, gereksiz bir karmaşıklık ortaya çıkabilmektedir. Birçok beklenmedik duruma hazırlanmak, tasarımı hiç kullanılmayan yapılarla dolu hale getirir. Kullanılmayan bu yapılar, yazılım tasarımsal olarak ağırlığını da arttırır. Sonuç olarak ortaya; karmaşık ve anlaşılması zor hale gelen bir yazılım ortaya çıkar.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;gereksiz-tekrar-needless-repetition&quot;&gt;Gereksiz Tekrar (Needless Repetition)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yeterince soyutlama yapılmayan yazılımlarda gereksiz kod tekrarları kaçınılmazdır. Kod tekrarının çok olması sistemdeki gereksiz kod fazlalığını arttırır. Gereksiz kod fazlalıkları da sistemin anlaşılmasını ve bakımını zorlaştırır. 
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;bulanıklık-opacity&quot;&gt;Bulanıklık (Opacity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bulanıklık, kodun okuması ve anlaşılmasının zor olma eğiliminde olduğunu belirtir. Zamanla gelişen kod daha bulanık hale gelme eğilimdedir. Bulanıklığı minimumda tutarak; açık ve anlaşılabilir kod yazmak ise sürekli çaba gerektiren bir eylemdir.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;çürümelerden-kaçınmak&quot;&gt;Çürümelerden Kaçınmak&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan &lt;a href=&quot;http://omereryilmaz.com/solid-prensipleri&quot; target=&quot;_blank&quot;&gt;SOLID prensipleri&lt;/a&gt;&apos;ni tanıttı. Bu prensipler göz önüne alınarak oluşturulan tasarımlar çürümeyi minimuna indirirerek; tasarımı daha anlaşılır, esnek ve bakımı kolay hale getirir.
+&lt;/p&gt;
+
+&lt;p&gt; 
+ &lt;/p&gt;
+
+&lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;[1] Jack W. Reeves, “What is Software Design?”, 1992 C++ Journal.&lt;/li&gt;
+  &lt;li&gt;[2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.&lt;/li&gt;
+  &lt;li&gt;[3] Alex Atomei, 2020, “Rotting Design”, https://www.cognizantsoftvision.com/blog/rotting-design/&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Wed, 04 Aug 2021 17:22:00 +0300</pubDate>
+				<link>http://omereryilmaz.com/curuyen-yazilim-tasarimi/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/curuyen-yazilim-tasarimi/</guid>
+			</item>
+			
+		
+			
+			<item>
 				<title>SOLID Prensipleri</title>
 				<description>&lt;p&gt;SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object Oriented Programming&lt;/code&gt; - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Robert C. Martin&lt;/code&gt; tarafından derlenmiştir.&lt;/p&gt;
 
@@ -31,8 +134,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Mon, 02 Aug 2021 20:22:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/SOLID-prensipleri/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/SOLID-prensipleri/</guid>
+				<link>http://omereryilmaz.com/solid-prensipleri/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/solid-prensipleri/</guid>
 			</item>
 			
 		

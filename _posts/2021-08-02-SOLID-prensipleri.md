@@ -5,7 +5,7 @@ date: 2021-08-02 20:22
 image: solid-1.png
 comments: true
 categories: [CSharp, ObjectOrientedProgramming]
-tags: [solid-principles, solid-principles-in-csharp solid-prensipleri-nelerdir, csharp-ile-solid-prensipleri,  single-responsibility-principle, open-closed-principle, liskovs-substitution-principle, interface-segregation-principle, dependency-inversion-principle]
+tags: [solid-principles, solid-principles-in-csharp, solid-prensipleri-nelerdir, csharp-ile-solid-prensipleri,  single-responsibility-principle, open-closed-principle, liskovs-substitution-principle, interface-segregation-principle, dependency-inversion-principle]
 ---
 
 SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (`Object Oriented Programming` - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa `Robert C. Martin` tarafından derlenmiştir.

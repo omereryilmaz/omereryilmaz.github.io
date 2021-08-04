@@ -7,6 +7,107 @@
 		<atom:link href="http://omereryilmaz.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Çürüyen Yazılım Tasarımı (Rotting Design)</title>
+				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
+Jack Reeves 1992 yılında yaynladığı bir makalede, yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
+
+Yazılım büyüdükçe; tasarım, karmaşık hale gelme eğilimdindedir. Böyle bir durumun sonucunda; karmaşık, bakımı zor, modüllerin birbirine sıkı sıkıya bağlı, basit değişikliklerin bile gerçekleştirilmesinin çok zor olacağı bir kod yapısı ortaya çıkar.  Bu, yazılım tasarım sisteminin ve haliyle yazılım projesinin çürümesi anlamına gelmektedir.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;yazılım-tasarımı-neden-çürür&quot;&gt;Yazılım Tasarımı Neden Çürür?&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Değişikliklere kolayca uyum sağlanamayan geliştirme ortamlarında; gereksinimler ilk tasarımın ön görmediği şekillerde değiştiğinde, yazılım sisteminin tasarımında bozulmalara neden olmaktadır. Çoğu zaman bu tarz değişikliklerinin veya eklemelerin hızlı bir şekilde yapılması istenildiğinde sistemin orijinal tasarımının bozulması önemsenmez. Ancak asıl yapıyı ihlal eden bu tarz değişiklikler devam ettikçe kod yapısını işin içinden çıkılmaz hale getirir. 
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;tasarım-kokuları-design-smells&quot;&gt;Tasarım Kokuları (Design Smells)&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Robert ve ark. [2006] göre, zayıf bir şekilde tasarlanmış yazılımların yedi çürüme belirtisi bulunmaktadır. Bu belirtilerden herhangi biri ortaya çıktığında yazılımın çürüdüğü veya çürümeye başladığı anlaşılabilmektedir.
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Katılık (Rigidity)&lt;/li&gt;
+  &lt;li&gt;Kırılganlık (Fragility)&lt;/li&gt;
+  &lt;li&gt;Hareketsizlik (Immobility)&lt;/li&gt;
+  &lt;li&gt;Akışmazlık (Viscosity)&lt;/li&gt;
+  &lt;li&gt;Gereksiz karmaşıklık (Needless complexity)&lt;/li&gt;
+  &lt;li&gt;Gereksiz tekrar (Needless repetition)&lt;/li&gt;
+  &lt;li&gt;Bulanıklık (Opacity)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;katılık-rigidity&quot;&gt;Katılık (Rigidity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yazılımın, basit yollarla bile değiştirilmesinin zor olma eğilimi göstermesidir. Yapılacak bir değişiklik, bağımlı modüllerde de değişiklikler yapılmasına neden oluyorsa, bu yazılım tasarımının katı olduğunu belirtir. Tasarım; değiştirilmesi gereken ne kadar modül veya bağımlı bileşen varsa o kadar katı olduğu anlamına gelmektedir.
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;kırılganlık-fragility&quot;&gt;Kırılganlık (Fragility)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yazılımın, bir yerinde değişiklik yapıldığında buna tepki olarak birçok yerinde kırılma eğilimi göstermesidir. Genelde bu özelliğe sahip yazılımlarda sorunlar çözüldükçe daha fazla sorunlar çıkar. Sonuç olarak bir değişikliğin bile kolay bir şekilde tasarımı bozan durumlar, tasarımın kırılganlığına işaret etmektedir.
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;hareketsizlik-immobility&quot;&gt;Hareketsizlik (Immobility)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yazılımda, diğer sistemlerde faydalı olabilecek modüller içerdiğinde hareketsizlik eğilimi gösterir. Bu bileşenleri orjinal yerinden ayırmak risklidir ve çok çaba gerektirir. Modüllerin arasındaki ilişki derecesine de `coupling` adı verilmektedir. 
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;akışmazlık-viscosity&quot;&gt;Akışmazlık (Viscosity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Akışmazlık belirtisi iki formda ortaya çıkmaktadır: ortamın ve yazılımın akışmazlığı. Ortamın akışmazlığı, geliştirme yapılan ortamın yavaş ve verimsiz olduğu durumlarda ortaya çıkar. Bu gibi durumların ortaya çıkması, çoğunlukla alınan görevin bir an önce yapılabilmesi için yazılım orijinal tasarımı gözardı edilmesiyle olur. Yazılımın akışmazlığında ise geliştiriciler tasarımı koyuyan zor yöntemler yerine kendilerine daha kolay yöntemleri tercih edebilmektedirler. Bu şekilde de yazılım tasarımının orijinal felsefesi gözardı edilmiş olur. Her iki durumda da akışmazlık olan bir proje, yazılım tasarımın korunmasının zor olduğu bir projedir. Sonuç olarak tasarımı korurken geliştirmeyi kolaylaştıracak; sistemler ve proje ortamları oluşturmak gerekmektedir.
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;gereksiz-karmaşıklık-needless-complexity&quot;&gt;Gereksiz Karmaşıklık (Needless Complexity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bir tasarım; hali hazırda kullanışlı olmayan öğeler içerdiğinde, gereksiz bir karmaşıklık ortaya çıkabilmektedir. Birçok beklenmedik duruma hazırlanmak, tasarımı hiç kullanılmayan yapılarla dolu hale getirir. Kullanılmayan bu yapılar, yazılım tasarımsal olarak ağırlığını da arttırır. Sonuç olarak ortaya; karmaşık ve anlaşılması zor hale gelen bir yazılım ortaya çıkar.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;gereksiz-tekrar-needless-repetition&quot;&gt;Gereksiz Tekrar (Needless Repetition)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Yeterince soyutlama yapılmayan yazılımlarda gereksiz kod tekrarları kaçınılmazdır. Kod tekrarının çok olması sistemdeki gereksiz kod fazlalığını arttırır. Gereksiz kod fazlalıkları da sistemin anlaşılmasını ve bakımını zorlaştırır. 
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h6 id=&quot;bulanıklık-opacity&quot;&gt;Bulanıklık (Opacity)&lt;/h6&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Bulanıklık, kodun okuması ve anlaşılmasının zor olma eğiliminde olduğunu belirtir. Zamanla gelişen kod daha bulanık hale gelme eğilimdedir. Bulanıklığı minimumda tutarak; açık ve anlaşılabilir kod yazmak ise sürekli çaba gerektiren bir eylemdir.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;çürümelerden-kaçınmak&quot;&gt;Çürümelerden Kaçınmak&lt;/h4&gt;
+&lt;p style=&quot;text-align:justify;&quot;&gt;
+Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan &lt;a href=&quot;http://omereryilmaz.com/solid-prensipleri&quot; target=&quot;_blank&quot;&gt;SOLID prensipleri&lt;/a&gt;&apos;ni tanıttı. Bu prensipler göz önüne alınarak oluşturulan tasarımlar çürümeyi minimuna indirirerek; tasarımı daha anlaşılır, esnek ve bakımı kolay hale getirir.
+&lt;/p&gt;
+
+&lt;p&gt; 
+ &lt;/p&gt;
+
+&lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;[1] Jack W. Reeves, “What is Software Design?”, 1992 C++ Journal.&lt;/li&gt;
+  &lt;li&gt;[2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.&lt;/li&gt;
+  &lt;li&gt;[3] Alex Atomei, 2020, “Rotting Design”, https://www.cognizantsoftvision.com/blog/rotting-design/&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Wed, 04 Aug 2021 17:22:00 +0300</pubDate>
+				<link>http://omereryilmaz.com/curuyen-yazilim-tasarimi/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/curuyen-yazilim-tasarimi/</guid>
+			</item>
+		
+			<item>
 				<title>SOLID Prensipleri</title>
 				<description>&lt;p&gt;SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object Oriented Programming&lt;/code&gt; - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Robert C. Martin&lt;/code&gt; tarafından derlenmiştir.&lt;/p&gt;
 
@@ -30,8 +131,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Mon, 02 Aug 2021 20:22:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/SOLID-prensipleri/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/SOLID-prensipleri/</guid>
+				<link>http://omereryilmaz.com/solid-prensipleri/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/solid-prensipleri/</guid>
 			</item>
 		
 			<item>
@@ -1043,407 +1144,6 @@ Bu şekildeki lambda syntax’ı Java tasarımcıları tarafından, C# ve Scala 
 				<pubDate>Tue, 16 Feb 2016 20:17:00 +0300</pubDate>
 				<link>http://omereryilmaz.com/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</link>
 				<guid isPermaLink="true">http://omereryilmaz.com/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</guid>
-			</item>
-		
-			<item>
-				<title>Arduino ile Azure Mobile Services Bağlantısı IoT</title>
-				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu yazımda, Arduino ile aldığımız verileri bulut ortamına aktarmayı göstermeye çalışacağım. Yani bu yazıyla birlikte IoT konusuna da girmiş olacağız.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;IoT (Internet of Things = Nesnelerin İnterneti) adından da anlaşılacağı üzere fiziksel ağ üzerindeki nesnelerin; cihazlar, araçlar ve binalarda bulunan elektronik gömülü sistemler sayesinde birbiriyle bağlantı kurması ve veri alışverişi yapması olayıdır. 1970’lerden itibaren kurulan ATM’ler ilk IoT cihazları kabul edilmektedir. Günümüzde de bu tarz cihazların sayısı artmaya devam etmektedir. Cisco firmasının öngörüsüne göre 2020 yılında tüm dünyadaki IOT cihazlarının sayısı 50milyar’a ulaşması beklenmektedir[&lt;a href=&quot;http://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html&quot; target=&quot;_blank&quot;&gt;1&lt;/a&gt;]. Bunun anlamı bir kaç yıl içerisinde IoT teknolojisi hayatımızın her alanına girmesi demektir. Örneğin internete bağlı buzdolabımızdaki yumurtanın bittiğinin tespit edilmesi ve otomatik olarak marketten yumurta siparişinin edilmesi, sağlık alanında kritik hastaların takibi ve olası kriz öncesi mühahale yapılarak yaşam kalitesinin arttırılması, araçlarımızdaki arızanın büyük boyutlara ulaşmadan tespiti gibi sınırı olmayan bir alan olarak görebiliriz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-  &lt;embed width=&quot;520&quot; height=&quot;345&quot; src=&quot;http://players.brightcove.net/2097119709001/NJOvFZMYl_default/index.html?videoId=4609490745001&quot; frameborder=&quot;0&quot; /&gt;
- 
-&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Internet of Things Video&lt;span style=&quot;color:#808080;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#008080;&quot;&gt;&lt;a style=&quot;color:#008080;&quot; href=&quot;http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand&quot; target=&quot;_blank&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Biz de bu yazımızda yapacağımız basit bir örnekle IoT dünyasına ufak bir adım atmış olacağız. Örneğimde Arduino Uno R3 ve internet bağlantısını gerçekleştirmek için de Ethernet Shield kullanacağım.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Arduino Uno hakkında kısa bir bilgi verecek olursak, üzerinde ATMEL firması tarafından geliştirilen Atmega328 mikrodenetleyicisi bulunmaktadır. Arduino üzerindeki programı yürüten asıl mikrodenetleyici budur. Program belleği 32KB olup, veri belleği ise 2KB’dır. Kart üzerinde bulunan diğer entegre ise Atmega16u2 ise USB bağlantısı için kullanılmaktadır. Ayrıca 14 adet dijital giriş/çıkış pini, 6 adet de analog giriş/çıkış pini bulunmaktadır.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Ethernet Shield ve kütüphanesi hakkında şu linkten ayrıntılı bilgiye ulaşabilirsiniz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; &lt;a href=&quot;https://www.arduino.cc/en/reference/ethernet&quot; target=&quot;_blank&quot;&gt;https://www.arduino.cc/en/reference/ethernet&lt;/a&gt;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Kodumuzu yazacağımız ortam ise Arduino için Java dilinde hazırlanmıştır. Kodlamada kullanılan kütüphaneler ise C ve C++ dillerinde yazılmıştır. Bu IDE’yi &lt;span style=&quot;color:#008080;&quot;&gt;&lt;a style=&quot;color:#008080;&quot; href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;https://www.arduino.cc/en/Main/Software&lt;/a&gt; &lt;/span&gt;adresinden indirip, bilgisayarınıza kurabilirsiniz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Örneğimizdeki senaryo, oda ısısının ve neminin belli aralıklarla okunması ve bulut ortamına aktarılması olacak. Oda sıcaklığını ölçmek için DHT11 sensörünü, verilerimizi bulut ortamında barındırma işlemini ise &lt;a href=&quot;/azure-mobile-services-nedir/&quot; target=&quot;_blank&quot;&gt;Azure Mobile Services&lt;/a&gt;’i kullanacağım.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Eğer&lt;/span&gt; &lt;a href=&quot;/azure-mobile-services-nedir/&quot; target=&quot;_blank&quot;&gt;Azure Mobil Services&lt;/a&gt; &lt;span style=&quot;color:#000000;&quot;&gt;&apos;in oluşturulması hakkında bilgi sahibi değilseniz;&lt;/span&gt; &lt;a href=&quot;/azure-mobile-services-nasil-olusturulur/&quot; target=&quot;_blank&quot;&gt;Azure Mobil Services Nasıl Oluşturulur?&lt;/a&gt;&lt;span style=&quot;color:#000000;&quot;&gt; yazımı okuyabilirsiniz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt; &lt;strong&gt;1. Devrenin Kurulması:&lt;/strong&gt;&lt;/span&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; Malzemeler:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Arduino UNO R3&lt;/span&gt;&lt;/li&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Ethernet Shield&lt;/span&gt;&lt;/li&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;DHT11 ısı ve nem sensörü&lt;/span&gt;&lt;/li&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;1 adet 10K direnç&lt;/span&gt;&lt;/li&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;5 adet kablo (Tasarımınıza göre sayı değişebilir.)&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;DHT11 ısı ve nem sensörü:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/dht11.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Devre prototipi:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/dht11-arduino_bb.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;DHT11’in kullanım klavuzunda bellirttiği şekilde devreye bağlantısını gerçekleştiriyoruz. DHT11’in ikinici bacağını yani veri bacağını Arduino’nun 2 numaralı dijital girişine bağlıyoruz. &lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;(Şekildeki devreyi Fritzing programıyla oluşturdum. Fritzing programını&lt;/span&gt; &lt;a href=&quot;http://fritzing.org/download/&quot;&gt;http://fritzing.org/download/&lt;/a&gt; &lt;span style=&quot;color:#000000;&quot;&gt;bu adresten ücretsiz olarak temin edebilirsiniz.)&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;2. &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Kodun yazılması ve Arduino’ya yüklenmesi:&lt;/strong&gt;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Öncelikle DHT11’in kütüphanesini indirip, C:Program Files (x86)Arduinolibraries ‘deki kütüphane klasörümüze kopyalıyoruz. Daha sonra bu kütüphanemizi include komutuyla kodumuza dahil ediyoruz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;a href=&quot;/images/dht11.rar&quot; target=&quot;_blank&quot;&gt;DHT11 Kütüphanesini İndir.&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Sensördeki değerleri serial monitor’de görüntülemek için aşağıdaki kodu Arduino’ya yükleyelim.&lt;/span&gt;
-&lt;/p&gt;
-&lt;pre class=&quot;lang:c decode:true&quot;&gt;// omereryilmaz.com Arduino ile Azure Baglantisi
-
-#include &amp;lt;dht11.h&amp;gt; // DHT11 kütüphanesini dahil ediyoruz.
-#define dataPIN 2 // dataPIN olarak Dijital 2&apos;yi belirliyoruz.
-
-dht11 DHT11;
-
-void setup()
-{
-  Serial.begin(9600); // Seri iletişimi başlatıyoruz.
-}
-
-void loop()
-{
-  Serial.println(&quot;n&quot;);
-  // Sensörün okunup okunmadığını konrol ediyoruz.
-  // kontrol 0 ise sorunsuz okunuyor demektir.
-  int kontrol = DHT11.read(dataPIN);
-
-  if(kontrol==0){
-  // Sensörden gelen verileri serial monitörde yazdırıyoruz.
-  Serial.print(&quot;Nem (%): &quot;);
-  Serial.println((float)DHT11.humidity, dataPIN);
-
-  Serial.print(&quot;Sicaklik (Celcius): &quot;);
-  Serial.println((float)DHT11.temperature, dataPIN);
-  }
-  else{
-    Serial.print(&quot;Sensor Okunmuyor.&quot;);
-    }
-  // 2 saniye bekliyoruz.
-  delay(2000);
-
-}
-&lt;/pre&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Serial monitor’ü açmak için kırmızı işaretli yeri tıklamamız yeterli;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/arduino-azure1.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Serial Monitor;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/arduino-azure2.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Eğer adımları doğru şekilde yaptıysak yukarıdaki şekildekine benzer ekran çıktısı almamız gerekiyor. Buradaki önemli noktalardan biri seri iletişimi başlattığımız değer, serial monitordeki baud değeriyle aynı olması gerekiyor.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Baud:&lt;/strong&gt; Seri haberleşmede iletişim hızının ifade edildiği bir değerdir.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; &lt;strong&gt;Baud rate:&lt;/strong&gt; Uzak iletişim ve elektronikte kullanılan saniyedeki atım oranını gösteren birimdir.&lt;/span&gt; [&lt;a href=&quot;https://tr.wikipedia.org/wiki/Baud&quot; target=&quot;_blank&quot;&gt;3&lt;/a&gt;]
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu aşamadan sonra artık verilerimizi bulut ortamına aktarabiliriz. Bunun için öncelikler Azure hesabımıza giriş yapıp bir Mobile Service oluşturmamız gerekmektedir. Bu işlemi önceki yazımızda göstermiştik.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Mobile Servisimiz ile alakalı şuan için bize lazım olan bilgiler;&lt;/span&gt;
-&lt;/p&gt;
-&lt;ul&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;server:&lt;/strong&gt; Mobile Service URL&lt;/span&gt;&lt;/li&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;table_name:&lt;/strong&gt; Mobil Service’de oluşturduğumuz tablo ismi&lt;/span&gt;&lt;/li&gt;
- 	&lt;li&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;app_key:&lt;/strong&gt; Manage Keys’deki Application Keys&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/arduino-azure3.jpg&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/arduino-azure4.jpg&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Resimlerdeki gibi Arduino’ya Ethernet Shield’i ilave edip, daha önceki devre prototipiyle aynı olacak şekildeki bağlantılarımızı güncelliyoruz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Devremizi tamamladıktan sonra Arduino’yu bilgisayara bağlayıp aşağıdaki kodu yükleyelim. Kodu yükledikten sonra internet bağlantısını gerçekleştirip uygulamamızı çalışmasını serial monitorden veya Azure &amp;gt; Mobil Services &amp;gt; “Mobil Servisimizin İsmi” &amp;gt; Data kısmından gelen verilerimizi görebiliriz.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Senaryomuz şu şekilde gerçekleşecek; İlk önce belirlediğimiz mac adresine göre Ethernet Shield başlatılacak, Arduino DHT11 sensöründen aldığı değerleri Ethernet Shield aracılığıyla ilgili adresteki mobil servisimize gönderecek. Ben uygulamanın basitliği açısından her 5 saniyede verinin gönderilmesini istedim. Tabiki bu tarz birşey veritabanını gereksiz bir şekilde şişmesine neden olacaktır. Bunu önlemek için sadece değerlerin değiştiği zamanlar verinin gönderilmesi sağlanabilir. Bu şekilde gereksiz aynı verinin gönderilmesi engellenmiş olurdu veya daha farklı senaryolar da düşünebilirsiniz orası sizin algoritmanıza kalmış.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;pre class=&quot;lang:c decode:true &quot;&gt;// omereryilmaz.com Arduino ile Azure Baglantisi
-
-#include &amp;lt;SPI.h&amp;gt;
-#include &amp;lt;Ethernet.h&amp;gt;
-#include &amp;lt;dht11.h&amp;gt; // DHT11 kütüphanesini dahil ediyoruz.
-#define dataPIN 2 // dataPIN olarak Dijital 2&apos;yi belirliyoruz.
-dht11 DHT11;
-
-// Ethernet shield MAC adresi tanimliyoruz.
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-
-// Azure Mobile Service adresi
-const char *server = &quot;omerarduino.azure-mobile.net&quot;;
-
-// Azure Mobile Service tablo ismi
-const char *table_name = &quot;omerev&quot;;
-
-// Azure Mobile Service Application Key
-// Dashboard kisminda alt tarafta &apos;Manage Keys&apos;
-const char *app_key = &quot;UYgmWZxxxxxxxxxxxxxxxxxx&quot;;
-
-char* jsonKodu = &quot;&quot;;
-
-
-EthernetClient client;
-
-char buffer[64];
-
-void send_request(int sicaklik, int nem)
-{
-
-
-  if (client.connect(server, 80)) {
-    Serial.println(&quot;-----------------------&quot;);
-    Serial.print(&quot;Sicaklik (Celcius): &quot;);
-    Serial.println(sicaklik);
-    Serial.print(&quot;Nem (%): &quot;);
-    Serial.println(nem);
-    Serial.println(&quot;-----------------------&quot;);
-    // POST URI
-    //tirnak icindeki %s yerine table_name i yaz, buffer degiskenine at
-    sprintf(buffer, &quot;POST /tables/%s HTTP/1.1&quot;, table_name);
-    //bufferdaki post islemini baslat
-    client.println(buffer);
-
-    // Host basligini tanimla
-    sprintf(buffer, &quot;Host: %s&quot;, server);
-    client.println(buffer);
-
-    // Azure Mobile Services application key
-    sprintf(buffer, &quot;X-ZUMO-APPLICATION: %s&quot;, app_key);
-    client.println(buffer);
-
-
-    //verinin json olarak gonderilecegini belirtiyoruz
-    client.println(&quot;Content-Type: application/json&quot;);
-
-    jsonKodu = &quot;{&quot;sensor_tipi&quot;:&quot;Oda_isi_nem&quot; ,&quot;sicaklik&quot;: %d,&quot;nem&quot;: %d}&quot;;
-    // POST edilecek veriler
-    sprintf(buffer, jsonKodu, sicaklik, nem);
-
-    // Icerik uzunlugu
-    client.print(&quot;Content-Length: &quot;);
-    client.println(strlen(buffer));
-
-    // Basliklarin sonu
-    client.println();
-
-    // Istek govdesi
-    client.println(buffer);
-
-  } else {
-    Serial.println(&quot;Baglanti Hatasi! :(&quot;);
-  }
-}
-
-/*
-** Yanit bekleniyor
-*/
-
-void wait_response()
-{
-  while (!client.available()) {
-    if (!client.connected()) {
-      return;
-    }
-  }
-}
-
-/*
-** Yanit okunuyor ve yigina ekleniyor
-*/
-
-void read_response()
-{
-  bool print = true;
-
-  while (client.available()) {
-    char c = client.read();
-    // Sadece ilk satir basina kadar yazdir
-    if (c == &apos;n&apos;)
-      print = false;
-    if (print)
-      Serial.print(c);
-  }
-   Serial.println(&quot;&quot;); //bosluk
-}
-
-/*
-** Baglantiyi kapat
-*/
-
-void end_request()
-{
-  client.stop();
-}
-
-
-void setup() {
-  Serial.begin(9600);
-  Serial.println(&quot;Seri iletisim baslatildi.&quot;);
-  while (!Serial) {
-    ; // serial port baglantsi icin bekle
-    Serial.println(&quot;Seri iletisim hata.&quot;);
-  }
-
-  Serial.println(&quot;Ethernet ayarlari yapiliyor..&quot;);
-
-  if (Ethernet.begin(mac) == 0) {
-    delay(100);
-    Serial.println(&quot;Ethernet Hatasi&quot;);
-    for (;;) ; //sonsuz dongu prog kitle
-  }
-  //ethernet shield&apos;in başlatılması (initialize) icin bekletiliyor
-  delay(1000);
-  Serial.println(&quot;Ethernet ayarlari yapildi.&quot;);
-
-}
-
-void loop() {
-
-  int kontrol = DHT11.read(dataPIN);
-
-  if(kontrol==0){
-    int sicak = (int)DHT11.temperature;
-    int ne = (int)DHT11.humidity;
-    send_request(sicak,ne);
-    wait_response();
-    read_response();
-    end_request();
-  }
-  else{
-    Serial.print(&quot;Sensor Okunmuyor.&quot;);
-    }
-
-  delay(5000); //5 saniye bekletiyoruz.
-}&lt;/pre&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Kodumuzdaki önemli noktalardan bahsedecek olursak;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bir önceki koda ilave olarak kulladığımız kütüphaneler; SPI ve Ethernet.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Bu kodu ethernet shield’e mac adresi atamak için kullanıyoruz. Bazı ethernet shield’lerde bu adres üzerinde yazılı olarak gelmesine karşılık bazılarında gelmiyor. Bu yüzden mac standartlarına uygun kendi belirlediğimiz bir adresi de atayabiliriz.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; jsonKodu = &quot;{&quot;sensor_tipi&quot;:&quot;Oda_isi_nem&quot; ,&quot;sicaklik&quot;: %d,&quot;nem&quot;: %d}&quot;;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; Bu kodda ise verilerimizi Json formatında gönderiyoruz. “kolon_ismi1:veri1, kolon_ismi2:veri2” şeklindeki tanımlama mevcuttur. İki noktadan önceki kısım kolon adımnı sonraki kısım isi o kolona aktarılacak veriyi temsil etmektedir.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Eğer adımları başarılı bir şekilde gerçekleştirdiysek;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt; Serial Monitor;&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/arduino-azure6.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/images/arduino-azure7.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align:justify;&quot;&gt;
-&lt;span style=&quot;color:#000000;&quot;&gt;Yukarıdaki resimde görüldüğü gibi verilerimizi bulut ortamına aktarmış olduk.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;strong&gt;Kaynakça:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
- 	&lt;li&gt;[1] http://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html&lt;/li&gt;
- 	&lt;li&gt;[2] http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand&lt;/li&gt;
- 	&lt;li&gt;[3] https://tr.wikipedia.org/wiki/Baud&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<pubDate>Sun, 31 Jan 2016 21:37:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/arduino-ile-azure-mobile-services-baglantisi-iot/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/arduino-ile-azure-mobile-services-baglantisi-iot/</guid>
 			</item>
 		
 	</channel>

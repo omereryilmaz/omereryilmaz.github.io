@@ -1,10 +1,18 @@
 [
   
     {
+      "title"    : "Çürüyen Yazılım Tasarımı (Rotting Design)",
+      "category" : "",
+      "tags"     : "rotting-desigin, rot-software, code-smells, design-smells, curuyen-yazilim, and curuyen-tasarim",
+      "url"      : "/curuyen-yazilim-tasarimi/",
+      "date"     : "2021-08-04 17:22:00 +0300"
+    } ,
+  
+    {
       "title"    : "SOLID Prensipleri",
       "category" : "",
-      "tags"     : "solid-principles, solid-principles-in-csharp solid-prensipleri-nelerdir, csharp-ile-solid-prensipleri, single-responsibility-principle, open-closed-principle, liskovs-substitution-principle, interface-segregation-principle, and dependency-inversion-principle",
-      "url"      : "/SOLID-prensipleri/",
+      "tags"     : "solid-principles, solid-principles-in-csharp, solid-prensipleri-nelerdir, csharp-ile-solid-prensipleri, single-responsibility-principle, open-closed-principle, liskovs-substitution-principle, interface-segregation-principle, and dependency-inversion-principle",
+      "url"      : "/solid-prensipleri/",
       "date"     : "2021-08-02 20:22:00 +0300"
     } ,
   
