@@ -89,7 +89,7 @@ Bulanıklık, kodun okuması ve anlaşılmasının zor olma eğiliminde olduğun
 
 &lt;h4 id=&quot;çürümelerden-kaçınmak&quot;&gt;Çürümelerden Kaçınmak&lt;/h4&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;
-Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan &lt;a href=&quot;http://omereryilmaz.com/solid-prensipleri&quot; target=&quot;_blank&quot;&gt;SOLID prensipleri&lt;/a&gt;&apos;ni tanıttı. Bu prensipler göz önüne alınarak oluşturulan tasarımlar çürümeyi minimuna indirirerek; tasarımı daha anlaşılır, esnek ve bakımı kolay hale getirir.
+Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan &lt;a href=&quot;http://omereryilmaz.com/SOLID-prensipleri&quot; target=&quot;_blank&quot;&gt;SOLID prensipleri&lt;/a&gt;&apos;ni tanıttı. Bu prensipler göz önüne alınarak oluşturulan tasarımlar çürümeyi minimuna indirirerek; tasarımı daha anlaşılır, esnek ve bakımı kolay hale getirir.
 &lt;/p&gt;
 
 &lt;p&gt; 
