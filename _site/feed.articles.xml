@@ -8,6 +8,42 @@
 		
 			
 			<item>
+				<title>SOLID Prensipleri</title>
+				<description>&lt;p&gt;SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object Oriented Programming&lt;/code&gt; - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Uncle Bob (Robert C. Martin)&lt;/code&gt; tarafından derlenmiştir.&lt;/p&gt;
+
+&lt;p&gt;Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanılabilir. Dolayısıyla; anlaşılabilir, bakımı kolay ve esnek bir kod yerine, SOLID prensipleriyle daha kötü ve karmaşık kodlar elde edebilmek mümkündür. Bu nedenle, dikkatli bir şekilde düşünmek ve bu ilkeleri yalnızca gerektiğinde uygulamak; temiz bir kod yazmanın temel prensibidir.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;solid-kısaltmasını-oluşturan-prensipler&quot;&gt;SOLID kısaltmasını oluşturan prensipler:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;http://omereryilmaz.com/single-responsibility-principle&quot;&gt;Single Responsibility Principle&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Class&apos;ların iyi tanımlanmış tek sorumlulukları olmalı.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt;&lt;/strong&gt; - Open / Closed Principle - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Class&apos;lar genişlemeye açık, değişime kapalı olmalı.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;&lt;/strong&gt; - Liskov Substitution Principle  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Base class&apos;tan türetilenler, base class yerine geçebilmeli.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;&lt;/strong&gt; - Interface Segregation Principle  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Küçük interface&apos;ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt;&lt;/strong&gt; - Dependency Inversion Principle  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Yüksek seviyedeki class&apos;lar düşük seviyedeki class&apos;lara bağımlı olmamalı.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; 
+ &lt;/p&gt;
+
+&lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod&quot;&gt;The Principles of OOD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code-maze.com/solid-principles/&quot;&gt;Code Maze&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/&quot;&gt;C-Sharp Corner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp&quot;&gt;DotNet Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Sun, 08 Aug 2021 02:28:00 +0300</pubDate>
+				<link>http://omereryilmaz.com/solid-prensipleri/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/solid-prensipleri/</guid>
+			</item>
+			
+		
+			
+			<item>
 				<title>Çürüyen Yazılım Tasarımı (Rotting Design)</title>
 				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
 Jack Reeves 1992 yılında yaynladığı bir makalede, yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
@@ -106,36 +142,6 @@ Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuy
 				<pubDate>Wed, 04 Aug 2021 17:22:00 +0300</pubDate>
 				<link>http://omereryilmaz.com/curuyen-yazilim-tasarimi/</link>
 				<guid isPermaLink="true">http://omereryilmaz.com/curuyen-yazilim-tasarimi/</guid>
-			</item>
-			
-		
-			
-			<item>
-				<title>SOLID Prensipleri</title>
-				<description>&lt;p&gt;SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object Oriented Programming&lt;/code&gt; - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Robert C. Martin&lt;/code&gt; tarafından derlenmiştir.&lt;/p&gt;
-
-&lt;p&gt;Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanılabilir. Dolayısıyla; anlaşılabilir, bakımı kolay ve esnek bir kod yerine, SOLID prensipleriyle daha kötü ve karmaşık kodlar elde edebilmek mümkündür. Bu nedenle, dikkatli bir şekilde düşünmek ve bu ilkeleri yalnızca gerektiğinde uygulamak; temiz bir kod yazmanın temel prensibidir.&lt;/p&gt;
-
-&lt;h4 id=&quot;solid-kısaltmasını-oluşturan-prensipler&quot;&gt;SOLID kısaltmasını oluşturan prensipler:&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;https://github.com/omereryilmaz/solid-principles/tree/main/single-responsibility#readme&quot;&gt;Single Responsibility Principle&lt;/a&gt; (SRP)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt;&lt;/strong&gt; - Open / Closed Principle (OCP)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;&lt;/strong&gt; - Liskov Substitution Principle (LSP)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;&lt;/strong&gt; - Interface Segregation Principle (ISP)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt;&lt;/strong&gt; - Dependency Inversion Principle (DIP)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code-maze.com/solid-principles/&quot;&gt;Code Maze&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/&quot;&gt;C-Sharp Corner&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp&quot;&gt;DotNet Tricks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<pubDate>Mon, 02 Aug 2021 20:22:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/solid-prensipleri/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/solid-prensipleri/</guid>
 			</item>
 			
 		

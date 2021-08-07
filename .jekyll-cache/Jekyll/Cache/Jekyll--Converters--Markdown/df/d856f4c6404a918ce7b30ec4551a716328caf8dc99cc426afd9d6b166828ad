@@ -1,0 +1,28 @@
+I"9
+<p>SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (<code class="language-plaintext highlighter-rouge">Object Oriented Programming</code> - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa <code class="language-plaintext highlighter-rouge">Uncle Bob (Robert C. Martin)</code> tarafından derlenmiştir.</p>
+
+<p>Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanılabilir. Dolayısıyla; anlaşılabilir, bakımı kolay ve esnek bir kod yerine, SOLID prensipleriyle daha kötü ve karmaşık kodlar elde edebilmek mümkündür. Bu nedenle, dikkatli bir şekilde düşünmek ve bu ilkeleri yalnızca gerektiğinde uygulamak; temiz bir kod yazmanın temel prensibidir.</p>
+
+<p> </p>
+
+<h4 id="solid-kısaltmasını-oluşturan-prensipler">SOLID kısaltmasını oluşturan prensipler:</h4>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">S</code></strong> - <a href="http://omereryilmaz.com/single-responsibility-principle">Single Responsibility Principle</a> - “Class’ların iyi tanımlanmış tek sorumlulukları olmalı.”</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">O</code></strong> - Open / Closed Principle - “Class’lar genişleme için açık, değişim için kapalı olmalı.”</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">L</code></strong> - Liskov Substitution Principle  - “Base class’tan türetilenler, base class yerine geçebilmeli.”</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">I</code></strong> - Interface Segregation Principle  - “Küçük interface’ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.”</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">D</code></strong> - Dependency Inversion Principle  - “Yüksek seviyedeki class’lar düşük seviyedeki class’lara bağımlı olmamalı.”</li>
+</ul>
+
+<p> 
+ </p>
+
+<h5 id="kaynaklar">Kaynaklar</h5>
+<ul>
+  <li><a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">The Principles of OOD</a></li>
+  <li><a href="https://code-maze.com/solid-principles/">Code Maze</a></li>
+  <li><a href="https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/">C-Sharp Corner</a></li>
+  <li><a href="https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp">DotNet Tricks</a></li>
+</ul>
+:ET

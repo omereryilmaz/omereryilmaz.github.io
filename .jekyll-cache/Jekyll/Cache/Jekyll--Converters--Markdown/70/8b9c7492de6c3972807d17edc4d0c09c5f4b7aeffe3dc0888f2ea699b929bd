@@ -1,19 +1,23 @@
-I"H<p>SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (<code class="language-plaintext highlighter-rouge">Object Oriented Programming</code> - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa <code class="language-plaintext highlighter-rouge">Robert C. Martin</code> tarafından derlenmiştir.</p>
+I"�<p>SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (<code class="language-plaintext highlighter-rouge">Object Oriented Programming</code> - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa <code class="language-plaintext highlighter-rouge">Robert C. Martin (Uncle Bob)</code> tarafından derlenmiştir.</p>
 
 <p>Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanılabilir. Dolayısıyla; anlaşılabilir, bakımı kolay ve esnek bir kod yerine, SOLID prensipleriyle daha kötü ve karmaşık kodlar elde edebilmek mümkündür. Bu nedenle, dikkatli bir şekilde düşünmek ve bu ilkeleri yalnızca gerektiğinde uygulamak; temiz bir kod yazmanın temel prensibidir.</p>
 
 <h4 id="solid-kısaltmasını-oluşturan-prensipler">SOLID kısaltmasını oluşturan prensipler:</h4>
 
 <ul>
-  <li><strong><code class="language-plaintext highlighter-rouge">S</code></strong> - <a href="https://github.com/omereryilmaz/solid-principles/tree/main/single-responsibility#readme">Single Responsibility Principle</a> (SRP)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">S</code></strong> - <a href="http://omereryilmaz.com/single-responsibility-principle">Single Responsibility Principle</a> (SRP)</li>
   <li><strong><code class="language-plaintext highlighter-rouge">O</code></strong> - Open / Closed Principle (OCP)</li>
   <li><strong><code class="language-plaintext highlighter-rouge">L</code></strong> - Liskov Substitution Principle (LSP)</li>
   <li><strong><code class="language-plaintext highlighter-rouge">I</code></strong> - Interface Segregation Principle (ISP)</li>
   <li><strong><code class="language-plaintext highlighter-rouge">D</code></strong> - Dependency Inversion Principle (DIP)</li>
 </ul>
 
+<p> 
+ </p>
+
 <h5 id="kaynaklar">Kaynaklar</h5>
 <ul>
+  <li><a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">The Principles of OOD</a></li>
   <li><a href="https://code-maze.com/solid-principles/">Code Maze</a></li>
   <li><a href="https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/">C-Sharp Corner</a></li>
   <li><a href="https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp">DotNet Tricks</a></li>
