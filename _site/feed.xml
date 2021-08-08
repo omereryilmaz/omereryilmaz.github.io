@@ -7,6 +7,86 @@
 		<atom:link href="http://omereryilmaz.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Single Responsibility Principle (SRP)</title>
+				<description>&lt;p&gt;Bir yazılım projesinde tasarlanan sınıflar (class) ve yapılar (struct), bazen benzer görevleri yerine getirebilmektedir. Böyle durumlarda sınıfların hangi görevleri yerine getireceği konusunda karışıklıklar ortaya çıkabilmektedir. Single Responsibility Prensibine göre bu tarz karmaşanın önüne geçmek için sınıfların ve yapıların iyi tanımlanmış tek sorumluluğu olması gerekmektedir. Eğer bir sınıf birden fazla görevin yerine getirilmesinden sorumlu olursa, gelecekte bu sınıfın değişme ihtimalini de arttırmaktadır. Bu da yazılım tasarımının bozulacağı anlamına gelmektedir.&lt;/p&gt;
+
+&lt;p&gt;Bu çalışmada öncelikle SRP’ye uygun olmayan basit bir tasarımla başlanarak, onu SRP’ye uygun hale getirilmeye çalışılacaktır. Örnek olarak geometrik şekillerin çevresini hesaplayan ve bu şekillerin çevrelerinin toplamını ekrana yazdıran basit bir console uygulaması yapılacaktır. Başlangıç olarak örneğin UML diyagramı aşağıdaki gibidir;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/solid/srp/srp-uml-1.png&quot; alt=&quot;Single Responsibility Principle Example UML - 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Şekil 1. Console uygulamasının SRP’den önceki halinin UML diyagramı&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IShape&lt;/code&gt; interface’i ve bunu implement eden &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Square&lt;/code&gt; ve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Rectangle&lt;/code&gt; class’larının C# kodları aşağıdaki gibidir;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/1730cbede312f88791c7f35187d687ed.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/63007ffdd3af638bf22714758dd465e3.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/0a166eb3f01c59fdc6cc65fdf6f08e3a.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Bu sınıfları kullanarak işlem yapan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CalcTotalPerimeter&lt;/code&gt; class’ının da kodları aşağıdaki gibidir;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/623e101613a3ee84a63f75d016e635f3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Yukarıdaki kod incelendiğinde şekillere ait çevreyi hesaplama metodu olan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CalcPerimeter&lt;/code&gt;’ın çağırıldığı ve bu hesaplamalardan dönen değerleri de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;totalPerimeter&lt;/code&gt; değişkeninde toplandığını görülmektedir. Son olarak da hesaplanan toplam çevre değeri &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PrintToConsole&lt;/code&gt; metodu ile console’a yazdırılmaktadır. İlgili kodu test etmek için &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Program&lt;/code&gt; class’ındaki Main metoduna aşağıdaki kodlar eklenir;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/93c33c404467d941df3bf265b7028373.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Ekran Çıktısı:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Total Perimeter: 30
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Çıktı değerleri kontrol edildiğinde uygulamanın doğru çalıştığı görünmektedir. Ancak tasarımsal olarak sorunlar barındırmaktadır. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CalcTotalPerimeter&lt;/code&gt; class’ı incelendiğinde hem toplam çevreyi hesaplamakla hem de sonuçları ekrana yazdırmakla görevlidir. Yani birden fazla sorumluluğa sahiptir. Bu durum sonuçları yazdırma gereksinimleri genişletilmek istenildiğinde veya aynı metodlar başka sınıflar içinde gerekli olduğu durumlarda karmaşaya yola açabilir. Sonucunda da tasarımda değişikliğe gidilmesi gerekebilir.&lt;/p&gt;
+
+&lt;p&gt;Bu tasarım sorununu gidermek için yazdırma sorumluluğu başka bir sınıfa verilmesi gerekmektedir. Bunun için &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PrintResult&lt;/code&gt; isminde bir class oluşturularak, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CalcTotalPerimeter&lt;/code&gt; içerisindeki yazdırma metodu bu class’a eklenir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/solid/srp/srp-uml-2.png&quot; alt=&quot;Single Responsibility Principle Example UML - 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML diyagramı&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PrintResult&lt;/code&gt; class’ının C# kodu aşağıdaki gibidir;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/2cedfcf748bd8670a48e8815546149aa.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Bu şekilde class’ların sorumlulukları bire indirgenmiş oldu. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CalcTotalPerimeter&lt;/code&gt; class’ı sadece şekillerin çevrelerinin toplanmasından sorumluyken; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PrintResult&lt;/code&gt; class’ı da ilgili sonuçların yazdırılma işlerinden sorumlu olmuştur. Artık console’a ya da bir dosyaya yazdırma işlemi yaptırmak istediğimizde değişiklik yapacağımız sadece bir sorumlu class’ımız olmuş oldu.&lt;/p&gt;
+
+&lt;p&gt;İlgili kodu test etmek için &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Program&lt;/code&gt; class’ındaki &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Main&lt;/code&gt; metoduna aşağıdaki kodlar eklenir;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/omereryilmaz/98803e2f09175e2f82ce73eef7557789.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Sonuç olarak class’lar sadece bir görevi yerine getirmeye çalıştığı için dağınık olmayan ve okunması kolay kod yapısı elde edildi. Bu sayede tasarıma, ilgili class’ların yeniden düzenlenebilme, yeni özellikler ilave edebilme gibi yetenekler kazandırılmış oldu. Yukarıdaki örnekte görüleceği üzere class’lardaki özellikler kolaylıkla değiştirilip, yeni bir özellikler (dosyaya yazdırma) eklenebildi. Ayrıca class’lar daha bağımsız bir hale geldi. Bu şekilde ileride olabilecek gereksinimler doğrultusunda eklenecek olan class’ların (örneğin şekillerin alanlarının toplamını hesaplama) sonuç çıktıları da aynı yazdırma metodlarını kullanarak yazdırılabilir.&lt;/p&gt;
+
+&lt;p&gt;Güzel tasarlanmış yazılım sistemleri meydana getirebilmek için okunabilir ve sürdürülebilir kod yazılması temel amaç edinilmelidir. Bu yüzden SRP’yi doğru bir şekilde ve yerinde uygulamak önem arz etmektedir. Yanlış kullanımlarda organizasyonu iyi yapılmamış küçük parçalardaki class’ların elde edilmesine neden olabilmektedir. Böyle sistemlerde ise kod bakımı ve değişiklikler masraflı hale gelmiş olur.&lt;/p&gt;
+
+&lt;p&gt;İlgili Örneğin Kaynak Kodları: &lt;a href=&quot;https://github.com/omereryilmaz/SolidPrinciples&quot;&gt;Github - Solid Principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; 
+ &lt;/p&gt;
+
+&lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;[1] The Principles of OOD, http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod&lt;/li&gt;
+  &lt;li&gt;[2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.&lt;/li&gt;
+  &lt;li&gt;[3] Code Maze, https://code-maze.com/solid-principles/&lt;/li&gt;
+  &lt;li&gt;[4] Nesneye Yönelik Programlama, https://acikogretim.istanbul.edu.tr/&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Sun, 08 Aug 2021 13:10:00 +0300</pubDate>
+				<link>http://omereryilmaz.com/single-responsibility-principle/</link>
+				<guid isPermaLink="true">http://omereryilmaz.com/single-responsibility-principle/</guid>
+			</item>
+		
+			<item>
 				<title>SOLID Prensipleri</title>
 				<description>&lt;p&gt;SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object Oriented Programming&lt;/code&gt; - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Uncle Bob (Robert C. Martin)&lt;/code&gt; tarafından derlenmiştir.&lt;/p&gt;
 
@@ -29,10 +109,9 @@
 
 &lt;h5 id=&quot;kaynaklar&quot;&gt;Kaynaklar&lt;/h5&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod&quot;&gt;The Principles of OOD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code-maze.com/solid-principles/&quot;&gt;Code Maze&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/&quot;&gt;C-Sharp Corner&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp&quot;&gt;DotNet Tricks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[1] The Principles of OOD, http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod&lt;/li&gt;
+  &lt;li&gt;[2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.&lt;/li&gt;
+  &lt;li&gt;[3] Code Maze, https://code-maze.com/solid-principles/&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 				<pubDate>Sun, 08 Aug 2021 02:28:00 +0300</pubDate>
@@ -122,7 +201,7 @@ Bulanıklık, kodun okuması ve anlaşılmasının zor olma eğiliminde olduğun
 
 &lt;h4 id=&quot;çürümelerden-kaçınmak&quot;&gt;Çürümelerden Kaçınmak&lt;/h4&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;
-Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan &lt;a href=&quot;http://omereryilmaz.com/SOLID-prensipleri&quot; target=&quot;_blank&quot;&gt;SOLID prensipleri&lt;/a&gt;&apos;ni tanıttı. Bu prensipler göz önüne alınarak oluşturulan tasarımlar çürümeyi minimuna indirirerek; tasarımı daha anlaşılır, esnek ve bakımı kolay hale getirir.
+Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan &lt;a href=&quot;http://omereryilmaz.com/solid-prensipleri&quot; target=&quot;_blank&quot;&gt;SOLID prensipleri&lt;/a&gt;&apos;ni tanıttı. Bu prensipler göz önüne alınarak oluşturulan tasarımlar çürümeyi minimuna indirirerek; tasarımı daha anlaşılır, esnek ve bakımı kolay hale getirir.
 &lt;/p&gt;
 
 &lt;p&gt; 
@@ -1087,69 +1166,6 @@ Bu şekildeki lambda syntax’ı Java tasarımcıları tarafından, C# ve Scala 
 				<pubDate>Wed, 08 Feb 2017 19:36:00 +0300</pubDate>
 				<link>http://omereryilmaz.com/java-lambda-nedir/</link>
 				<guid isPermaLink="true">http://omereryilmaz.com/java-lambda-nedir/</guid>
-			</item>
-		
-			<item>
-				<title>Üniversiteliler İçin indir.com Mobil Uygulama Yarışması Başladı!</title>
-				<description>&lt;p&gt;&lt;a href=&quot;http://www.indir.com/&quot;&gt;indir.com&lt;/a&gt;&lt;span style=&quot;color:#000000;&quot;&gt;, geçtiğimiz yıllarda düzenlediği büyük ilgi gören “indir.com Mobil Uygulama Yarışması”na ek olarak bu yıl sadece Üniversitelilerin katılabileceği “Üniversiteliler İçin indir.com Mobil Uygulama yarışması” düzenliyor.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;1 Ocak 2016 tarihi itibariyle katılım süreci başlayan yarışmaya, bireysel veya en fazla 3 kişilik ekipten oluşan tüm öğrenciler, özgün ve 2016 yılı içerisinde uygulama marketlerde yayınlanmış olan uygulamaları ile katılabiliyorlar.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Katılımcıların kendi geliştirdikleri özgün uygulamaları daha geniş kitlelere tanıtma ve hayata geçirme imkanı&lt;/span&gt; &lt;span style=&quot;color:#000000;&quot;&gt;bulacağı yarışmada finale kalarak ilk 3’e giren yarışmacılar birbirinden değerli ödüllerin sahibi olacaklar.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;&lt;em&gt;İşte Kesinleşen O Ödüller!&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Kesinleşen ödüller aşağıdaki gibidir. Diğer ödüllerin neler olacağı ise ilerleyen günlerde indir.com tarafından duyurulacaktır.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Birinci;&lt;/strong&gt; 1 hafta Silikon Vadisi tatili (San Francisco), bukalemun.com’dan 5000 TL değerinde ASO hizmeti, indir.com’dan 5.000TL değerinde reklam.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;İkinci;&lt;/strong&gt; Antalya’da 1 hafta tatil, indir.com’dan 2.500TL değerinde uygulamanın tanıtımı…&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Üçüncü;&lt;/strong&gt; Antalya’da 3 gün tatil, indir.com’dan 1.000TL değerinde uygulamanın tanıtımı…&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Üniversiteliler için özel ödül;&lt;/strong&gt; yarışmanın birincisine verilecek olan değerli ödüllere ek olarak sadece “Üniversiteliler İçin indir.com Mobil Uygulama Yarışması” kazananına Silikon Vadisi tatilindeki ihtiyaçlarını karşılamak amacıyla &lt;strong&gt;5000 TL nakit para ödülü&lt;/strong&gt; verilecek.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Katılım Süreci!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Sadece Üniversitelilerin katılabileceği yarışma, 1 Ocak 2016 tarihi itibariyle başladı. Son başvuru tarihi ise; 30 Ağustos 2016. Bu tarihe kadar bireysel veya en fazla 3 kişilik ekiplerden oluşan tüm öğrenciler başvurabilirler.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Başvuru süreci tamamlandıktan sonra yarışmaya katılmaya hak kazanan uygulamalar, indir.com tarafından tanıtılacak ve 5 Eylül 2016 tarihinde “Halk Oylaması”na sunulacak. Halk oylaması sonucunda en çok oyu alarak ilk 10’a giren uygulamalar, 10 Eylül 2016 tarihinde kendi alanlarında uzman, birbirinden değerli jüri üyelerinin değerlendirilmesine sunulacak. Jüri değerlendirmesi sonucunda ilk 3’e girerek kazanan uygulamalar belli olacak. Kazanan uygulamalar, “Mobil Etkinlik” kapsamında düzenlenecek olan “Ödül Töreni”nde açıklanacak.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Ödül Töreni!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Sadece Üniversitelilerin katılımına açık olan “Üniversiteliler İçin indir.com Mobil Uygulama Yarışması” ödül töreni; yarışmayı kazanan öğrencinin öğrenim gördüğü Üniversitede düzenlenecek olan “Mobil Etkinlik” kapsamında yapılacak. Üstelik bu etkinliğe tüm öğrenciler davetli olacak.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Yani; kazanan öğrenci Pamukkale Üniversitesinde eğitim görüyorsa ödül töreni, Denizli’de Pamukkale Üniversitesinde, indir.com tarafından gerçekleştirilecek olan “Mobil Etkinlik” kapsamında yapılacaktır.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;&lt;em&gt;Üniversiteliler için indir.com Mobil Uygulama Yarışması 2016 Takvimi&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Yarışma Başlangıcı:&lt;/strong&gt; 1 Ocak 2016&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Son Başvuru: &lt;/strong&gt;30 Ağustos 2016&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Halk Oylaması: &lt;/strong&gt;5 Eylül 2016&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Jüri Değerlendirmesi: &lt;/strong&gt;10 Eylül 2016&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;strong&gt;Mobil Etkinlik:&lt;/strong&gt; Ekim Ayında&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Detaylı bilgi için;&lt;/span&gt; &lt;a href=&quot;http://www.indir.com/yarismauni/&quot;&gt;Üniversiteliler için indir.com Mobil Uygulama Yarışması şartları ve katılım formu&lt;/a&gt;&lt;span style=&quot;color:#000000;&quot;&gt;’na tıklatınız.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-</description>
-				<pubDate>Tue, 16 Feb 2016 20:17:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</guid>
 			</item>
 		
 	</channel>

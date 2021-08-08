@@ -4,7 +4,7 @@ title: SOLID Prensipleri
 date: 2021-08-08 02:28
 image: solid/solid-principles.png
 comments: true
-categories: [CSharp, ObjectOrientedProgramming]
+categories: [CSharp, ObjectOrientedProgramming, SOLID]
 tags: [solid-principles, solid-principles-in-csharp, solid-prensipleri-nelerdir, csharp-ile-solid-prensipleri,  single-responsibility-principle, open-closed-principle, liskovs-substitution-principle, interface-segregation-principle, dependency-inversion-principle]
 ---
 
@@ -26,7 +26,6 @@ Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanı
 &nbsp;
 
 ##### Kaynaklar
-- [The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
-- [Code Maze](https://code-maze.com/solid-principles/)
-- [C-Sharp Corner](https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/)
-- [DotNet Tricks](https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp)
+- [1] The Principles of OOD, http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod 
+- [2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.
+- [3] Code Maze, https://code-maze.com/solid-principles/

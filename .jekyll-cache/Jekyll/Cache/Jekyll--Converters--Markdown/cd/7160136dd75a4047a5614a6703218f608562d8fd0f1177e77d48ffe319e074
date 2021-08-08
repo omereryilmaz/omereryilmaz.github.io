@@ -1,0 +1,27 @@
+I"�
+<p>SOLID prensipleri, yazılım tasarımı sorunlarının çoğuyla başa çıkmamızı sağlayan tasarım ilkeleridir.  Nesneye Yönelik Programlamada (<code class="language-plaintext highlighter-rouge">Object Oriented Programming</code> - OOP) yazılım tasarımının daha anlaşılır, esnek ve bakımı kolay hale getirmek için kullanılan prensiplerden oluşmaktadır. Bu prensipler ilk defa <code class="language-plaintext highlighter-rouge">Uncle Bob (Robert C. Martin)</code> tarafından derlenmiştir.</p>
+
+<p>Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanılabilir. Dolayısıyla; anlaşılabilir, bakımı kolay ve esnek bir kod yerine, SOLID prensipleriyle daha kötü ve karmaşık kodlar elde edebilmek mümkündür. Bu nedenle, dikkatli bir şekilde düşünmek ve bu ilkeleri yalnızca gerektiğinde uygulamak; temiz bir kod yazmanın temel prensibidir.</p>
+
+<p> </p>
+
+<h4 id="solid-kısaltmasını-oluşturan-prensipler">SOLID kısaltmasını oluşturan prensipler:</h4>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">S</code></strong> - <a href="http://omereryilmaz.com/single-responsibility-principle">Single Responsibility Principle</a> - <code class="language-plaintext highlighter-rouge">Class'ların iyi tanımlanmış tek sorumlulukları olmalı.</code></li>
+  <li><strong><code class="language-plaintext highlighter-rouge">O</code></strong> - Open / Closed Principle - <code class="language-plaintext highlighter-rouge">Class'lar genişlemeye açık, değişime kapalı olmalı.</code></li>
+  <li><strong><code class="language-plaintext highlighter-rouge">L</code></strong> - Liskov Substitution Principle  - <code class="language-plaintext highlighter-rouge">Base class'tan türetilenler, base class yerine geçebilmeli.</code></li>
+  <li><strong><code class="language-plaintext highlighter-rouge">I</code></strong> - Interface Segregation Principle  - <code class="language-plaintext highlighter-rouge">Küçük interface'ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.</code></li>
+  <li><strong><code class="language-plaintext highlighter-rouge">D</code></strong> - Dependency Inversion Principle  - <code class="language-plaintext highlighter-rouge">Yüksek seviyedeki class'lar düşük seviyedeki class'lara bağımlı olmamalı.</code></li>
+</ul>
+
+<p> 
+ </p>
+
+<h5 id="kaynaklar">Kaynaklar</h5>
+<ul>
+  <li>[1] The Principles of OOD, http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod</li>
+  <li>[2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.</li>
+  <li>[3] Code Maze, https://code-maze.com/solid-principles/</li>
+</ul>
+:ET

@@ -1,0 +1,44 @@
+I"[<p>Bir yazılım projesinde tasarlanan sınıflar (class) ve yapılar (struct), bazen benzer görevleri yerine getirebilmektedir. Böyle durumlarda sınıfların hangi görevleri yerine getireceği konusunda karışıklıklar ortaya çıkabilmektedir. Single Responsibility Prensibine göre bu tarz karmaşanın önüne geçmek için sınıfların ve yapıların iyi tanımlanmış tek sorumluluğu olması gerekmektedir. Eğer bir sınıf birden fazla görevin yerine getirilmesinden sorumlu olursa, gelecekte bu sınıfın değişme ihtimalini de arttırmaktadır. Bu da yazılım tasarımının bozulacağı anlamına gelmektedir.</p>
+
+<p>Bu çalışmada öncelikle SRP’ye uygun olmayan basit bir tasarımla başlanarak, onu SRP’ye uygun hale getirilmeye çalışılacaktır. Örnek olarak geometrik şekillerin çevresini hesaplayan ve bu şekillerin çevrelerinin toplamını ekrana yazdıran basit bir console uygulaması yapılacaktır. Başlangıç olarak örneğin UML diyagramı aşağıdaki gibidir;</p>
+
+<p><img src="/images/solid/srp/srp-uml-1.png" alt="Single Responsibility Principle Example UML - 1" /></p>
+
+<p>Şekil 1. Console uygulamasının SRP’den önceki halinin UML diyagramı</p>
+
+<p> </p>
+
+<p><code class="language-plaintext highlighter-rouge">IShape</code> interface’i ve bunu implement eden <code class="language-plaintext highlighter-rouge">Square</code> ve <code class="language-plaintext highlighter-rouge">Rectangle</code> class’larının C# kodları aşağıdaki gibidir;</p>
+
+<script src="https://gist.github.com/omereryilmaz/1730cbede312f88791c7f35187d687ed.js"></script>
+
+<script src="https://gist.github.com/omereryilmaz/63007ffdd3af638bf22714758dd465e3.js"></script>
+
+<script src="https://gist.github.com/omereryilmaz/0a166eb3f01c59fdc6cc65fdf6f08e3a.js"></script>
+
+<p> </p>
+
+<p>Bu sınıfları kullanarak işlem yapan <code class="language-plaintext highlighter-rouge">CalcTotalPerimeter</code> class’ının da kodları aşağıdaki gibidir;</p>
+
+<script src="https://gist.github.com/omereryilmaz/623e101613a3ee84a63f75d016e635f3.js"></script>
+
+<p>Yukarıdaki kod incelendiğinde şekillere ait çevreyi hesaplama metodu olan <code class="language-plaintext highlighter-rouge">CalcPerimeter</code>’ın çağırıldığı ve bu hesaplamalardan dönen değerleri de totalPerimeter değişkeninde toplandığını görülmektedir. Son olarak da hesaplanan toplam çevre değeri <code class="language-plaintext highlighter-rouge">PrintToConsole</code> metodu ile console’a yazdırılmaktadır. İlgili kodu test etmek için Program class’ındaki Main metoduna aşağıdaki kodlar eklenir;</p>
+
+<p> </p>
+
+<h4 id="solid-kısaltmasını-oluşturan-prensipler">SOLID kısaltmasını oluşturan prensipler:</h4>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">S</code></strong> - <a href="http://omereryilmaz.com/single-responsibility-principle">Single Responsibility Principle</a> - <code class="language-plaintext highlighter-rouge">Class'ların iyi tanımlanmış tek sorumlulukları olmalı.</code></li>
+</ul>
+
+<p> 
+ </p>
+
+<h5 id="kaynaklar">Kaynaklar</h5>
+<ul>
+  <li>[1] The Principles of OOD, http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod</li>
+  <li>[2] Robert C. Martin and Micah Martin, “Agile Principles, Patterns, and Practices in C#”, 2006.</li>
+  <li>[3] Code Maze, https://code-maze.com/solid-principles/</li>
+</ul>
+:ET
