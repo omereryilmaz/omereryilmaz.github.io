@@ -39,7 +39,7 @@ Robert ve ark. [2006] göre, zayıf bir şekilde tasarlanmış yazılımların y
 
 ###### Katılık (Rigidity)
 <p style="text-align:justify;">
-Yazılımın, basit yollarla bile değiştirilmesinin zor olma eğilimi göstermesidir. Yapılacak bir değişiklik, bağımlı modüllerde de değişiklikler yapılmasına neden oluyorsa, bu yazılım tasarımının katı olduğunu belirtir. Tasarım; değiştirilmesi gereken ne kadar modül veya bağımlı bileşen varsa o kadar katı olduğu anlamına gelmektedir.
+Yazılımın, basit yollarla bile değiştirilmesinin zor olma eğilimi göstermesidir. Yapılacak bir değişiklik, bağımlı modüllerde de değişiklikler yapılmasına neden oluyorsa, bu yazılım tasarımının katı olduğunu belirtir.
 </p>
 &nbsp;
 
@@ -59,7 +59,7 @@ Yazılımda, diğer sistemlerde faydalı olabilecek modüller içerdiğinde hare
 
 ###### Akışmazlık (Viscosity)
 <p style="text-align:justify;">
-Akışmazlık belirtisi iki formda ortaya çıkmaktadır: ortamın ve yazılımın akışmazlığı. Ortamın akışmazlığı, geliştirme yapılan ortamın yavaş ve verimsiz olduğu durumlarda ortaya çıkar. Bu gibi durumların ortaya çıkması, çoğunlukla alınan görevin bir an önce yapılabilmesi için yazılım orijinal tasarımı gözardı edilmesiyle olur. Yazılımın akışmazlığında ise geliştiriciler tasarımı koyuyan zor yöntemler yerine kendilerine daha kolay yöntemleri tercih edebilmektedirler. Bu şekilde de yazılım tasarımının orijinal felsefesi gözardı edilmiş olur. Her iki durumda da akışmazlık olan bir proje, yazılım tasarımın korunmasının zor olduğu bir projedir. Sonuç olarak tasarımı korurken geliştirmeyi kolaylaştıracak; sistemler ve proje ortamları oluşturmak gerekmektedir.
+Akışmazlık belirtisi iki formda ortaya çıkmaktadır: ortamın ve yazılımın akışmazlığı. Ortamın akışmazlığı, geliştirme yapılan ortamın yavaş ve verimsiz olduğu durumlarda ortaya çıkar. Bu gibi durumların ortaya çıkması, çoğunlukla alınan görevin bir an önce yapılabilmesi için yazılım orijinal tasarımı gözardı edilmesiyle olur. Yazılımın akışmazlığında ise geliştiriciler tasarımı koruyan zor yöntemler yerine kendilerine daha kolay yöntemleri tercih edebilmektedirler. Bu şekilde de yazılım tasarımının orijinal felsefesi gözardı edilmiş olur. Her iki durumda da akışmazlık olan bir proje, yazılım tasarımın korunmasının zor olduğu bir projedir. Sonuç olarak tasarımı korurken geliştirmeyi kolaylaştıracak; sistemler ve proje ortamları oluşturmak gerekmektedir.
 </p>
 &nbsp;
 
