@@ -57,10 +57,13 @@
 .c-load-more {
   padding: 20px;
   margin: 20px auto 40px;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
   color: $white-color;
   border: none;
   background-color: $primary-color;
+  background: linear-gradient(135deg, #33aaff 0%, #62d5ff 100%);
   outline: none;
   &:hover {
     background-color: darken($primary-color, 15%);
