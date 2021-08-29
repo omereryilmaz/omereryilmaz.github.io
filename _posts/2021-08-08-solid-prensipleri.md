@@ -17,10 +17,14 @@ Hayattaki diğer prensiplerde olduğu gibi, her SOLID prensibi yanlış kullanı
 #### SOLID kısaltmasını oluşturan prensipler:
 
 - **`S`** - [Single Responsibility Principle](http://omereryilmaz.com/single-responsibility-principle) - `Class'ların iyi tanımlanmış tek sorumlulukları olmalı.`
-- **`O`** - Open / Closed Principle - `Class'lar genişlemeye açık, değişime kapalı olmalı.`
-- **`L`** - Liskov Substitution Principle  - `Base class'tan türetilenler, base class yerine geçebilmeli.`
-- **`I`** - Interface Segregation Principle  - `Küçük interface'ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.`
-- **`D`** - Dependency Inversion Principle  - `Yüksek seviyedeki class'lar düşük seviyedeki class'lara bağımlı olmamalı.`
+- **`O`** - [Open / Closed Principle](https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp) - `Class'lar genişlemeye açık, değişime kapalı olmalı.`
+- **`L`** - [Liskov Substitution Principle](https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp)  - `Base class'tan türetilenler, base class yerine geçebilmeli.`
+- **`I`** - [Interface Segregation Principle](https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp)  - `Küçük interface'ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.`
+- **`D`** - [Dependency Inversion Principle](https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp)  - `Yüksek seviyedeki class'lar düşük seviyedeki class'lara bağımlı olmamalı.`
+
+&nbsp;
+
+SOLID prensipleri ile ilgili basit örnekler için [SOLIDPrinciplesInCSharp](https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp) GitHub reposunu inceleyebilirsiniz.
 
 &nbsp;
 &nbsp;

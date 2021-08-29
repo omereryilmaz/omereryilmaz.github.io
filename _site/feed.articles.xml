@@ -101,11 +101,15 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;http://omereryilmaz.com/single-responsibility-principle&quot;&gt;Single Responsibility Principle&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Class&apos;ların iyi tanımlanmış tek sorumlulukları olmalı.&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt;&lt;/strong&gt; - Open / Closed Principle - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Class&apos;lar genişlemeye açık, değişime kapalı olmalı.&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;&lt;/strong&gt; - Liskov Substitution Principle  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Base class&apos;tan türetilenler, base class yerine geçebilmeli.&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;&lt;/strong&gt; - Interface Segregation Principle  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Küçük interface&apos;ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt;&lt;/strong&gt; - Dependency Inversion Principle  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Yüksek seviyedeki class&apos;lar düşük seviyedeki class&apos;lara bağımlı olmamalı.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp&quot;&gt;Open / Closed Principle&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Class&apos;lar genişlemeye açık, değişime kapalı olmalı.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp&quot;&gt;Liskov Substitution Principle&lt;/a&gt;  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Base class&apos;tan türetilenler, base class yerine geçebilmeli.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp&quot;&gt;Interface Segregation Principle&lt;/a&gt;  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Küçük interface&apos;ler oluşturularak, gereksiz metod kullanımının önüne geçilmeli.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt;&lt;/strong&gt; - &lt;a href=&quot;https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp&quot;&gt;Dependency Inversion Principle&lt;/a&gt;  - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Yüksek seviyedeki class&apos;lar düşük seviyedeki class&apos;lara bağımlı olmamalı.&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;SOLID prensipleri ile ilgili basit örnekler için &lt;a href=&quot;https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp&quot;&gt;SOLIDPrinciplesInCSharp&lt;/a&gt; GitHub reposunu inceleyebilirsiniz.&lt;/p&gt;
 
 &lt;p&gt; 
  &lt;/p&gt;
