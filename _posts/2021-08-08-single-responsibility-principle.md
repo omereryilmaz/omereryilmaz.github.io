@@ -14,7 +14,7 @@ Bu çalışmada öncelikle SRP’ye uygun olmayan basit bir tasarımla başlanar
 
 ![Single Responsibility Principle Example UML - 1](/images/solid/srp/srp-uml-1.png)
 
-Şekil 1. Console uygulamasının SRP’den önceki halinin UML diyagramı
+Şekil 1. Console uygulamasının SRP’den önceki halinin UML class diyagramı
 
 &nbsp;
 
@@ -48,7 +48,7 @@ Bu tasarım sorununu gidermek için yazdırma sorumluluğu başka bir sınıfa v
 
 ![Single Responsibility Principle Example UML - 2](/images/solid/srp/srp-uml-2.png)
 
-Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML diyagramı
+Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML class diyagramı
 
 &nbsp;
 

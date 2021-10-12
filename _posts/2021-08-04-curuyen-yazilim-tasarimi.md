@@ -8,16 +8,16 @@ categories: [Genel, ObjectOrientedProgramming]
 tags: [rotting-desigin, rot-software, code-smells, design-smells, curuyen-yazilim, curuyen-tasarim ]
 ---
 <p style="text-align:justify;">
-Jack Reeves 1992 yılında yaynladığı bir makalede, yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
+Jack Reeves 1992 yılında yaynladığı bir makalede; yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
 
-Yazılım büyüdükçe; tasarım, karmaşık hale gelme eğilimdindedir. Böyle bir durumun sonucunda; karmaşık, bakımı zor, modüllerin birbirine sıkı sıkıya bağlı, basit değişikliklerin bile gerçekleştirilmesinin çok zor olacağı bir kod yapısı ortaya çıkar.  Bu, yazılım tasarım sisteminin ve haliyle yazılım projesinin çürümesi anlamına gelmektedir.
+Yazılım büyüdükçe; tasarım, karmaşık hale gelme eğilimindedir. Böyle bir durumun sonucunda; karmaşık, bakımı zor, modüllerin birbirine sıkı sıkıya bağlı, basit değişikliklerin bile gerçekleştirilmesinin çok zor olacağı bir kod yapısı ortaya çıkar.  Bu, yazılım tasarım sisteminin ve haliyle yazılım projesinin çürümesi anlamına gelmektedir.
 </p>
 
 &nbsp;
 
 #### Yazılım Tasarımı Neden Çürür?
 <p style="text-align:justify;">
-Değişikliklere kolayca uyum sağlanamayan geliştirme ortamlarında; gereksinimler ilk tasarımın ön görmediği şekillerde değiştiğinde, yazılım sisteminin tasarımında bozulmalara neden olmaktadır. Çoğu zaman bu tarz değişikliklerinin veya eklemelerin hızlı bir şekilde yapılması istenildiğinde sistemin orijinal tasarımının bozulması önemsenmez. Ancak asıl yapıyı ihlal eden bu tarz değişiklikler devam ettikçe kod yapısını işin içinden çıkılmaz hale getirir. 
+Değişikliklere kolayca uyum sağlanamayan geliştirme ortamlarında; gereksinimler ilk tasarımın ön görmediği şekillerde değiştiğinde, yazılım sisteminin tasarımında bozulmalara neden olmaktadır. Çoğu zaman bu tarz değişikliklerinin veya eklemelerin hızlı bir şekilde yapılması istenildiğinde sistemin orijinal tasarımının bozulması önemsenmez. Ancak asıl yapıyı ihlal eden bu tarz değişiklikler devam ettikçe kod yapısını işin içinden çıkılamaz hale getirir. 
 </p>
 
 &nbsp;

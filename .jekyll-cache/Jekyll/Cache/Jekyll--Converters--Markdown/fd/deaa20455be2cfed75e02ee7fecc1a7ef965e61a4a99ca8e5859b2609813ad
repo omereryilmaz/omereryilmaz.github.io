@@ -1,10 +1,10 @@
-I"�<p>Bir yazılım projesinde tasarlanan sınıflar (class) ve yapılar (struct), bazen benzer görevleri yerine getirebilmektedir. Böyle durumlarda sınıfların hangi görevleri yerine getireceği konusunda karışıklıklar ortaya çıkabilmektedir. Single Responsibility Prensibine göre bu tarz karmaşanın önüne geçmek için sınıfların ve yapıların iyi tanımlanmış tek sorumluluğu olması gerekmektedir. Eğer bir sınıf birden fazla görevin yerine getirilmesinden sorumlu olursa, gelecekte bu sınıfın değişme ihtimalini de arttırmaktadır. Bu da yazılım tasarımının bozulacağı anlamına gelmektedir.</p>
+I"�<p>Bir yazılım projesinde tasarlanan sınıflar (class) ve yapılar (struct), bazen benzer görevleri yerine getirebilmektedir. Böyle durumlarda sınıfların hangi görevleri yerine getireceği konusunda karışıklıklar ortaya çıkabilmektedir. Single Responsibility Prensibine göre bu tarz karmaşanın önüne geçmek için sınıfların ve yapıların iyi tanımlanmış tek sorumluluğu olması gerekmektedir. Eğer bir sınıf birden fazla görevin yerine getirilmesinden sorumlu olursa, gelecekte bu sınıfın değişme ihtimalini de arttırmaktadır. Bu da yazılım tasarımının bozulacağı anlamına gelmektedir.</p>
 
 <p>Bu çalışmada öncelikle SRP’ye uygun olmayan basit bir tasarımla başlanarak, onu SRP’ye uygun hale getirilmeye çalışılacaktır. Örnek olarak geometrik şekillerin çevresini hesaplayan ve bu şekillerin çevrelerinin toplamını ekrana yazdıran basit bir console uygulaması yapılacaktır. Başlangıç olarak örneğin UML diyagramı aşağıdaki gibidir;</p>
 
 <p><img src="/images/solid/srp/srp-uml-1.png" alt="Single Responsibility Principle Example UML - 1" /></p>
 
-<p>Şekil 1. Console uygulamasının SRP’den önceki halinin UML diyagramı</p>
+<p>Şekil 1. Console uygulamasının SRP’den önceki halinin UML class diyagramı</p>
 
 <p> </p>
 
@@ -37,7 +37,7 @@
 
 <p><img src="/images/solid/srp/srp-uml-2.png" alt="Single Responsibility Principle Example UML - 2" /></p>
 
-<p>Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML diyagramı</p>
+<p>Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML class diyagramı</p>
 
 <p> </p>
 

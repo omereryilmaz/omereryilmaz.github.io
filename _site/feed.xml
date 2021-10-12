@@ -14,7 +14,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/solid/srp/srp-uml-1.png&quot; alt=&quot;Single Responsibility Principle Example UML - 1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Şekil 1. Console uygulamasının SRP’den önceki halinin UML diyagramı&lt;/p&gt;
+&lt;p&gt;Şekil 1. Console uygulamasının SRP’den önceki halinin UML class diyagramı&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
@@ -47,7 +47,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/solid/srp/srp-uml-2.png&quot; alt=&quot;Single Responsibility Principle Example UML - 2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML diyagramı&lt;/p&gt;
+&lt;p&gt;Şekil 2. Console uygulamasının SRP’ye göre düzenlenmiş halinin UML class diyagramı&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
@@ -126,16 +126,16 @@
 			<item>
 				<title>Çürüyen Yazılım Tasarımı (Rotting Design)</title>
 				<description>&lt;p style=&quot;text-align:justify;&quot;&gt;
-Jack Reeves 1992 yılında yaynladığı bir makalede, yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
+Jack Reeves 1992 yılında yaynladığı bir makalede; yazılım sistemi tasarımının kriterlerini karşılayan tek yazılım dökümantasyonun, kaynak kodları olduğu kavramını ortaya koydu [1]. Bu kavrama göre yazılım tasarımı, kaynak kodları temsil eden soyut bir kavram iken; UML (Unified Modelling Language) diyagramları ise  tasarımın parçalarını temsil etmektedir.
 
-Yazılım büyüdükçe; tasarım, karmaşık hale gelme eğilimdindedir. Böyle bir durumun sonucunda; karmaşık, bakımı zor, modüllerin birbirine sıkı sıkıya bağlı, basit değişikliklerin bile gerçekleştirilmesinin çok zor olacağı bir kod yapısı ortaya çıkar.  Bu, yazılım tasarım sisteminin ve haliyle yazılım projesinin çürümesi anlamına gelmektedir.
+Yazılım büyüdükçe; tasarım, karmaşık hale gelme eğilimindedir. Böyle bir durumun sonucunda; karmaşık, bakımı zor, modüllerin birbirine sıkı sıkıya bağlı, basit değişikliklerin bile gerçekleştirilmesinin çok zor olacağı bir kod yapısı ortaya çıkar.  Bu, yazılım tasarım sisteminin ve haliyle yazılım projesinin çürümesi anlamına gelmektedir.
 &lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
 &lt;h4 id=&quot;yazılım-tasarımı-neden-çürür&quot;&gt;Yazılım Tasarımı Neden Çürür?&lt;/h4&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;
-Değişikliklere kolayca uyum sağlanamayan geliştirme ortamlarında; gereksinimler ilk tasarımın ön görmediği şekillerde değiştiğinde, yazılım sisteminin tasarımında bozulmalara neden olmaktadır. Çoğu zaman bu tarz değişikliklerinin veya eklemelerin hızlı bir şekilde yapılması istenildiğinde sistemin orijinal tasarımının bozulması önemsenmez. Ancak asıl yapıyı ihlal eden bu tarz değişiklikler devam ettikçe kod yapısını işin içinden çıkılmaz hale getirir. 
+Değişikliklere kolayca uyum sağlanamayan geliştirme ortamlarında; gereksinimler ilk tasarımın ön görmediği şekillerde değiştiğinde, yazılım sisteminin tasarımında bozulmalara neden olmaktadır. Çoğu zaman bu tarz değişikliklerinin veya eklemelerin hızlı bir şekilde yapılması istenildiğinde sistemin orijinal tasarımının bozulması önemsenmez. Ancak asıl yapıyı ihlal eden bu tarz değişiklikler devam ettikçe kod yapısını işin içinden çıkılamaz hale getirir. 
 &lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
