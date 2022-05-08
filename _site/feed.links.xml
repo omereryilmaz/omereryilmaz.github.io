@@ -3,8 +3,8 @@
 	<channel>
 		<title> - Links</title>
 		<description>Teknolojik bilgiler içeren kişisel web sayfası.</description>
-		<link>http://omereryilmaz.com</link>
-		<atom:link href="http://omereryilmaz.com/feed.links.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.links.xml" rel="self" type="application/rss+xml" />
 		
 			
 		

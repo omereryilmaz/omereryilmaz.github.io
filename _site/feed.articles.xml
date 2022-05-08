@@ -3,8 +3,8 @@
 	<channel>
 		<title> - Articles</title>
 		<description>Teknolojik bilgiler içeren kişisel web sayfası.</description>
-		<link>http://omereryilmaz.com</link>
-		<atom:link href="http://omereryilmaz.com/feed.articles.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.articles.xml" rel="self" type="application/rss+xml" />
 		
 			
 			<item>
@@ -83,8 +83,8 @@
 
 </description>
 				<pubDate>Sun, 08 Aug 2021 13:10:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/single-responsibility-principle/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/single-responsibility-principle/</guid>
+				<link>http://localhost:4000/single-responsibility-principle/</link>
+				<guid isPermaLink="true">http://localhost:4000/single-responsibility-principle/</guid>
 			</item>
 			
 		
@@ -122,8 +122,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Sun, 08 Aug 2021 02:28:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/solid-prensipleri/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/solid-prensipleri/</guid>
+				<link>http://localhost:4000/solid-prensipleri/</link>
+				<guid isPermaLink="true">http://localhost:4000/solid-prensipleri/</guid>
 			</item>
 			
 		
@@ -225,8 +225,8 @@ Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuy
 
 </description>
 				<pubDate>Wed, 04 Aug 2021 17:22:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/curuyen-yazilim-tasarimi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/curuyen-yazilim-tasarimi/</guid>
+				<link>http://localhost:4000/curuyen-yazilim-tasarimi/</link>
+				<guid isPermaLink="true">http://localhost:4000/curuyen-yazilim-tasarimi/</guid>
 			</item>
 			
 		
@@ -253,8 +253,8 @@ Bu yazımla birlikte Jekyll dünyasına adım atmış bulunmaktayım. Beni verit
 &lt;/ul&gt;
 </description>
 				<pubDate>Fri, 27 Jul 2018 21:43:01 +0300</pubDate>
-				<link>http://omereryilmaz.com/hello-world-of-jekyll/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/hello-world-of-jekyll/</guid>
+				<link>http://localhost:4000/hello-world-of-jekyll/</link>
+				<guid isPermaLink="true">http://localhost:4000/hello-world-of-jekyll/</guid>
 			</item>
 			
 		
@@ -549,8 +549,8 @@ qcl&amp;gt; grover(50); //grover kutuphanesinde bulunan grover() fonk. calistir
 &lt;/ul&gt;
 </description>
 				<pubDate>Wed, 17 May 2017 04:08:21 +0300</pubDate>
-				<link>http://omereryilmaz.com/quantum-computation-language/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/quantum-computation-language/</guid>
+				<link>http://localhost:4000/quantum-computation-language/</link>
+				<guid isPermaLink="true">http://localhost:4000/quantum-computation-language/</guid>
 			</item>
 			
 		
@@ -652,8 +652,8 @@ Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bun
 &lt;/ul&gt;
 </description>
 				<pubDate>Fri, 24 Mar 2017 01:06:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/angular-uygulamasinin-github-pagede-yayinlanmasi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/angular-uygulamasinin-github-pagede-yayinlanmasi/</guid>
+				<link>http://localhost:4000/angular-uygulamasinin-github-pagede-yayinlanmasi/</link>
+				<guid isPermaLink="true">http://localhost:4000/angular-uygulamasinin-github-pagede-yayinlanmasi/</guid>
 			</item>
 			
 		
@@ -807,8 +807,8 @@ Araştırma çalışması sırasında beklenmedik durumlar oluşabilir. Bu durum
 &lt;/p&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 08 Mar 2017 22:41:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/ozgunluk-nedir-kriterleri-nelerdir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/ozgunluk-nedir-kriterleri-nelerdir/</guid>
+				<link>http://localhost:4000/ozgunluk-nedir-kriterleri-nelerdir/</link>
+				<guid isPermaLink="true">http://localhost:4000/ozgunluk-nedir-kriterleri-nelerdir/</guid>
 			</item>
 			
 		
@@ -907,8 +907,8 @@ TypeScript üç bileşene sahiptir (Şekil 3):
 &lt;/p&gt;
 </description>
 				<pubDate>Sat, 25 Feb 2017 16:21:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/typescript-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/typescript-nedir/</guid>
+				<link>http://localhost:4000/typescript-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/typescript-nedir/</guid>
 			</item>
 			
 		
@@ -1106,8 +1106,8 @@ Aslında antimalware ve benzeri eklentilerin sayısı oldukça fazladır. Ama a
 &lt;p&gt;[2] http://wordpress.stackexchange.com/questions/232041/what-are-nulled-themes&lt;/p&gt;
 </description>
 				<pubDate>Tue, 14 Feb 2017 01:05:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/wordpress-zararli-kod-tespiti/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/wordpress-zararli-kod-tespiti/</guid>
+				<link>http://localhost:4000/wordpress-zararli-kod-tespiti/</link>
+				<guid isPermaLink="true">http://localhost:4000/wordpress-zararli-kod-tespiti/</guid>
 			</item>
 			
 		
@@ -1187,8 +1187,8 @@ Bu şekildeki lambda syntax’ı Java tasarımcıları tarafından, C# ve Scala 
 &lt;/ul&gt;
 </description>
 				<pubDate>Wed, 08 Feb 2017 19:36:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/java-lambda-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/java-lambda-nedir/</guid>
+				<link>http://localhost:4000/java-lambda-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/java-lambda-nedir/</guid>
 			</item>
 			
 		
@@ -1252,8 +1252,8 @@ Bu şekildeki lambda syntax’ı Java tasarımcıları tarafından, C# ve Scala 
 &lt;p&gt; &lt;/p&gt;
 </description>
 				<pubDate>Tue, 16 Feb 2016 20:17:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</guid>
+				<link>http://localhost:4000/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</link>
+				<guid isPermaLink="true">http://localhost:4000/universiteliler-icin-indir-com-mobil-uygulama-yarismasi-basladi/</guid>
 			</item>
 			
 		
@@ -1655,8 +1655,8 @@ void loop() {
 &lt;/ul&gt;
 </description>
 				<pubDate>Sun, 31 Jan 2016 21:37:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/arduino-ile-azure-mobile-services-baglantisi-iot/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/arduino-ile-azure-mobile-services-baglantisi-iot/</guid>
+				<link>http://localhost:4000/arduino-ile-azure-mobile-services-baglantisi-iot/</link>
+				<guid isPermaLink="true">http://localhost:4000/arduino-ile-azure-mobile-services-baglantisi-iot/</guid>
 			</item>
 			
 		
@@ -1929,8 +1929,8 @@ void loop() {
 &lt;/p&gt;
 </description>
 				<pubDate>Sun, 24 Jan 2016 16:47:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/azure-mobile-services-nasil-olusturulur/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/azure-mobile-services-nasil-olusturulur/</guid>
+				<link>http://localhost:4000/azure-mobile-services-nasil-olusturulur/</link>
+				<guid isPermaLink="true">http://localhost:4000/azure-mobile-services-nasil-olusturulur/</guid>
 			</item>
 			
 		
@@ -2119,8 +2119,8 @@ Error compiling.
 &lt;p&gt; &lt;/p&gt;
 </description>
 				<pubDate>Fri, 22 Jan 2016 01:04:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/e-health-sensor-platform-arduino-kutuphane-hatasi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/e-health-sensor-platform-arduino-kutuphane-hatasi/</guid>
+				<link>http://localhost:4000/e-health-sensor-platform-arduino-kutuphane-hatasi/</link>
+				<guid isPermaLink="true">http://localhost:4000/e-health-sensor-platform-arduino-kutuphane-hatasi/</guid>
 			</item>
 			
 		
@@ -2154,8 +2154,8 @@ Error compiling.
 &lt;h5&gt;Kaynak: Microsoft Azure Essentials - Fundamentals of Azure - Michael Collier, Robin Shahan&lt;/h5&gt;
 </description>
 				<pubDate>Sat, 02 Jan 2016 16:31:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/azure-mobile-services-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/azure-mobile-services-nedir/</guid>
+				<link>http://localhost:4000/azure-mobile-services-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/azure-mobile-services-nedir/</guid>
 			</item>
 			
 		
@@ -2178,8 +2178,8 @@ Error compiling.
 &lt;p&gt;&lt;a href=&quot;http://www.androiddeveloperdays.com/&quot; target=&quot;_blank&quot;&gt;http://www.androiddeveloperdays.com/&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sun, 12 Apr 2015 00:32:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/android-gelistirici-gunleri-2015/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/android-gelistirici-gunleri-2015/</guid>
+				<link>http://localhost:4000/android-gelistirici-gunleri-2015/</link>
+				<guid isPermaLink="true">http://localhost:4000/android-gelistirici-gunleri-2015/</guid>
 			</item>
 			
 		
@@ -2221,8 +2221,8 @@ Error compiling.
 
 </description>
 				<pubDate>Fri, 13 Mar 2015 23:36:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/msp-olarak-ilk-etkinligim/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/msp-olarak-ilk-etkinligim/</guid>
+				<link>http://localhost:4000/msp-olarak-ilk-etkinligim/</link>
+				<guid isPermaLink="true">http://localhost:4000/msp-olarak-ilk-etkinligim/</guid>
 			</item>
 			
 		
@@ -2252,8 +2252,8 @@ Error compiling.
 &lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 06 Mar 2015 12:25:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/indir-com-mobil-uygulama-yarismasi-2015/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/indir-com-mobil-uygulama-yarismasi-2015/</guid>
+				<link>http://localhost:4000/indir-com-mobil-uygulama-yarismasi-2015/</link>
+				<guid isPermaLink="true">http://localhost:4000/indir-com-mobil-uygulama-yarismasi-2015/</guid>
 			</item>
 			
 		
@@ -2266,8 +2266,8 @@ Error compiling.
 &lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Filmi yorumlamam gerekirse kuantum bilgisayarların şuan var olduğunu düşünürsek bazı abartı sahneler haricinde olabilitesi yüksek gibi görünüyor. Ama gerçekten bilinmeyen bir sona doğru mu gidiyoruz bu bizi korkutmalı mı bilmiyorum. Sonuçta filmde de geçen bir söz “İnsan ırkı hayatta kalmak ve refahını yükseltmek istiyorsa yeni bir düşünce şekli şarttır.” ve bu söze günümüz dünyasında katılmamak elde değil. Ve filmden ikinci güzel söz daha “İnsanlar, anlayamadıklar şeylerden korkarlar.” bu söz doğrultusunda da temennim; gelecek teknolojilerde ve buluşlarda anlamaktan öte bizlerin öncü olması. Bildiğimiz bir teknoloji korkularımızdan öte insanlığa yararlı olabileceği kanısındayım ki filmin finali onu anlatır şekildeydi.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 26 Feb 2015 00:49:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/transcendance/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/transcendance/</guid>
+				<link>http://localhost:4000/transcendance/</link>
+				<guid isPermaLink="true">http://localhost:4000/transcendance/</guid>
 			</item>
 			
 		
@@ -2367,8 +2367,8 @@ Error compiling.
 &lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Bu programla birlikte gerek kendi mesleğimden olsun gerek başka mesleklerde olsun bir çok yeni arkadaşlıklar ve bağlantılar edindim. Başlangıçtan sonuna kadar harika bir kickofftu. İlk başta bize böyle güzel ortamlar sağlayan Microsoft ‘a, daha sonra da güler yüzü ve bizler için gösterdiği çaba içinde Mustafa Kasap hocamıza teşekkürlerimi iletiyorum. &lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 25 Feb 2015 18:58:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-student-partner-2015/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-student-partner-2015/</guid>
+				<link>http://localhost:4000/microsoft-student-partner-2015/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-student-partner-2015/</guid>
 			</item>
 			
 		
@@ -2420,8 +2420,8 @@ Error compiling.
 &lt;address&gt;&lt;span style=&quot;color:#000000;&quot;&gt;wikipedia.org&lt;/span&gt;&lt;/address&gt;
 </description>
 				<pubDate>Sun, 15 Feb 2015 23:05:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/kuantum-bilgisayar-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/kuantum-bilgisayar-nedir/</guid>
+				<link>http://localhost:4000/kuantum-bilgisayar-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/kuantum-bilgisayar-nedir/</guid>
 			</item>
 			
 		
@@ -2465,8 +2465,8 @@ Error compiling.
 &lt;address style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#008080;&quot;&gt;&lt;a style=&quot;color:#008080;&quot; href=&quot;http://www.windowscentral.com/&quot; target=&quot;_blank&quot;&gt;Windows Central&lt;/a&gt;&lt;/span&gt;&lt;/address&gt;
 </description>
 				<pubDate>Wed, 11 Feb 2015 21:26:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/windows-universal-apps-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/windows-universal-apps-nedir/</guid>
+				<link>http://localhost:4000/windows-universal-apps-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/windows-universal-apps-nedir/</guid>
 			</item>
 			
 		
@@ -2486,8 +2486,8 @@ Error compiling.
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Başta ikinci görüşmemiz dedim ama Muratcan Bey &apos;le gerek telefonla olsun gerek maille olsun her an iletişim halindeyiz. Her türlü sorunumda değerli vaktini ayırıp bana yardımcı oluyor. Buradan kendisine samimi ve içten davranışları için tekrar teşekkürlerimi iletiyorum. &lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sun, 08 Feb 2015 14:58:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-turkey-student-coaching-program-gorusmesi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-turkey-student-coaching-program-gorusmesi/</guid>
+				<link>http://localhost:4000/microsoft-turkey-student-coaching-program-gorusmesi/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-turkey-student-coaching-program-gorusmesi/</guid>
 			</item>
 			
 		
@@ -2564,8 +2564,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;a href=&quot;https://github.com/omereryilmaz/Webcam-den-Cizgi-Takip-Eden-Robot&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color:#008080;&quot;&gt;&lt;strong&gt;https://github.com/omereryilmaz/Webcam-den-Cizgi-Takip-Eden-Robot&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 01 Jan 2015 15:57:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/webcam-den-cizgi-izleyen-robot/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/webcam-den-cizgi-izleyen-robot/</guid>
+				<link>http://localhost:4000/webcam-den-cizgi-izleyen-robot/</link>
+				<guid isPermaLink="true">http://localhost:4000/webcam-den-cizgi-izleyen-robot/</guid>
 			</item>
 			
 		
@@ -2618,8 +2618,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;a href=&quot;https://github.com/omereryilmaz/Logogo/tree/master/LogoWebApi&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration:underline;color:#008080;&quot;&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;https://github.com/omereryilmaz/Logogo/tree/master/LogoWebApi&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 01 Jan 2015 14:21:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/logo-renk-tahmin-oyunu-logogo/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/logo-renk-tahmin-oyunu-logogo/</guid>
+				<link>http://localhost:4000/logo-renk-tahmin-oyunu-logogo/</link>
+				<guid isPermaLink="true">http://localhost:4000/logo-renk-tahmin-oyunu-logogo/</guid>
 			</item>
 			
 		
@@ -2635,8 +2635,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Cümlelerimden de anlaşılacağı üzere gayet samimi bir sohbet olduğunu söyleyebilirim. Microsoft çatısı altında bulunmak zaten heyecan vericiyken böyle üst düzey insanlarla tanışıp konuşma şansı bu heyecanı daha da arttırdı diyebilirim. Bu yazımla bize bu imkanları tanıyan Microsoft ‘a, &lt;span style=&quot;color:#008080;&quot;&gt;&lt;a style=&quot;color:#008080;&quot; href=&quot;http://tr.linkedin.com/in/mustafakasap&quot; target=&quot;_blank&quot;&gt;Mustafa Kasap&lt;/a&gt;&lt;/span&gt; hocamıza ve bizlere değerli vakitlerini harcayan-harcayacak olan diğer Microsoft çalışanlarına ve danışmanım Sabri Muratcan Üstünkaya ‘ya şimdiden teşekkürlerimi iletiyorum.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Tue, 16 Dec 2014 22:08:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-turkey-student-coaching-program/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-turkey-student-coaching-program/</guid>
+				<link>http://localhost:4000/microsoft-turkey-student-coaching-program/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-turkey-student-coaching-program/</guid>
 			</item>
 			
 		
@@ -2677,8 +2677,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;a href=&quot;/images/gun10_7.jpg&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;img class=&quot;alignnone  wp-image-379&quot; src=&quot;/images/gun10_7.jpg&quot; alt=&quot;gun10_7&quot; width=&quot;551&quot; height=&quot;414&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 15 Aug 2014 21:02:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-10-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-10-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-10-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-10-gun/</guid>
 			</item>
 			
 		
@@ -2704,8 +2704,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;span style=&quot;color:#000000;&quot;&gt; Büyük veri konusuna da değinen hocamız bu kadar büyük verileri elde edebileceğimiz Netduino cihazı hakkında bilgiler verdikten sonra bu cihazla geliştirdiği bir kaç uygulamanın çalışmasını ve kodlamasını anlattı.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 14 Aug 2014 19:20:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-9-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-9-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-9-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-9-gun/</guid>
 			</item>
 			
 		
@@ -2731,8 +2731,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;span style=&quot;color:#000000;&quot;&gt; Sosyal Medya başlığı altında, sosyal medya tanımı ve sosyal medya reklamcılığı hakkında bilgiler verdi.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 13 Aug 2014 20:34:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-8-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-8-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-8-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-8-gun/</guid>
 			</item>
 			
 		
@@ -2761,8 +2761,8 @@ Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Pr
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Blog yazarlığı ve dijital yayıncılık başlığında söyleşi yaptı. İnternet ortamlarındaki sosyal platformların geçmişten günümüze insanların üzerindeki etkilerden, aslında bu ortamların adından ziyade insanları asosyal ve yalnız olmalarına neden olduğundan bahsetti.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Tue, 12 Aug 2014 22:16:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-7-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-7-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-7-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-7-gun/</guid>
 			</item>
 			
 		
@@ -2791,8 +2791,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Mon, 11 Aug 2014 23:06:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-6-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-6-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-6-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-6-gun/</guid>
 			</item>
 			
 		
@@ -2821,8 +2821,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Microsoft mülakatları hakkında da bilgiler aldık. Eskisi gibi bilmece tarzında sorular yerine 5-6 aşamadan oluşan algoritma soruları soruluyormuş. Sürekli değişen teknolojide ne kadar çok şey bildiğinden öte ne kadar çok öğrenebilme kabiliyeti olduğu önemliymiş. Bu konu da programlama dillerinden önce sağlam bir Algoritma ve Veri Yapıları temelimizin olması açık.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sat, 09 Aug 2014 16:47:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-5-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-5-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-5-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-5-gun/</guid>
 			</item>
 			
 		
@@ -2842,8 +2842,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Beşinci ve son konuğumuz olan Nokia Akedemi &apos;den Altan Kaya ise Windows Phone 8.1 ile gelen değişikliklerden bahsederek bu yoğun ve bol konuklu günü sonlandırmış oldu.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 07 Aug 2014 20:17:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-ta-4-gun/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-ta-4-gun/</guid>
+				<link>http://localhost:4000/microsoft-ta-4-gun/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-ta-4-gun/</guid>
 			</item>
 			
 		
@@ -2861,8 +2861,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;En son konuğumuz olan Özyeğin Üniversitesi Rektör Yardımcısı Prof. Reha Civandar &apos;da Gelecekteki İnternet başlığı altında internetin geçmişten günümüze nasıl geliştiğinden ve güvenlikle ilgili sorunlardan bahsedip güne noktayı koydu.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 06 Aug 2014 23:11:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/3-gun-2/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/3-gun-2/</guid>
+				<link>http://localhost:4000/3-gun-2/</link>
+				<guid isPermaLink="true">http://localhost:4000/3-gun-2/</guid>
 			</item>
 			
 		
@@ -2877,8 +2877,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;/p&gt;
 </description>
 				<pubDate>Tue, 05 Aug 2014 22:02:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/2-gun-yogun-ertesi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/2-gun-yogun-ertesi/</guid>
+				<link>http://localhost:4000/2-gun-yogun-ertesi/</link>
+				<guid isPermaLink="true">http://localhost:4000/2-gun-yogun-ertesi/</guid>
 			</item>
 			
 		
@@ -2907,8 +2907,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Mon, 04 Aug 2014 23:41:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/1-gun-bu-yaz-bir-harika-olacak-dostum/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/1-gun-bu-yaz-bir-harika-olacak-dostum/</guid>
+				<link>http://localhost:4000/1-gun-bu-yaz-bir-harika-olacak-dostum/</link>
+				<guid isPermaLink="true">http://localhost:4000/1-gun-bu-yaz-bir-harika-olacak-dostum/</guid>
 			</item>
 			
 		
@@ -2967,8 +2967,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p&gt; &lt;/p&gt;
 </description>
 				<pubDate>Wed, 30 Jul 2014 02:30:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/wordpress-mail-gonderme-smtp-ayari/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/wordpress-mail-gonderme-smtp-ayari/</guid>
+				<link>http://localhost:4000/wordpress-mail-gonderme-smtp-ayari/</link>
+				<guid isPermaLink="true">http://localhost:4000/wordpress-mail-gonderme-smtp-ayari/</guid>
 			</item>
 			
 		
@@ -3009,8 +3009,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p&gt; &lt;/p&gt;
 </description>
 				<pubDate>Thu, 17 Jul 2014 16:22:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-azure-bulut-hizmeti/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-azure-bulut-hizmeti/</guid>
+				<link>http://localhost:4000/microsoft-azure-bulut-hizmeti/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-azure-bulut-hizmeti/</guid>
 			</item>
 			
 		
@@ -3100,8 +3100,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 16 Jul 2014 16:25:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/blend-ders-4-blend-ile-animasyonlu-buton/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/blend-ders-4-blend-ile-animasyonlu-buton/</guid>
+				<link>http://localhost:4000/blend-ders-4-blend-ile-animasyonlu-buton/</link>
+				<guid isPermaLink="true">http://localhost:4000/blend-ders-4-blend-ile-animasyonlu-buton/</guid>
 			</item>
 			
 		
@@ -3169,8 +3169,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;span style=&quot;color:#808080;&quot;&gt;Introducing Windows Azure - Mitch Tulloch&lt;/span&gt;&lt;/h5&gt;
 </description>
 				<pubDate>Tue, 15 Jul 2014 13:17:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-azure-web-site-servisi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-azure-web-site-servisi/</guid>
+				<link>http://localhost:4000/microsoft-azure-web-site-servisi/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-azure-web-site-servisi/</guid>
 			</item>
 			
 		
@@ -3206,8 +3206,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;/p&gt;
 </description>
 				<pubDate>Sun, 13 Jul 2014 17:37:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/tfs-2-team-foundation-server-nedir-ne-ise-yarar/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/tfs-2-team-foundation-server-nedir-ne-ise-yarar/</guid>
+				<link>http://localhost:4000/tfs-2-team-foundation-server-nedir-ne-ise-yarar/</link>
+				<guid isPermaLink="true">http://localhost:4000/tfs-2-team-foundation-server-nedir-ne-ise-yarar/</guid>
 			</item>
 			
 		
@@ -3345,8 +3345,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;/ul&gt;
 </description>
 				<pubDate>Sat, 12 Jul 2014 18:28:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/alm-application-lifecycle-management-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/alm-application-lifecycle-management-nedir/</guid>
+				<link>http://localhost:4000/alm-application-lifecycle-management-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/alm-application-lifecycle-management-nedir/</guid>
 			</item>
 			
 		
@@ -3361,8 +3361,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p&gt; &lt;/p&gt;
 </description>
 				<pubDate>Sun, 25 May 2014 17:15:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/ilk-windows-phone-oyunum-trollavi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/ilk-windows-phone-oyunum-trollavi/</guid>
+				<link>http://localhost:4000/ilk-windows-phone-oyunum-trollavi/</link>
+				<guid isPermaLink="true">http://localhost:4000/ilk-windows-phone-oyunum-trollavi/</guid>
 			</item>
 			
 		
@@ -3407,8 +3407,8 @@ WCF başlığı altında, web servislerinin amacından ve SOAP yapılarından ba
 &lt;p style=&quot;text-align:justify;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Bu şekilde Google &apos;ın DNS &apos;si üzerinden gerçekleştirdik. Aslında bu şekilde DNS zehirlenmesi tespitinin de yapılması mümkündür. DNS zehirlenmesi, tespiti ve zehirlenmenin engellemesi konusuna bir başka yazımda ayrıntılı olarak değineceğim.&lt;/span&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sat, 10 May 2014 19:24:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/dig-komutu-nedir-ne-ise-yarar/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/dig-komutu-nedir-ne-ise-yarar/</guid>
+				<link>http://localhost:4000/dig-komutu-nedir-ne-ise-yarar/</link>
+				<guid isPermaLink="true">http://localhost:4000/dig-komutu-nedir-ne-ise-yarar/</guid>
 			</item>
 			
 		
@@ -3753,8 +3753,8 @@ listbox1.ItemsSource = e.Result;
 
 </description>
 				<pubDate>Wed, 23 Apr 2014 23:30:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/windows-phone-wcf-kullanimi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/windows-phone-wcf-kullanimi/</guid>
+				<link>http://localhost:4000/windows-phone-wcf-kullanimi/</link>
+				<guid isPermaLink="true">http://localhost:4000/windows-phone-wcf-kullanimi/</guid>
 			</item>
 			
 		
@@ -3798,8 +3798,8 @@ listbox1.ItemsSource = e.Result;
 &lt;p&gt; &lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Apr 2014 18:00:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/windows-ta-dig-komutu-kullanimi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/windows-ta-dig-komutu-kullanimi/</guid>
+				<link>http://localhost:4000/windows-ta-dig-komutu-kullanimi/</link>
+				<guid isPermaLink="true">http://localhost:4000/windows-ta-dig-komutu-kullanimi/</guid>
 			</item>
 			
 		
@@ -3878,8 +3878,8 @@ listbox1.ItemsSource = e.Result;
 &lt;/p&gt;
 </description>
 				<pubDate>Sun, 30 Mar 2014 17:43:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/microsoft-sql-server-i-manual-olarak-silmek/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/microsoft-sql-server-i-manual-olarak-silmek/</guid>
+				<link>http://localhost:4000/microsoft-sql-server-i-manual-olarak-silmek/</link>
+				<guid isPermaLink="true">http://localhost:4000/microsoft-sql-server-i-manual-olarak-silmek/</guid>
 			</item>
 			
 		
@@ -3911,8 +3911,8 @@ An error occurred creating the configuration section handler for userSettings/Mi
 &lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/mELeUwf.png&quot; /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 27 Mar 2014 23:32:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/yukleme-esnasinda-microsoft-net-framework-hatasi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/yukleme-esnasinda-microsoft-net-framework-hatasi/</guid>
+				<link>http://localhost:4000/yukleme-esnasinda-microsoft-net-framework-hatasi/</link>
+				<guid isPermaLink="true">http://localhost:4000/yukleme-esnasinda-microsoft-net-framework-hatasi/</guid>
 			</item>
 			
 		
@@ -3999,8 +3999,8 @@ private void baslik_MouseLeftButtonDown(object sender, System.Windows.Input.Mous
 
 </description>
 				<pubDate>Fri, 07 Mar 2014 19:18:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/blend-ders-3-blend-4-ile-metro-stil-arayuz-tasarimi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/blend-ders-3-blend-4-ile-metro-stil-arayuz-tasarimi/</guid>
+				<link>http://localhost:4000/blend-ders-3-blend-4-ile-metro-stil-arayuz-tasarimi/</link>
+				<guid isPermaLink="true">http://localhost:4000/blend-ders-3-blend-4-ile-metro-stil-arayuz-tasarimi/</guid>
 			</item>
 			
 		
@@ -4047,8 +4047,8 @@ private void baslik_MouseLeftButtonDown(object sender, System.Windows.Input.Mous
 
 </description>
 				<pubDate>Fri, 21 Feb 2014 20:53:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/blend-ders-2-blend-4-calisma-ortami-2/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/blend-ders-2-blend-4-calisma-ortami-2/</guid>
+				<link>http://localhost:4000/blend-ders-2-blend-4-calisma-ortami-2/</link>
+				<guid isPermaLink="true">http://localhost:4000/blend-ders-2-blend-4-calisma-ortami-2/</guid>
 			</item>
 			
 		
@@ -4078,8 +4078,8 @@ private void baslik_MouseLeftButtonDown(object sender, System.Windows.Input.Mous
 
 </description>
 				<pubDate>Mon, 17 Feb 2014 22:25:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/ders-1-blend-nedir-ne-ise-yarar/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/ders-1-blend-nedir-ne-ise-yarar/</guid>
+				<link>http://localhost:4000/ders-1-blend-nedir-ne-ise-yarar/</link>
+				<guid isPermaLink="true">http://localhost:4000/ders-1-blend-nedir-ne-ise-yarar/</guid>
 			</item>
 			
 		

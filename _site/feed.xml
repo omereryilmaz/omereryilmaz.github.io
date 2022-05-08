@@ -3,8 +3,8 @@
 	<channel>
 		<title></title>
 		<description>Teknolojik bilgiler içeren kişisel web sayfası.</description>		
-		<link>http://omereryilmaz.com</link>
-		<atom:link href="http://omereryilmaz.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Single Responsibility Principle (SRP)</title>
@@ -82,8 +82,8 @@
 
 </description>
 				<pubDate>Sun, 08 Aug 2021 13:10:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/single-responsibility-principle/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/single-responsibility-principle/</guid>
+				<link>http://localhost:4000/single-responsibility-principle/</link>
+				<guid isPermaLink="true">http://localhost:4000/single-responsibility-principle/</guid>
 			</item>
 		
 			<item>
@@ -119,8 +119,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Sun, 08 Aug 2021 02:28:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/solid-prensipleri/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/solid-prensipleri/</guid>
+				<link>http://localhost:4000/solid-prensipleri/</link>
+				<guid isPermaLink="true">http://localhost:4000/solid-prensipleri/</guid>
 			</item>
 		
 			<item>
@@ -220,8 +220,8 @@ Robert C. Martin’in 2000 yılında yazılım tasarımı sorunlarının çoğuy
 
 </description>
 				<pubDate>Wed, 04 Aug 2021 17:22:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/curuyen-yazilim-tasarimi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/curuyen-yazilim-tasarimi/</guid>
+				<link>http://localhost:4000/curuyen-yazilim-tasarimi/</link>
+				<guid isPermaLink="true">http://localhost:4000/curuyen-yazilim-tasarimi/</guid>
 			</item>
 		
 			<item>
@@ -246,8 +246,8 @@ Bu yazımla birlikte Jekyll dünyasına adım atmış bulunmaktayım. Beni verit
 &lt;/ul&gt;
 </description>
 				<pubDate>Fri, 27 Jul 2018 21:43:01 +0300</pubDate>
-				<link>http://omereryilmaz.com/hello-world-of-jekyll/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/hello-world-of-jekyll/</guid>
+				<link>http://localhost:4000/hello-world-of-jekyll/</link>
+				<guid isPermaLink="true">http://localhost:4000/hello-world-of-jekyll/</guid>
 			</item>
 		
 			<item>
@@ -540,8 +540,8 @@ qcl&amp;gt; grover(50); //grover kutuphanesinde bulunan grover() fonk. calistir
 &lt;/ul&gt;
 </description>
 				<pubDate>Wed, 17 May 2017 04:08:21 +0300</pubDate>
-				<link>http://omereryilmaz.com/quantum-computation-language/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/quantum-computation-language/</guid>
+				<link>http://localhost:4000/quantum-computation-language/</link>
+				<guid isPermaLink="true">http://localhost:4000/quantum-computation-language/</guid>
 			</item>
 		
 			<item>
@@ -641,8 +641,8 @@ Bu yazımızda Angular CLI yardımıyla bir Angular 2 uygulaması oluşturup bun
 &lt;/ul&gt;
 </description>
 				<pubDate>Fri, 24 Mar 2017 01:06:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/angular-uygulamasinin-github-pagede-yayinlanmasi/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/angular-uygulamasinin-github-pagede-yayinlanmasi/</guid>
+				<link>http://localhost:4000/angular-uygulamasinin-github-pagede-yayinlanmasi/</link>
+				<guid isPermaLink="true">http://localhost:4000/angular-uygulamasinin-github-pagede-yayinlanmasi/</guid>
 			</item>
 		
 			<item>
@@ -794,8 +794,8 @@ Araştırma çalışması sırasında beklenmedik durumlar oluşabilir. Bu durum
 &lt;/p&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 08 Mar 2017 22:41:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/ozgunluk-nedir-kriterleri-nelerdir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/ozgunluk-nedir-kriterleri-nelerdir/</guid>
+				<link>http://localhost:4000/ozgunluk-nedir-kriterleri-nelerdir/</link>
+				<guid isPermaLink="true">http://localhost:4000/ozgunluk-nedir-kriterleri-nelerdir/</guid>
 			</item>
 		
 			<item>
@@ -892,8 +892,8 @@ TypeScript üç bileşene sahiptir (Şekil 3):
 &lt;/p&gt;
 </description>
 				<pubDate>Sat, 25 Feb 2017 16:21:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/typescript-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/typescript-nedir/</guid>
+				<link>http://localhost:4000/typescript-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/typescript-nedir/</guid>
 			</item>
 		
 			<item>
@@ -1089,8 +1089,8 @@ Aslında antimalware ve benzeri eklentilerin sayısı oldukça fazladır. Ama a
 &lt;p&gt;[2] http://wordpress.stackexchange.com/questions/232041/what-are-nulled-themes&lt;/p&gt;
 </description>
 				<pubDate>Tue, 14 Feb 2017 01:05:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/wordpress-zararli-kod-tespiti/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/wordpress-zararli-kod-tespiti/</guid>
+				<link>http://localhost:4000/wordpress-zararli-kod-tespiti/</link>
+				<guid isPermaLink="true">http://localhost:4000/wordpress-zararli-kod-tespiti/</guid>
 			</item>
 		
 			<item>
@@ -1168,8 +1168,8 @@ Bu şekildeki lambda syntax’ı Java tasarımcıları tarafından, C# ve Scala 
 &lt;/ul&gt;
 </description>
 				<pubDate>Wed, 08 Feb 2017 19:36:00 +0300</pubDate>
-				<link>http://omereryilmaz.com/java-lambda-nedir/</link>
-				<guid isPermaLink="true">http://omereryilmaz.com/java-lambda-nedir/</guid>
+				<link>http://localhost:4000/java-lambda-nedir/</link>
+				<guid isPermaLink="true">http://localhost:4000/java-lambda-nedir/</guid>
 			</item>
 		
 	</channel>
