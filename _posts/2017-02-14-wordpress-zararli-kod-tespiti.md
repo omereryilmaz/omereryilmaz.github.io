@@ -20,7 +20,7 @@ Resmi WordPress temaları ve eklentilerinin yanısıra bu tarz eklenti ve temala
  	<li><strong>Kullanıcının zararlı dosya indirmesini sağlamak :</strong> Bu hackleme yönteminde websitenizi ziyaret eden kullanıcıları yanıltarak  zararlı kodlar içeren dosyaları bilgisayarlarına indirmelerini sağlar.</li>
  	<li><strong>Dosya ve veritabanı enjeksiyonları :</strong> Dosyalarınıza veya veritabanınıza, bilgisayar korsanlarının bir takım farklı şeyler yapmasını sağlayan kodu ekler.</li>
  	<li><strong>Kötü amaçlı yönlendirmeler :</strong> Ziyaretçileri veya kullanıcıları zararlı bir sayfaya yönlendirir.</li>
- 	<li><strong>Kimlik avı :</strong> Kullanıcı adlarını, şifreleri, e-posta adreslerini ve diğer hassas bilgileri elde etmek için kullanılır [1].</li>
+ 	<li><strong>Kimlik avı :</strong> Kullanıcı adlarını, parolaları, e-posta adreslerini ve diğer hassas bilgileri elde etmek için kullanılır [1].</li>
 </ul>
 <br>
 
