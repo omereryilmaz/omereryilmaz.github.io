@@ -1,4 +1,0 @@
-I"�<p style="text-align:justify;">
-Projede C# ve PicBasic kullanılmıştır. Robotta PIC 16F877 bulunmaktadır. Proje, manuel ve otomatik olmak üzere iki modda çalışmaktadır. Manuel olduğunda  WinForm üzerindeki butonlarla ve klavye tuşları yardımıyla robotun hareketi sağlanmaktadır. Otomatik modda ise robotun kamerasından alınan görüntü bilgisayarda işleme uğratılıyor ve çizginin ekrandaki koordinatına göre robota komutlar gönderiliyor.
-</p>
-:ET

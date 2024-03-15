@@ -1,7 +1,0 @@
-I"�<p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/b5HbOyRKw8Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
-<p><br /></p>
-<h1>Angular CLI</h1>
-<p style="text-align:justify;">
-Angular CLI, Angular uygulamalar için oluşturulmuş ember-cli temeline dayanan bir CLI'dır (<em>Command Line Interface CLI, Command Line User-Interface olarak da bilinir. Kullanıcının veya istemcinin ardışık olarak komutlar göndererek etkileşim kurmasını sağlar.</em>). Angular uygulamalarını başlangıç durumununa getiren (initialize), iskelet yapısınının oluşturulmasını sağlayan (scaffold) ve bakım işlemlerinin yapılmasını (maintain) kolaylaştıran bir araçtır. Bilindiği üzere bir Angular uygulamasını ayağa kaldırmak biraz zahmetli bir iştir. Bu zahmetli işi bir kaç komut satırıyla bizim yerimize yapıp uygulamanın ayağa kaldırılmasını sağlar.
-</p>
-:ET
